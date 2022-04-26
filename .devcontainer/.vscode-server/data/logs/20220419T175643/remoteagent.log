@@ -1,0 +1,37 @@
+[2022-04-19 17:56:43.535] [remoteagent] [info] Extension host agent started.
+[2022-04-19 17:56:43.537] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-04-19 17:56:43.721] [remoteagent] [info] [127.0.0.1][e0d9ac81][ManagementConnection] New connection established.
+[2022-04-19 17:56:44.103] [remoteagent] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-04-19 17:56:44.106] [remoteagent] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+[2022-04-19 17:56:44.121] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-04-19 17:56:44.124] [remoteagent] [info] Getting Manifest... webfreak.debug
+[2022-04-19 17:56:44.144] [remoteagent] [info] Installing extension: ms-vscode.cmake-tools
+[2022-04-19 17:56:44.148] [remoteagent] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-19 17:56:44.180] [remoteagent] [info] Installing extension: twxs.cmake
+[2022-04-19 17:56:44.187] [remoteagent] [info] Installing extension: webfreak.debug
+[2022-04-19 17:56:44.240] [remoteagent] [info] [127.0.0.1][e41f81f1][ExtensionHostConnection] New connection established.
+[2022-04-19 17:56:44.247] [remoteagent] [info] [127.0.0.1][e41f81f1][ExtensionHostConnection] <281> Launched Extension Host Process.
+[2022-04-19 17:56:44.422] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-04-19 17:56:44.475] [remoteagent] [info] Extension is already requested to install twxs.cmake
+[2022-04-19 17:56:44.593] [remoteagent] [info] Downloaded extension: webfreak.debug /home/user/.vscode-server/extensionsCache/webfreak.debug-0.26.0
+[2022-04-19 17:56:44.600] [remoteagent] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/user/.vscode-server/extensionsCache/llvm-vs-code-extensions.vscode-clangd-0.1.15
+[2022-04-19 17:56:44.774] [remoteagent] [info] Downloaded extension: ms-vscode.cmake-tools /home/user/.vscode-server/extensionsCache/ms-vscode.cmake-tools-1.10.5
+[2022-04-19 17:56:44.873] [remoteagent] [info] Downloaded extension: twxs.cmake /home/user/.vscode-server/extensionsCache/twxs.cmake-0.0.17
+[2022-04-19 17:56:45.901] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.8c6166f1-c7d4-43d4-919e-166cc5a19ece: twxs.cmake
+[2022-04-19 17:56:45.917] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/twxs.cmake-0.0.17
+[2022-04-19 17:56:45.923] [remoteagent] [info] Extracting completed. twxs.cmake
+[2022-04-19 17:56:45.924] [remoteagent] [info] Extension installed successfully: twxs.cmake
+[2022-04-19 17:56:46.223] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.fe172147-5998-4fa2-8e8e-2934f9880324: ms-vscode.cmake-tools
+[2022-04-19 17:56:46.240] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/ms-vscode.cmake-tools-1.10.5
+[2022-04-19 17:56:46.247] [remoteagent] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-04-19 17:56:46.247] [remoteagent] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-04-19 17:56:47.336] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.6b1281be-ce59-4ec3-8e34-f7eb81fd41da: webfreak.debug
+[2022-04-19 17:56:47.348] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/webfreak.debug-0.26.0
+[2022-04-19 17:56:47.353] [remoteagent] [info] Extracting completed. webfreak.debug
+[2022-04-19 17:56:47.353] [remoteagent] [info] Extension installed successfully: webfreak.debug
+[2022-04-19 17:56:50.394] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.d84ab193-08e0-42b3-b004-823b43511e56: llvm-vs-code-extensions.vscode-clangd
+[2022-04-19 17:56:50.411] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.15
+[2022-04-19 17:56:50.415] [remoteagent] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
+[2022-04-19 17:56:50.416] [remoteagent] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2022-04-19 21:49:00.335] [remoteagent] [info] [127.0.0.1][e0d9ac81][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-04-19 21:49:00.419] [remoteagent] [info] [127.0.0.1][e41f81f1][ExtensionHostConnection] <281> Extension Host Process exited with code: 0, signal: null.

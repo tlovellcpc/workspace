@@ -1,0 +1,220 @@
+I[22:22:57.435] clangd version 11.0.0
+I[22:22:57.436] PID: 308
+I[22:22:57.437] Working directory: /home/user/workspace
+I[22:22:57.437] argv[0]: /usr/sbin/clangd
+I[22:22:57.437] Starting LSP over stdin/stdout
+I[22:22:57.445] <-- initialize(0)
+I[22:22:57.454] --> reply:initialize(0) 9 ms
+I[22:22:57.462] <-- initialized
+I[22:22:57.462] <-- textDocument/didOpen
+I[22:22:57.469] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[22:22:57.469] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:22:57.469] <-- textDocument/documentSymbol(1)
+I[22:22:57.473] <-- textDocument/documentLink(2)
+I[22:22:57.487] --> textDocument/clangd.fileStatus
+I[22:22:57.934] --> textDocument/publishDiagnostics
+I[22:22:57.934] --> reply:textDocument/documentSymbol(1) 465 ms
+I[22:22:57.934] --> reply:textDocument/documentLink(2) 461 ms
+I[22:22:57.934] --> textDocument/clangd.fileStatus
+I[22:22:58.224] <-- textDocument/semanticTokens/full(3)
+I[22:22:58.231] --> reply:textDocument/semanticTokens/full(3) 7 ms
+I[22:22:58.231] --> textDocument/clangd.fileStatus
+I[22:25:53.483] <-- textDocument/didOpen
+I[22:25:53.485] <-- textDocument/documentSymbol(4)
+I[22:25:53.485] <-- textDocument/semanticTokens/full(5)
+I[22:25:53.485] <-- textDocument/documentLink(6)
+I[22:25:53.487] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[22:25:53.487] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:25:53.489] --> textDocument/clangd.fileStatus
+I[22:25:53.523] --> textDocument/publishDiagnostics
+I[22:25:53.523] --> reply:textDocument/documentSymbol(4) 38 ms
+I[22:25:53.523] --> reply:textDocument/semanticTokens/full(5) 38 ms
+I[22:25:53.523] --> reply:textDocument/documentLink(6) 38 ms
+I[22:25:53.523] --> textDocument/clangd.fileStatus
+I[22:28:51.369] <-- textDocument/didChange
+I[22:28:51.370] --> textDocument/clangd.fileStatus
+I[22:28:51.422] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[22:28:51.422] ASTWorker building file /home/user/workspace/casino.cpp version 2 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:28:51.424] --> textDocument/clangd.fileStatus
+I[22:28:51.424] --> textDocument/clangd.fileStatus
+I[22:28:51.598] --> textDocument/clangd.fileStatus
+I[22:28:51.603] <-- textDocument/codeAction(7)
+I[22:28:51.619] --> textDocument/publishDiagnostics
+I[22:28:51.621] --> reply:textDocument/codeAction(7) 17 ms
+I[22:28:51.621] --> textDocument/clangd.fileStatus
+I[22:28:51.671] <-- textDocument/semanticTokens/full/delta(8)
+I[22:28:51.671] --> reply:textDocument/semanticTokens/full/delta(8) 0 ms
+I[22:28:51.671] --> textDocument/clangd.fileStatus
+I[22:28:51.701] <-- textDocument/documentSymbol(9)
+I[22:28:51.701] --> reply:textDocument/documentSymbol(9) 0 ms
+I[22:28:51.701] --> textDocument/clangd.fileStatus
+I[22:28:52.353] <-- textDocument/documentLink(10)
+I[22:28:52.354] --> reply:textDocument/documentLink(10) 0 ms
+I[22:28:52.354] --> textDocument/clangd.fileStatus
+I[22:28:59.487] <-- textDocument/hover(11)
+I[22:28:59.493] --> reply:textDocument/hover(11) 5 ms
+I[22:28:59.493] --> textDocument/clangd.fileStatus
+I[22:29:12.245] <-- textDocument/didSave
+I[22:29:12.247] --> textDocument/clangd.fileStatus
+I[22:29:12.248] --> textDocument/clangd.fileStatus
+I[22:29:12.299] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[22:29:12.299] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[22:29:12.300] ASTWorker building file /home/user/workspace/casino.cpp version 2 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:29:12.300] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:29:12.302] --> textDocument/clangd.fileStatus
+I[22:29:12.302] --> textDocument/clangd.fileStatus
+I[22:29:12.302] --> textDocument/clangd.fileStatus
+I[22:29:12.302] --> textDocument/clangd.fileStatus
+I[22:29:12.303] --> textDocument/clangd.fileStatus
+I[22:29:12.303] --> textDocument/clangd.fileStatus
+I[22:29:12.304] --> textDocument/clangd.fileStatus
+I[22:29:12.304] --> textDocument/clangd.fileStatus
+I[22:29:16.351] <-- textDocument/didClose
+I[22:29:16.351] --> textDocument/publishDiagnostics
+I[22:29:23.929] <-- textDocument/hover(12)
+I[22:29:23.933] --> reply:textDocument/hover(12) 4 ms
+I[22:29:23.933] --> textDocument/clangd.fileStatus
+I[22:29:37.472] <-- textDocument/hover(13)
+I[22:29:37.484] --> reply:textDocument/hover(13) 12 ms
+I[22:29:37.484] --> textDocument/clangd.fileStatus
+I[22:29:42.788] <-- textDocument/hover(14)
+I[22:29:42.792] --> reply:textDocument/hover(14) 4 ms
+I[22:29:42.792] --> textDocument/clangd.fileStatus
+I[22:29:43.158] <-- textDocument/hover(15)
+I[22:29:43.161] --> reply:textDocument/hover(15) 3 ms
+I[22:29:43.161] --> textDocument/clangd.fileStatus
+I[22:30:08.336] <-- textDocument/didSave
+I[22:30:08.337] --> textDocument/clangd.fileStatus
+I[22:30:08.388] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[22:30:08.388] ASTWorker building file /home/user/workspace/casino.cpp version 2 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:30:08.390] --> textDocument/clangd.fileStatus
+I[22:30:08.390] --> textDocument/clangd.fileStatus
+I[22:30:08.391] --> textDocument/clangd.fileStatus
+I[22:30:08.391] --> textDocument/clangd.fileStatus
+I[22:30:17.337] <-- textDocument/hover(16)
+I[22:30:17.342] --> reply:textDocument/hover(16) 4 ms
+I[22:30:17.342] --> textDocument/clangd.fileStatus
+I[22:30:24.700] <-- textDocument/hover(17)
+I[22:30:24.704] --> reply:textDocument/hover(17) 4 ms
+I[22:30:24.705] --> textDocument/clangd.fileStatus
+I[22:30:25.061] <-- textDocument/hover(18)
+I[22:30:25.070] --> reply:textDocument/hover(18) 9 ms
+I[22:30:25.071] --> textDocument/clangd.fileStatus
+I[22:30:39.061] <-- textDocument/codeAction(19)
+I[22:30:39.063] <-- textDocument/documentLink(20)
+I[22:30:39.063] --> reply:textDocument/codeAction(19) 2 ms
+I[22:30:39.063] --> reply:textDocument/documentLink(20) 0 ms
+I[22:30:39.063] --> textDocument/clangd.fileStatus
+I[22:30:39.291] <-- textDocument/codeAction(21)
+I[22:30:39.291] --> reply:textDocument/codeAction(21) 0 ms
+I[22:30:39.291] --> textDocument/clangd.fileStatus
+I[22:30:43.346] <-- textDocument/codeAction(22)
+I[22:30:43.346] --> reply:textDocument/codeAction(22) 0 ms
+I[22:30:43.346] --> textDocument/clangd.fileStatus
+I[22:30:43.347] <-- textDocument/documentLink(23)
+I[22:30:43.347] --> reply:textDocument/documentLink(23) 0 ms
+I[22:30:43.347] --> textDocument/clangd.fileStatus
+I[22:30:43.573] <-- textDocument/codeAction(24)
+I[22:30:43.573] --> reply:textDocument/codeAction(24) 0 ms
+I[22:30:43.573] --> textDocument/clangd.fileStatus
+I[22:32:13.743] <-- textDocument/hover(25)
+I[22:32:13.750] --> reply:textDocument/hover(25) 6 ms
+I[22:32:13.750] --> textDocument/clangd.fileStatus
+I[22:32:24.289] <-- textDocument/hover(26)
+I[22:32:24.295] --> reply:textDocument/hover(26) 6 ms
+I[22:32:24.295] --> textDocument/clangd.fileStatus
+I[22:33:05.425] <-- $/setTrace
+I[22:33:05.425] unhandled notification $/setTrace
+I[22:33:09.747] <-- textDocument/codeAction(27)
+I[22:33:09.749] <-- textDocument/documentLink(28)
+I[22:33:09.749] --> reply:textDocument/codeAction(27) 2 ms
+I[22:33:09.750] --> reply:textDocument/documentLink(28) 0 ms
+I[22:33:09.750] --> textDocument/clangd.fileStatus
+I[22:33:09.973] <-- textDocument/codeAction(29)
+I[22:33:09.974] --> reply:textDocument/codeAction(29) 0 ms
+I[22:33:09.974] --> textDocument/clangd.fileStatus
+I[22:33:10.673] <-- textDocument/hover(30)
+I[22:33:10.677] --> reply:textDocument/hover(30) 4 ms
+I[22:33:10.677] --> textDocument/clangd.fileStatus
+I[22:33:11.735] <-- textDocument/hover(31)
+I[22:33:11.739] --> reply:textDocument/hover(31) 3 ms
+I[22:33:11.739] --> textDocument/clangd.fileStatus
+I[22:33:12.068] <-- textDocument/hover(32)
+I[22:33:12.068] <-- $/cancelRequest
+I[22:33:12.068] --> reply:textDocument/hover(32) 0 ms, error: Task was cancelled.
+[Error - 10:33:12 PM] Request textDocument/hover failed.
+[object Object]
+I[22:33:12.073] --> textDocument/clangd.fileStatus
+I[22:33:56.871] <-- $/setTrace
+I[22:33:56.871] unhandled notification $/setTrace
+I[22:34:12.906] <-- $/setTrace
+I[22:34:12.906] unhandled notification $/setTrace
+I[22:34:18.021] <-- textDocument/didOpen
+I[22:34:18.023] <-- textDocument/codeAction(33)
+I[22:34:18.023] <-- textDocument/documentSymbol(34)
+I[22:34:18.023] <-- textDocument/semanticTokens/full(35)
+I[22:34:18.023] <-- textDocument/documentLink(36)
+I[22:34:18.026] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[22:34:18.027] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:34:18.029] --> textDocument/clangd.fileStatus
+I[22:34:18.228] --> textDocument/publishDiagnostics
+I[22:34:18.228] --> reply:textDocument/codeAction(33) 205 ms
+I[22:34:18.228] --> reply:textDocument/documentSymbol(34) 205 ms
+I[22:34:18.229] --> reply:textDocument/semanticTokens/full(35) 205 ms
+I[22:34:18.229] --> reply:textDocument/documentLink(36) 205 ms
+I[22:34:18.229] --> textDocument/clangd.fileStatus
+I[22:34:19.425] <-- textDocument/didClose
+I[22:34:19.425] --> textDocument/publishDiagnostics
+I[22:34:20.047] <-- textDocument/didOpen
+I[22:34:20.049] <-- textDocument/codeAction(37)
+I[22:34:20.049] <-- textDocument/documentSymbol(38)
+I[22:34:20.049] <-- textDocument/semanticTokens/full(39)
+I[22:34:20.049] <-- textDocument/documentLink(40)
+I[22:34:20.049] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[22:34:20.049] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:34:20.051] --> textDocument/clangd.fileStatus
+I[22:34:20.276] <-- $/cancelRequest
+I[22:34:20.282] --> textDocument/publishDiagnostics
+I[22:34:20.282] --> reply:textDocument/codeAction(37) 233 ms, error: Task was cancelled.
+I[22:34:20.282] --> reply:textDocument/documentSymbol(38) 233 ms
+I[22:34:20.282] --> reply:textDocument/semanticTokens/full(39) 233 ms
+I[22:34:20.282] --> reply:textDocument/documentLink(40) 233 ms
+I[22:34:20.282] --> textDocument/clangd.fileStatus
+[Error - 10:34:20 PM] Request textDocument/codeAction failed.
+[object Object]
+I[22:34:36.425] <-- textDocument/didClose
+I[22:34:36.425] --> textDocument/publishDiagnostics
+I[22:37:26.483] <-- textDocument/codeAction(41)
+I[22:37:26.485] --> reply:textDocument/codeAction(41) 2 ms
+I[22:37:26.485] --> textDocument/clangd.fileStatus
+I[22:37:26.491] <-- textDocument/documentLink(42)
+I[22:37:26.491] --> reply:textDocument/documentLink(42) 0 ms
+I[22:37:26.491] --> textDocument/clangd.fileStatus
+I[22:37:26.704] <-- textDocument/codeAction(43)
+I[22:37:26.704] --> reply:textDocument/codeAction(43) 0 ms
+I[22:37:26.704] --> textDocument/clangd.fileStatus
+I[22:37:28.066] <-- textDocument/hover(44)
+I[22:37:28.070] --> reply:textDocument/hover(44) 3 ms
+I[22:37:28.070] --> textDocument/clangd.fileStatus
+I[22:37:29.534] <-- textDocument/codeAction(45)
+I[22:37:29.534] --> reply:textDocument/codeAction(45) 0 ms
+I[22:37:29.534] --> textDocument/clangd.fileStatus
+I[22:37:30.417] <-- textDocument/codeAction(46)
+I[22:37:30.417] --> reply:textDocument/codeAction(46) 0 ms
+I[22:37:30.417] --> textDocument/clangd.fileStatus

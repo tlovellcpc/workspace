@@ -1,0 +1,24 @@
+[2022-04-26 22:22:44.829] [remoteagent] [info] Extension host agent started.
+[2022-04-26 22:22:44.848] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-04-26 22:22:44.996] [remoteagent] [info] [127.0.0.1][444719e2][ManagementConnection] New connection established.
+[2022-04-26 22:22:46.009] [remoteagent] [info] [127.0.0.1][991b9528][ExtensionHostConnection] New connection established.
+[2022-04-26 22:22:46.020] [remoteagent] [info] [127.0.0.1][991b9528][ExtensionHostConnection] <250> Launched Extension Host Process.
+[2022-04-26 22:22:51.207] [remoteagent] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 22:22:51.540] [remoteagent] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 22:22:52.069] [remoteagent] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/user/.vscode-server/extensionsCache/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 22:22:52.210] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.69d53293-0686-4993-9169-a639d2d98be9: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 22:22:52.227] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 22:22:52.236] [remoteagent] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 22:22:52.242] [remoteagent] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 22:49:59.531] [remoteagent] [info] [127.0.0.1][444719e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-04-26 22:49:59.564] [remoteagent] [info] [127.0.0.1][991b9528][ExtensionHostConnection] <250> Extension Host Process exited with code: 0, signal: null.
+[2022-04-26 22:50:03.799] [remoteagent] [info] [127.0.0.1][dc2354b9][ManagementConnection] New connection established.
+[2022-04-26 22:50:04.293] [remoteagent] [info] [127.0.0.1][20a83383][ExtensionHostConnection] New connection established.
+[2022-04-26 22:50:04.297] [remoteagent] [info] [127.0.0.1][20a83383][ExtensionHostConnection] <4147> Launched Extension Host Process.
+[2022-04-26 22:50:23.173] [remoteagent] [info] [127.0.0.1][dc2354b9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-04-26 22:50:23.196] [remoteagent] [info] [127.0.0.1][20a83383][ExtensionHostConnection] <4147> Extension Host Process exited with code: 0, signal: null.
+[2022-04-26 22:50:27.303] [remoteagent] [info] [127.0.0.1][77aadd30][ManagementConnection] New connection established.
+[2022-04-26 22:50:27.916] [remoteagent] [info] [127.0.0.1][5ee3c4a4][ExtensionHostConnection] New connection established.
+[2022-04-26 22:50:27.920] [remoteagent] [info] [127.0.0.1][5ee3c4a4][ExtensionHostConnection] <4622> Launched Extension Host Process.
+[2022-04-26 22:56:37.153] [remoteagent] [info] [127.0.0.1][77aadd30][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-04-26 22:56:37.217] [remoteagent] [info] [127.0.0.1][5ee3c4a4][ExtensionHostConnection] <4622> Extension Host Process exited with code: 0, signal: null.

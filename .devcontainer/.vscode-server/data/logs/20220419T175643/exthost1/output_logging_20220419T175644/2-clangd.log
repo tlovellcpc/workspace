@@ -1,0 +1,1878 @@
+I[17:57:26.608] clangd version 11.0.0
+I[17:57:26.608] PID: 424
+I[17:57:26.609] Working directory: /home/user/workspace
+I[17:57:26.609] argv[0]: /usr/sbin/clangd
+I[17:57:26.609] Starting LSP over stdin/stdout
+I[17:57:26.610] <-- initialize(0)
+I[17:57:26.610] --> reply:initialize(0) 0 ms
+I[17:57:26.617] <-- initialized
+I[17:57:26.617] <-- textDocument/didOpen
+I[17:57:26.620] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[17:57:26.620] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[17:57:26.622] --> textDocument/clangd.fileStatus
+I[17:57:26.624] <-- textDocument/documentSymbol(1)
+I[17:57:26.626] <-- textDocument/documentLink(2)
+I[17:57:26.802] --> textDocument/publishDiagnostics
+I[17:57:26.802] --> reply:textDocument/documentSymbol(1) 178 ms
+I[17:57:26.802] --> reply:textDocument/documentLink(2) 176 ms
+I[17:57:26.802] --> textDocument/clangd.fileStatus
+I[17:57:27.322] <-- textDocument/semanticTokens/full(3)
+I[17:57:27.322] --> reply:textDocument/semanticTokens/full(3) 0 ms
+I[17:57:27.322] --> textDocument/clangd.fileStatus
+I[18:04:04.194] <-- textDocument/documentHighlight(4)
+I[18:04:04.197] --> reply:textDocument/documentHighlight(4) 3 ms
+I[18:04:04.197] --> textDocument/clangd.fileStatus
+I[18:04:04.442] <-- textDocument/codeAction(5)
+I[18:04:04.443] --> reply:textDocument/codeAction(5) 0 ms
+I[18:04:04.443] --> textDocument/clangd.fileStatus
+I[18:04:04.781] <-- textDocument/hover(6)
+I[18:04:04.783] --> reply:textDocument/hover(6) 2 ms
+I[18:04:04.783] --> textDocument/clangd.fileStatus
+I[18:04:05.578] <-- textDocument/didChange
+I[18:04:05.579] --> textDocument/clangd.fileStatus
+I[18:04:05.629] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:04:05.630] ASTWorker building file /home/user/workspace/hello.cpp version 2 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:04:05.632] --> textDocument/clangd.fileStatus
+I[18:04:05.633] --> textDocument/clangd.fileStatus
+I[18:04:05.634] --> textDocument/clangd.fileStatus
+I[18:04:05.641] <-- textDocument/didChange
+I[18:04:05.648] --> textDocument/publishDiagnostics
+I[18:04:05.648] --> textDocument/clangd.fileStatus
+I[18:04:05.692] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:04:05.693] ASTWorker building file /home/user/workspace/hello.cpp version 3 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:04:05.695] --> textDocument/clangd.fileStatus
+I[18:04:05.695] --> textDocument/clangd.fileStatus
+I[18:04:05.696] --> textDocument/clangd.fileStatus
+I[18:04:05.709] --> textDocument/publishDiagnostics
+I[18:04:05.709] --> textDocument/clangd.fileStatus
+I[18:04:05.871] <-- textDocument/semanticTokens/full/delta(7)
+I[18:04:05.871] --> reply:textDocument/semanticTokens/full/delta(7) 0 ms
+I[18:04:05.871] --> textDocument/clangd.fileStatus
+I[18:04:05.977] <-- textDocument/codeAction(8)
+I[18:04:05.977] --> reply:textDocument/codeAction(8) 0 ms
+I[18:04:05.977] --> textDocument/clangd.fileStatus
+I[18:04:05.987] <-- textDocument/documentSymbol(9)
+I[18:04:05.987] --> reply:textDocument/documentSymbol(9) 0 ms
+I[18:04:05.987] --> textDocument/clangd.fileStatus
+I[18:04:06.642] <-- textDocument/documentLink(10)
+I[18:04:06.642] --> reply:textDocument/documentLink(10) 0 ms
+I[18:04:06.642] --> textDocument/clangd.fileStatus
+I[18:04:08.088] <-- textDocument/didSave
+I[18:04:08.089] --> textDocument/clangd.fileStatus
+I[18:04:08.139] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:04:08.139] ASTWorker building file /home/user/workspace/hello.cpp version 3 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:04:08.141] --> textDocument/clangd.fileStatus
+I[18:04:08.141] --> textDocument/clangd.fileStatus
+I[18:04:08.142] --> textDocument/clangd.fileStatus
+I[18:04:08.142] --> textDocument/clangd.fileStatus
+I[18:15:23.604] <-- textDocument/hover(11)
+I[18:15:23.617] --> reply:textDocument/hover(11) 13 ms
+I[18:15:23.618] --> textDocument/clangd.fileStatus
+I[18:15:23.800] <-- textDocument/hover(12)
+I[18:15:23.805] --> reply:textDocument/hover(12) 4 ms
+I[18:15:23.805] --> textDocument/clangd.fileStatus
+I[18:15:24.184] <-- textDocument/hover(13)
+I[18:15:24.187] --> reply:textDocument/hover(13) 3 ms
+I[18:15:24.187] --> textDocument/clangd.fileStatus
+I[18:15:24.830] <-- textDocument/hover(14)
+I[18:15:24.833] --> reply:textDocument/hover(14) 3 ms
+I[18:15:24.833] --> textDocument/clangd.fileStatus
+I[18:15:40.319] <-- textDocument/hover(15)
+I[18:15:40.324] --> reply:textDocument/hover(15) 4 ms
+I[18:15:40.324] --> textDocument/clangd.fileStatus
+I[18:15:50.430] <-- textDocument/hover(16)
+I[18:15:50.434] --> reply:textDocument/hover(16) 4 ms
+I[18:15:50.434] --> textDocument/clangd.fileStatus
+I[18:15:51.098] <-- textDocument/hover(17)
+I[18:15:51.101] --> reply:textDocument/hover(17) 3 ms
+I[18:15:51.101] --> textDocument/clangd.fileStatus
+I[18:15:51.373] <-- textDocument/hover(18)
+I[18:15:51.376] --> reply:textDocument/hover(18) 2 ms
+I[18:15:51.376] --> textDocument/clangd.fileStatus
+I[18:15:52.279] <-- textDocument/documentHighlight(19)
+I[18:15:52.280] --> reply:textDocument/documentHighlight(19) 0 ms
+I[18:15:52.280] --> textDocument/clangd.fileStatus
+I[18:15:52.519] <-- textDocument/codeAction(20)
+I[18:15:52.520] --> reply:textDocument/codeAction(20) 0 ms
+I[18:15:52.520] --> textDocument/clangd.fileStatus
+I[18:16:02.349] <-- textDocument/hover(21)
+I[18:16:02.361] --> reply:textDocument/hover(21) 11 ms
+I[18:16:02.361] --> textDocument/clangd.fileStatus
+I[18:16:04.377] <-- textDocument/didChange
+I[18:16:04.379] --> textDocument/clangd.fileStatus
+I[18:16:04.430] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:04.436] ASTWorker building file /home/user/workspace/hello.cpp version 4 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:04.445] --> textDocument/clangd.fileStatus
+I[18:16:04.446] --> textDocument/clangd.fileStatus
+I[18:16:04.456] --> textDocument/clangd.fileStatus
+I[18:16:04.511] --> textDocument/publishDiagnostics
+I[18:16:04.511] --> textDocument/clangd.fileStatus
+I[18:16:04.514] <-- textDocument/didChange
+I[18:16:04.515] --> textDocument/clangd.fileStatus
+I[18:16:04.566] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:04.566] ASTWorker building file /home/user/workspace/hello.cpp version 5 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:04.568] --> textDocument/clangd.fileStatus
+I[18:16:04.568] --> textDocument/clangd.fileStatus
+I[18:16:04.569] --> textDocument/clangd.fileStatus
+I[18:16:04.587] --> textDocument/publishDiagnostics
+I[18:16:04.587] --> textDocument/clangd.fileStatus
+I[18:16:04.671] <-- textDocument/semanticTokens/full/delta(22)
+I[18:16:04.672] --> reply:textDocument/semanticTokens/full/delta(22) 0 ms
+I[18:16:04.672] --> textDocument/clangd.fileStatus
+I[18:16:04.859] <-- textDocument/documentSymbol(23)
+I[18:16:04.859] --> reply:textDocument/documentSymbol(23) 0 ms
+I[18:16:04.859] --> textDocument/clangd.fileStatus
+I[18:16:05.519] <-- textDocument/documentLink(24)
+I[18:16:05.519] --> reply:textDocument/documentLink(24) 0 ms
+I[18:16:05.519] --> textDocument/clangd.fileStatus
+I[18:16:05.700] <-- textDocument/didChange
+I[18:16:05.702] --> textDocument/clangd.fileStatus
+I[18:16:05.752] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:05.752] ASTWorker building file /home/user/workspace/hello.cpp version 6 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:05.756] --> textDocument/clangd.fileStatus
+I[18:16:05.756] --> textDocument/clangd.fileStatus
+I[18:16:05.759] --> textDocument/clangd.fileStatus
+I[18:16:05.780] --> textDocument/publishDiagnostics
+I[18:16:05.780] --> textDocument/clangd.fileStatus
+I[18:16:05.996] <-- textDocument/semanticTokens/full/delta(25)
+I[18:16:05.996] --> reply:textDocument/semanticTokens/full/delta(25) 0 ms
+I[18:16:05.997] --> textDocument/clangd.fileStatus
+I[18:16:06.051] <-- textDocument/documentSymbol(26)
+I[18:16:06.051] --> reply:textDocument/documentSymbol(26) 0 ms
+I[18:16:06.051] --> textDocument/clangd.fileStatus
+I[18:16:06.706] <-- textDocument/documentLink(27)
+I[18:16:06.706] --> reply:textDocument/documentLink(27) 0 ms
+I[18:16:06.706] --> textDocument/clangd.fileStatus
+I[18:16:07.741] <-- textDocument/didChange
+I[18:16:07.742] --> textDocument/clangd.fileStatus
+I[18:16:07.763] <-- textDocument/definition(28)
+I[18:16:07.765] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:07.765] ASTWorker building file /home/user/workspace/hello.cpp version 7 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:07.767] --> textDocument/clangd.fileStatus
+I[18:16:07.790] --> reply:textDocument/definition(28) 26 ms
+I[18:16:07.790] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:16:07.790] --> textDocument/publishDiagnostics
+I[18:16:07.790] --> textDocument/clangd.fileStatus
+I[18:16:08.032] <-- textDocument/semanticTokens/full/delta(29)
+I[18:16:08.032] --> reply:textDocument/semanticTokens/full/delta(29) 0 ms
+I[18:16:08.032] --> textDocument/clangd.fileStatus
+I[18:16:08.084] <-- textDocument/documentSymbol(30)
+I[18:16:08.085] --> reply:textDocument/documentSymbol(30) 0 ms
+I[18:16:08.085] --> textDocument/clangd.fileStatus
+I[18:16:08.745] <-- textDocument/documentLink(31)
+I[18:16:08.745] --> reply:textDocument/documentLink(31) 0 ms
+I[18:16:08.745] --> textDocument/clangd.fileStatus
+I[18:16:10.768] <-- textDocument/hover(32)
+I[18:16:10.770] --> reply:textDocument/hover(32) 2 ms
+I[18:16:10.770] --> textDocument/clangd.fileStatus
+I[18:16:10.924] <-- textDocument/codeAction(33)
+I[18:16:10.924] --> reply:textDocument/codeAction(33) 0 ms
+I[18:16:10.924] --> textDocument/clangd.fileStatus
+I[18:16:11.751] <-- textDocument/hover(34)
+I[18:16:11.754] --> reply:textDocument/hover(34) 3 ms
+I[18:16:11.754] --> textDocument/clangd.fileStatus
+I[18:16:12.005] <-- textDocument/documentHighlight(35)
+I[18:16:12.005] --> reply:textDocument/documentHighlight(35) 0 ms
+I[18:16:12.005] --> textDocument/clangd.fileStatus
+I[18:16:12.253] <-- textDocument/codeAction(36)
+I[18:16:12.254] --> reply:textDocument/codeAction(36) 0 ms
+I[18:16:12.254] --> textDocument/clangd.fileStatus
+I[18:16:12.515] <-- textDocument/hover(37)
+I[18:16:12.519] --> reply:textDocument/hover(37) 3 ms
+I[18:16:12.519] --> textDocument/clangd.fileStatus
+I[18:16:14.454] <-- textDocument/didChange
+I[18:16:14.455] --> textDocument/clangd.fileStatus
+I[18:16:14.506] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:14.506] ASTWorker building file /home/user/workspace/hello.cpp version 8 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:14.508] --> textDocument/clangd.fileStatus
+I[18:16:14.508] --> textDocument/clangd.fileStatus
+I[18:16:14.510] --> textDocument/clangd.fileStatus
+I[18:16:14.524] --> textDocument/publishDiagnostics
+I[18:16:14.524] --> textDocument/clangd.fileStatus
+I[18:16:14.641] <-- textDocument/didChange
+I[18:16:14.642] --> textDocument/clangd.fileStatus
+I[18:16:14.692] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:14.692] ASTWorker building file /home/user/workspace/hello.cpp version 9 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:14.694] --> textDocument/clangd.fileStatus
+I[18:16:14.694] --> textDocument/clangd.fileStatus
+I[18:16:14.695] --> textDocument/clangd.fileStatus
+I[18:16:14.710] --> textDocument/publishDiagnostics
+I[18:16:14.710] --> textDocument/clangd.fileStatus
+I[18:16:14.715] <-- textDocument/didChange
+I[18:16:14.716] --> textDocument/clangd.fileStatus
+I[18:16:14.766] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:14.766] ASTWorker building file /home/user/workspace/hello.cpp version 10 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:14.769] --> textDocument/clangd.fileStatus
+I[18:16:14.769] --> textDocument/clangd.fileStatus
+I[18:16:14.771] <-- textDocument/semanticTokens/full/delta(38)
+I[18:16:14.771] --> textDocument/clangd.fileStatus
+I[18:16:14.794] --> reply:textDocument/semanticTokens/full/delta(38) 22 ms
+I[18:16:14.794] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:16:14.794] --> textDocument/publishDiagnostics
+I[18:16:14.794] --> textDocument/clangd.fileStatus
+I[18:16:14.826] <-- textDocument/didChange
+I[18:16:14.827] --> textDocument/clangd.fileStatus
+I[18:16:14.877] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:14.878] ASTWorker building file /home/user/workspace/hello.cpp version 11 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:14.880] --> textDocument/clangd.fileStatus
+I[18:16:14.880] --> textDocument/clangd.fileStatus
+I[18:16:14.882] --> textDocument/clangd.fileStatus
+I[18:16:14.903] --> textDocument/publishDiagnostics
+I[18:16:14.903] --> textDocument/clangd.fileStatus
+I[18:16:15.118] <-- textDocument/semanticTokens/full/delta(39)
+I[18:16:15.118] --> reply:textDocument/semanticTokens/full/delta(39) 0 ms
+I[18:16:15.118] --> textDocument/clangd.fileStatus
+I[18:16:15.178] <-- textDocument/codeAction(40)
+I[18:16:15.178] <-- textDocument/documentSymbol(41)
+I[18:16:15.178] --> reply:textDocument/codeAction(40) 0 ms
+I[18:16:15.178] --> reply:textDocument/documentSymbol(41) 0 ms
+I[18:16:15.178] --> textDocument/clangd.fileStatus
+I[18:16:15.828] <-- textDocument/documentLink(42)
+I[18:16:15.828] --> reply:textDocument/documentLink(42) 0 ms
+I[18:16:15.828] --> textDocument/clangd.fileStatus
+I[18:16:16.873] <-- textDocument/documentHighlight(43)
+I[18:16:16.873] --> reply:textDocument/documentHighlight(43) 0 ms
+I[18:16:16.873] --> textDocument/clangd.fileStatus
+I[18:16:17.122] <-- textDocument/codeAction(44)
+I[18:16:17.122] --> reply:textDocument/codeAction(44) 0 ms
+I[18:16:17.122] --> textDocument/clangd.fileStatus
+I[18:16:17.816] <-- textDocument/didChange
+I[18:16:17.817] --> textDocument/clangd.fileStatus
+I[18:16:17.863] <-- textDocument/didChange
+I[18:16:17.864] --> textDocument/clangd.fileStatus
+I[18:16:17.914] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:17.915] ASTWorker building file /home/user/workspace/hello.cpp version 13 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:17.916] --> textDocument/clangd.fileStatus
+I[18:16:17.917] --> textDocument/clangd.fileStatus
+I[18:16:17.918] --> textDocument/clangd.fileStatus
+I[18:16:17.936] --> textDocument/publishDiagnostics
+I[18:16:17.936] --> textDocument/clangd.fileStatus
+I[18:16:18.111] <-- textDocument/semanticTokens/full/delta(45)
+I[18:16:18.111] --> reply:textDocument/semanticTokens/full/delta(45) 0 ms
+I[18:16:18.111] --> textDocument/clangd.fileStatus
+I[18:16:18.203] <-- textDocument/codeAction(46)
+I[18:16:18.203] --> reply:textDocument/codeAction(46) 0 ms
+I[18:16:18.203] --> textDocument/clangd.fileStatus
+I[18:16:18.210] <-- textDocument/documentSymbol(47)
+I[18:16:18.210] --> reply:textDocument/documentSymbol(47) 0 ms
+I[18:16:18.210] --> textDocument/clangd.fileStatus
+I[18:16:18.865] <-- textDocument/documentLink(48)
+I[18:16:18.865] --> reply:textDocument/documentLink(48) 0 ms
+I[18:16:18.866] --> textDocument/clangd.fileStatus
+I[18:16:23.903] <-- textDocument/hover(49)
+I[18:16:23.908] --> reply:textDocument/hover(49) 5 ms
+I[18:16:23.908] --> textDocument/clangd.fileStatus
+I[18:16:23.998] <-- textDocument/documentHighlight(50)
+I[18:16:23.999] --> reply:textDocument/documentHighlight(50) 0 ms
+I[18:16:23.999] --> textDocument/clangd.fileStatus
+I[18:16:24.248] <-- textDocument/codeAction(51)
+I[18:16:24.248] --> reply:textDocument/codeAction(51) 0 ms
+I[18:16:24.248] --> textDocument/clangd.fileStatus
+I[18:16:24.584] <-- textDocument/hover(52)
+I[18:16:24.588] --> reply:textDocument/hover(52) 4 ms
+I[18:16:24.588] --> textDocument/clangd.fileStatus
+I[18:16:25.198] <-- textDocument/didChange
+I[18:16:25.198] --> textDocument/clangd.fileStatus
+I[18:16:25.249] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:25.249] ASTWorker building file /home/user/workspace/hello.cpp version 14 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:25.251] --> textDocument/clangd.fileStatus
+I[18:16:25.251] --> textDocument/clangd.fileStatus
+I[18:16:25.252] --> textDocument/clangd.fileStatus
+I[18:16:25.268] --> textDocument/publishDiagnostics
+I[18:16:25.268] --> textDocument/clangd.fileStatus
+I[18:16:25.325] <-- textDocument/didChange
+I[18:16:25.326] --> textDocument/clangd.fileStatus
+I[18:16:25.376] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:25.376] ASTWorker building file /home/user/workspace/hello.cpp version 15 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:25.379] --> textDocument/clangd.fileStatus
+I[18:16:25.379] --> textDocument/clangd.fileStatus
+I[18:16:25.380] --> textDocument/clangd.fileStatus
+I[18:16:25.395] --> textDocument/publishDiagnostics
+I[18:16:25.395] --> textDocument/clangd.fileStatus
+I[18:16:25.444] <-- textDocument/didChange
+I[18:16:25.446] --> textDocument/clangd.fileStatus
+I[18:16:25.495] <-- textDocument/semanticTokens/full/delta(53)
+I[18:16:25.495] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:25.496] ASTWorker building file /home/user/workspace/hello.cpp version 16 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:25.498] --> textDocument/clangd.fileStatus
+I[18:16:25.513] --> reply:textDocument/semanticTokens/full/delta(53) 18 ms
+I[18:16:25.514] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:16:25.514] --> textDocument/publishDiagnostics
+I[18:16:25.514] --> textDocument/clangd.fileStatus
+I[18:16:25.620] <-- textDocument/didChange
+I[18:16:25.622] --> textDocument/clangd.fileStatus
+I[18:16:25.672] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:25.673] ASTWorker building file /home/user/workspace/hello.cpp version 17 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:25.675] --> textDocument/clangd.fileStatus
+I[18:16:25.675] --> textDocument/clangd.fileStatus
+I[18:16:25.677] --> textDocument/clangd.fileStatus
+I[18:16:25.692] --> textDocument/publishDiagnostics
+I[18:16:25.692] --> textDocument/clangd.fileStatus
+I[18:16:25.819] <-- textDocument/didChange
+I[18:16:25.820] --> textDocument/clangd.fileStatus
+I[18:16:25.870] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:25.870] ASTWorker building file /home/user/workspace/hello.cpp version 18 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:25.872] --> textDocument/clangd.fileStatus
+I[18:16:25.872] --> textDocument/clangd.fileStatus
+I[18:16:25.873] --> textDocument/clangd.fileStatus
+I[18:16:25.890] --> textDocument/publishDiagnostics
+I[18:16:25.890] --> textDocument/clangd.fileStatus
+I[18:16:25.941] <-- textDocument/semanticTokens/full/delta(54)
+I[18:16:25.941] --> reply:textDocument/semanticTokens/full/delta(54) 0 ms
+I[18:16:25.941] --> textDocument/clangd.fileStatus
+I[18:16:26.161] <-- textDocument/codeAction(55)
+I[18:16:26.162] --> reply:textDocument/codeAction(55) 0 ms
+I[18:16:26.162] --> textDocument/clangd.fileStatus
+I[18:16:26.166] <-- textDocument/documentSymbol(56)
+I[18:16:26.166] --> reply:textDocument/documentSymbol(56) 0 ms
+I[18:16:26.166] --> textDocument/clangd.fileStatus
+I[18:16:26.679] <-- textDocument/codeAction(57)
+I[18:16:26.679] --> reply:textDocument/codeAction(57) 0 ms
+I[18:16:26.679] --> textDocument/clangd.fileStatus
+I[18:16:26.818] <-- textDocument/documentLink(58)
+I[18:16:26.818] --> reply:textDocument/documentLink(58) 0 ms
+I[18:16:26.818] --> textDocument/clangd.fileStatus
+I[18:16:26.937] <-- textDocument/documentHighlight(59)
+I[18:16:26.937] --> reply:textDocument/documentHighlight(59) 0 ms
+I[18:16:26.937] --> textDocument/clangd.fileStatus
+I[18:16:27.188] <-- textDocument/codeAction(60)
+I[18:16:27.188] --> reply:textDocument/codeAction(60) 0 ms
+I[18:16:27.188] --> textDocument/clangd.fileStatus
+I[18:16:28.340] <-- textDocument/didChange
+I[18:16:28.341] --> textDocument/clangd.fileStatus
+I[18:16:28.391] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:28.392] ASTWorker building file /home/user/workspace/hello.cpp version 19 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:28.394] --> textDocument/clangd.fileStatus
+I[18:16:28.394] --> textDocument/clangd.fileStatus
+I[18:16:28.395] --> textDocument/clangd.fileStatus
+I[18:16:28.410] --> textDocument/publishDiagnostics
+I[18:16:28.410] --> textDocument/clangd.fileStatus
+I[18:16:28.497] <-- textDocument/didChange
+I[18:16:28.499] --> textDocument/clangd.fileStatus
+I[18:16:28.549] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:28.550] ASTWorker building file /home/user/workspace/hello.cpp version 20 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:28.552] --> textDocument/clangd.fileStatus
+I[18:16:28.552] --> textDocument/clangd.fileStatus
+I[18:16:28.553] --> textDocument/clangd.fileStatus
+I[18:16:28.569] --> textDocument/publishDiagnostics
+I[18:16:28.569] --> textDocument/clangd.fileStatus
+I[18:16:28.621] <-- textDocument/didChange
+I[18:16:28.622] --> textDocument/clangd.fileStatus
+I[18:16:28.638] <-- textDocument/semanticTokens/full/delta(61)
+I[18:16:28.638] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:28.638] ASTWorker building file /home/user/workspace/hello.cpp version 21 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:28.640] --> textDocument/clangd.fileStatus
+I[18:16:28.658] --> reply:textDocument/semanticTokens/full/delta(61) 20 ms
+I[18:16:28.658] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:16:28.658] --> textDocument/publishDiagnostics
+I[18:16:28.658] --> textDocument/clangd.fileStatus
+I[18:16:28.764] <-- textDocument/didChange
+I[18:16:28.765] --> textDocument/clangd.fileStatus
+I[18:16:28.815] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:28.815] ASTWorker building file /home/user/workspace/hello.cpp version 22 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:28.818] --> textDocument/clangd.fileStatus
+I[18:16:28.818] --> textDocument/clangd.fileStatus
+I[18:16:28.819] --> textDocument/clangd.fileStatus
+I[18:16:28.834] --> textDocument/publishDiagnostics
+I[18:16:28.834] --> textDocument/clangd.fileStatus
+I[18:16:28.960] <-- textDocument/didChange
+I[18:16:28.961] --> textDocument/clangd.fileStatus
+I[18:16:29.012] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:16:29.013] ASTWorker building file /home/user/workspace/hello.cpp version 23 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:16:29.014] --> textDocument/clangd.fileStatus
+I[18:16:29.014] --> textDocument/clangd.fileStatus
+I[18:16:29.015] --> textDocument/clangd.fileStatus
+I[18:16:29.031] --> textDocument/publishDiagnostics
+I[18:16:29.031] --> textDocument/clangd.fileStatus
+I[18:16:29.060] <-- textDocument/semanticTokens/full/delta(62)
+I[18:16:29.060] --> reply:textDocument/semanticTokens/full/delta(62) 0 ms
+I[18:16:29.061] --> textDocument/clangd.fileStatus
+I[18:16:29.298] <-- textDocument/codeAction(63)
+I[18:16:29.298] --> reply:textDocument/codeAction(63) 0 ms
+I[18:16:29.298] --> textDocument/clangd.fileStatus
+I[18:16:29.305] <-- textDocument/documentSymbol(64)
+I[18:16:29.306] --> reply:textDocument/documentSymbol(64) 0 ms
+I[18:16:29.306] --> textDocument/clangd.fileStatus
+I[18:16:29.957] <-- textDocument/documentLink(65)
+I[18:16:29.958] --> reply:textDocument/documentLink(65) 0 ms
+I[18:16:29.958] --> textDocument/clangd.fileStatus
+I[18:16:30.022] <-- textDocument/hover(66)
+I[18:16:30.026] --> reply:textDocument/hover(66) 3 ms
+I[18:16:30.026] --> textDocument/clangd.fileStatus
+I[18:16:30.984] <-- textDocument/hover(67)
+I[18:16:30.988] --> reply:textDocument/hover(67) 3 ms
+I[18:16:30.988] --> textDocument/clangd.fileStatus
+I[18:16:49.218] <-- textDocument/hover(68)
+I[18:16:49.222] --> reply:textDocument/hover(68) 3 ms
+I[18:16:49.222] --> textDocument/clangd.fileStatus
+I[18:16:49.547] <-- textDocument/hover(69)
+I[18:16:49.551] --> reply:textDocument/hover(69) 3 ms
+I[18:16:49.551] --> textDocument/clangd.fileStatus
+I[18:16:50.352] <-- textDocument/hover(70)
+I[18:16:50.355] --> reply:textDocument/hover(70) 2 ms
+I[18:16:50.355] --> textDocument/clangd.fileStatus
+I[18:16:53.078] <-- textDocument/hover(71)
+I[18:16:53.082] --> reply:textDocument/hover(71) 3 ms
+I[18:16:53.082] --> textDocument/clangd.fileStatus
+I[18:16:55.001] <-- textDocument/hover(72)
+I[18:16:55.006] --> reply:textDocument/hover(72) 4 ms
+I[18:16:55.006] --> textDocument/clangd.fileStatus
+I[18:16:55.382] <-- textDocument/hover(73)
+I[18:16:55.385] --> reply:textDocument/hover(73) 3 ms
+I[18:16:55.385] --> textDocument/clangd.fileStatus
+I[18:16:55.689] <-- textDocument/hover(74)
+I[18:16:55.693] --> reply:textDocument/hover(74) 4 ms
+I[18:16:55.693] --> textDocument/clangd.fileStatus
+I[18:16:56.679] <-- textDocument/hover(75)
+I[18:16:56.682] --> reply:textDocument/hover(75) 2 ms
+I[18:16:56.682] --> textDocument/clangd.fileStatus
+I[18:17:14.531] <-- textDocument/didSave
+I[18:17:14.533] --> textDocument/clangd.fileStatus
+I[18:17:14.586] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:14.586] ASTWorker building file /home/user/workspace/hello.cpp version 23 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:14.587] --> textDocument/clangd.fileStatus
+I[18:17:14.587] --> textDocument/clangd.fileStatus
+I[18:17:14.589] --> textDocument/clangd.fileStatus
+I[18:17:14.589] --> textDocument/clangd.fileStatus
+I[18:17:43.863] <-- textDocument/hover(76)
+I[18:17:43.869] --> reply:textDocument/hover(76) 6 ms
+I[18:17:43.869] --> textDocument/clangd.fileStatus
+I[18:17:43.921] <-- textDocument/documentHighlight(77)
+I[18:17:43.922] --> reply:textDocument/documentHighlight(77) 0 ms
+I[18:17:43.922] --> textDocument/clangd.fileStatus
+I[18:17:44.162] <-- textDocument/codeAction(78)
+I[18:17:44.162] --> reply:textDocument/codeAction(78) 0 ms
+I[18:17:44.162] --> textDocument/clangd.fileStatus
+I[18:17:47.105] <-- textDocument/didChange
+I[18:17:47.107] --> textDocument/clangd.fileStatus
+I[18:17:47.157] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:47.158] ASTWorker building file /home/user/workspace/hello.cpp version 24 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:47.160] --> textDocument/clangd.fileStatus
+I[18:17:47.160] --> textDocument/clangd.fileStatus
+I[18:17:47.161] --> textDocument/clangd.fileStatus
+I[18:17:47.178] --> textDocument/publishDiagnostics
+I[18:17:47.178] --> textDocument/clangd.fileStatus
+I[18:17:47.399] <-- textDocument/semanticTokens/full/delta(79)
+I[18:17:47.399] --> reply:textDocument/semanticTokens/full/delta(79) 0 ms
+I[18:17:47.399] --> textDocument/clangd.fileStatus
+I[18:17:47.446] <-- textDocument/codeAction(80)
+I[18:17:47.446] --> reply:textDocument/codeAction(80) 0 ms
+I[18:17:47.446] --> textDocument/clangd.fileStatus
+I[18:17:47.451] <-- textDocument/documentSymbol(81)
+I[18:17:47.451] --> reply:textDocument/documentSymbol(81) 0 ms
+I[18:17:47.451] --> textDocument/clangd.fileStatus
+I[18:17:48.113] <-- textDocument/documentLink(82)
+I[18:17:48.113] --> reply:textDocument/documentLink(82) 0 ms
+I[18:17:48.113] --> textDocument/clangd.fileStatus
+I[18:17:49.576] <-- textDocument/didChange
+I[18:17:49.577] --> textDocument/clangd.fileStatus
+I[18:17:49.629] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:49.629] ASTWorker building file /home/user/workspace/hello.cpp version 25 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:49.630] --> textDocument/clangd.fileStatus
+I[18:17:49.631] --> textDocument/clangd.fileStatus
+I[18:17:49.632] --> textDocument/clangd.fileStatus
+I[18:17:49.646] --> textDocument/publishDiagnostics
+I[18:17:49.646] --> textDocument/clangd.fileStatus
+I[18:17:49.776] <-- textDocument/didChange
+I[18:17:49.777] --> textDocument/clangd.fileStatus
+I[18:17:49.827] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:49.828] ASTWorker building file /home/user/workspace/hello.cpp version 26 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:49.830] --> textDocument/clangd.fileStatus
+I[18:17:49.830] --> textDocument/clangd.fileStatus
+I[18:17:49.832] --> textDocument/clangd.fileStatus
+I[18:17:49.850] --> textDocument/publishDiagnostics
+I[18:17:49.850] --> textDocument/clangd.fileStatus
+I[18:17:49.871] <-- textDocument/semanticTokens/full/delta(83)
+I[18:17:49.872] --> reply:textDocument/semanticTokens/full/delta(83) 0 ms
+I[18:17:49.872] --> textDocument/clangd.fileStatus
+I[18:17:50.123] <-- textDocument/codeAction(84)
+I[18:17:50.124] --> reply:textDocument/codeAction(84) 0 ms
+I[18:17:50.124] --> textDocument/clangd.fileStatus
+I[18:17:50.131] <-- textDocument/documentSymbol(85)
+I[18:17:50.131] --> reply:textDocument/documentSymbol(85) 0 ms
+I[18:17:50.131] --> textDocument/clangd.fileStatus
+I[18:17:50.530] <-- textDocument/didChange
+I[18:17:50.531] --> textDocument/clangd.fileStatus
+I[18:17:50.531] <-- textDocument/completion(86)
+I[18:17:50.531] --> reply:textDocument/completion(86) 0 ms
+I[18:17:50.581] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:50.582] ASTWorker building file /home/user/workspace/hello.cpp version 27 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:50.584] --> textDocument/clangd.fileStatus
+I[18:17:50.584] --> textDocument/clangd.fileStatus
+I[18:17:50.587] --> textDocument/clangd.fileStatus
+I[18:17:50.607] --> textDocument/publishDiagnostics
+I[18:17:50.607] --> textDocument/clangd.fileStatus
+I[18:17:50.686] <-- textDocument/didChange
+I[18:17:50.687] --> textDocument/clangd.fileStatus
+I[18:17:50.687] <-- textDocument/completion(87)
+I[18:17:50.710] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[18:17:50.710] Code complete: 50 results from Sema, 87 from Index, 2 matched, 0 from identifiers, 100 returned (incomplete).
+I[18:17:50.712] --> reply:textDocument/completion(87) 24 ms
+I[18:17:50.737] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:17:50.738] ASTWorker building file /home/user/workspace/hello.cpp version 28 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:17:50.739] --> textDocument/clangd.fileStatus
+I[18:17:50.739] --> textDocument/clangd.fileStatus
+I[18:17:50.740] --> textDocument/clangd.fileStatus
+I[18:17:50.755] --> textDocument/publishDiagnostics
+I[18:17:50.755] --> textDocument/clangd.fileStatus
+I[18:17:50.828] <-- textDocument/semanticTokens/full/delta(88)
+I[18:17:50.828] --> reply:textDocument/semanticTokens/full/delta(88) 0 ms
+I[18:17:50.828] --> textDocument/clangd.fileStatus
+I[18:17:51.030] <-- textDocument/codeAction(89)
+I[18:17:51.030] --> reply:textDocument/codeAction(89) 0 ms
+I[18:17:51.030] --> textDocument/clangd.fileStatus
+I[18:17:51.031] <-- textDocument/documentSymbol(90)
+I[18:17:51.031] --> reply:textDocument/documentSymbol(90) 0 ms
+I[18:17:51.031] --> textDocument/clangd.fileStatus
+I[18:17:51.683] <-- textDocument/documentLink(91)
+I[18:17:51.683] --> reply:textDocument/documentLink(91) 0 ms
+I[18:17:51.683] --> textDocument/clangd.fileStatus
+I[18:17:52.724] <-- textDocument/codeAction(92)
+I[18:17:52.724] --> reply:textDocument/codeAction(92) 0 ms
+I[18:17:52.724] --> textDocument/clangd.fileStatus
+I[18:17:53.839] <-- textDocument/hover(93)
+I[18:17:53.843] --> reply:textDocument/hover(93) 4 ms
+I[18:17:53.844] --> textDocument/clangd.fileStatus
+I[18:18:11.137] <-- textDocument/didSave
+I[18:18:11.138] --> textDocument/clangd.fileStatus
+I[18:18:11.190] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:18:11.190] ASTWorker building file /home/user/workspace/hello.cpp version 28 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:18:11.192] --> textDocument/clangd.fileStatus
+I[18:18:11.192] --> textDocument/clangd.fileStatus
+I[18:18:11.193] --> textDocument/clangd.fileStatus
+I[18:18:11.193] --> textDocument/clangd.fileStatus
+I[18:18:32.060] <-- textDocument/hover(94)
+I[18:18:32.066] --> reply:textDocument/hover(94) 6 ms
+I[18:18:32.066] --> textDocument/clangd.fileStatus
+I[18:18:32.895] <-- textDocument/didChange
+I[18:18:32.896] --> textDocument/clangd.fileStatus
+I[18:18:32.946] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:18:32.947] ASTWorker building file /home/user/workspace/hello.cpp version 29 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:18:32.950] --> textDocument/clangd.fileStatus
+I[18:18:32.950] --> textDocument/clangd.fileStatus
+I[18:18:32.953] --> textDocument/clangd.fileStatus
+I[18:18:32.974] --> textDocument/publishDiagnostics
+I[18:18:32.974] --> textDocument/clangd.fileStatus
+I[18:18:33.148] <-- textDocument/codeAction(95)
+I[18:18:33.148] --> reply:textDocument/codeAction(95) 0 ms
+I[18:18:33.148] --> textDocument/clangd.fileStatus
+I[18:18:33.201] <-- textDocument/didChange
+I[18:18:33.202] --> textDocument/clangd.fileStatus
+I[18:18:33.203] <-- textDocument/semanticTokens/full/delta(96)
+I[18:18:33.203] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:18:33.204] ASTWorker building file /home/user/workspace/hello.cpp version 30 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:18:33.207] --> textDocument/clangd.fileStatus
+I[18:18:33.227] --> reply:textDocument/semanticTokens/full/delta(96) 23 ms
+I[18:18:33.227] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:18:33.227] --> textDocument/publishDiagnostics
+I[18:18:33.227] --> textDocument/clangd.fileStatus
+I[18:18:33.533] <-- textDocument/documentSymbol(97)
+I[18:18:33.534] --> reply:textDocument/documentSymbol(97) 0 ms
+I[18:18:33.534] --> textDocument/clangd.fileStatus
+I[18:18:34.183] <-- textDocument/documentLink(98)
+I[18:18:34.183] --> reply:textDocument/documentLink(98) 0 ms
+I[18:18:34.183] --> textDocument/clangd.fileStatus
+I[18:18:40.301] <-- textDocument/didSave
+I[18:18:40.302] --> textDocument/clangd.fileStatus
+I[18:18:40.354] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:18:40.355] ASTWorker building file /home/user/workspace/hello.cpp version 30 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:18:40.356] --> textDocument/clangd.fileStatus
+I[18:18:40.356] --> textDocument/clangd.fileStatus
+I[18:18:40.358] --> textDocument/clangd.fileStatus
+I[18:18:40.358] --> textDocument/clangd.fileStatus
+I[18:20:10.703] <-- textDocument/hover(99)
+I[18:20:10.709] --> reply:textDocument/hover(99) 6 ms
+I[18:20:10.709] --> textDocument/clangd.fileStatus
+I[18:21:41.183] <-- textDocument/codeAction(100)
+I[18:21:41.186] --> reply:textDocument/codeAction(100) 2 ms
+I[18:21:41.186] --> textDocument/clangd.fileStatus
+I[18:21:42.351] <-- textDocument/didChange
+I[18:21:42.352] --> textDocument/clangd.fileStatus
+I[18:21:42.402] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:42.402] ASTWorker building file /home/user/workspace/hello.cpp version 31 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:42.406] --> textDocument/clangd.fileStatus
+I[18:21:42.406] --> textDocument/clangd.fileStatus
+I[18:21:42.408] --> textDocument/clangd.fileStatus
+I[18:21:42.431] --> textDocument/publishDiagnostics
+I[18:21:42.431] --> textDocument/clangd.fileStatus
+I[18:21:42.639] <-- textDocument/semanticTokens/full/delta(101)
+I[18:21:42.640] --> reply:textDocument/semanticTokens/full/delta(101) 0 ms
+I[18:21:42.640] --> textDocument/clangd.fileStatus
+I[18:21:42.701] <-- textDocument/documentSymbol(102)
+I[18:21:42.701] --> reply:textDocument/documentSymbol(102) 0 ms
+I[18:21:42.701] --> textDocument/clangd.fileStatus
+I[18:21:43.341] <-- textDocument/documentLink(103)
+I[18:21:43.341] --> reply:textDocument/documentLink(103) 0 ms
+I[18:21:43.341] --> textDocument/clangd.fileStatus
+I[18:21:44.453] <-- textDocument/documentHighlight(104)
+I[18:21:44.453] --> reply:textDocument/documentHighlight(104) 0 ms
+I[18:21:44.453] --> textDocument/clangd.fileStatus
+I[18:21:44.704] <-- textDocument/codeAction(105)
+I[18:21:44.704] --> reply:textDocument/codeAction(105) 0 ms
+I[18:21:44.704] --> textDocument/clangd.fileStatus
+I[18:21:44.803] <-- textDocument/hover(106)
+I[18:21:44.807] --> reply:textDocument/hover(106) 3 ms
+I[18:21:44.807] --> textDocument/clangd.fileStatus
+I[18:21:45.007] <-- textDocument/hover(107)
+I[18:21:45.011] --> reply:textDocument/hover(107) 4 ms
+I[18:21:45.011] --> textDocument/clangd.fileStatus
+I[18:21:45.228] <-- textDocument/hover(108)
+I[18:21:45.231] --> reply:textDocument/hover(108) 3 ms
+I[18:21:45.231] --> textDocument/clangd.fileStatus
+I[18:21:45.538] <-- textDocument/hover(109)
+I[18:21:45.541] --> reply:textDocument/hover(109) 3 ms
+I[18:21:45.541] --> textDocument/clangd.fileStatus
+I[18:21:45.637] <-- textDocument/documentHighlight(110)
+I[18:21:45.638] --> reply:textDocument/documentHighlight(110) 0 ms
+I[18:21:45.638] --> textDocument/clangd.fileStatus
+I[18:21:45.895] <-- textDocument/codeAction(111)
+I[18:21:45.896] --> reply:textDocument/codeAction(111) 0 ms
+I[18:21:45.896] --> textDocument/clangd.fileStatus
+I[18:21:46.165] <-- textDocument/documentHighlight(112)
+I[18:21:46.165] --> reply:textDocument/documentHighlight(112) 0 ms
+I[18:21:46.165] --> textDocument/clangd.fileStatus
+I[18:21:46.412] <-- textDocument/codeAction(113)
+I[18:21:46.414] --> reply:textDocument/codeAction(113) 1 ms
+I[18:21:46.414] --> textDocument/clangd.fileStatus
+I[18:21:48.318] <-- textDocument/codeAction(114)
+I[18:21:48.318] --> reply:textDocument/codeAction(114) 0 ms
+I[18:21:48.318] --> textDocument/clangd.fileStatus
+I[18:21:49.151] <-- textDocument/codeAction(115)
+I[18:21:49.151] --> reply:textDocument/codeAction(115) 0 ms
+I[18:21:49.151] --> textDocument/clangd.fileStatus
+I[18:21:49.982] <-- textDocument/documentHighlight(116)
+I[18:21:49.982] --> reply:textDocument/documentHighlight(116) 0 ms
+I[18:21:49.982] --> textDocument/clangd.fileStatus
+I[18:21:50.233] <-- textDocument/codeAction(117)
+I[18:21:50.233] --> reply:textDocument/codeAction(117) 0 ms
+I[18:21:50.233] --> textDocument/clangd.fileStatus
+I[18:21:54.654] <-- textDocument/didChange
+I[18:21:54.655] --> textDocument/clangd.fileStatus
+I[18:21:54.707] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:54.708] ASTWorker building file /home/user/workspace/hello.cpp version 32 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:54.709] --> textDocument/clangd.fileStatus
+I[18:21:54.709] --> textDocument/clangd.fileStatus
+I[18:21:54.710] --> textDocument/clangd.fileStatus
+I[18:21:54.725] --> textDocument/publishDiagnostics
+I[18:21:54.725] --> textDocument/clangd.fileStatus
+I[18:21:54.954] <-- textDocument/semanticTokens/full/delta(118)
+I[18:21:54.954] <-- textDocument/didChange
+I[18:21:54.954] --> reply:textDocument/semanticTokens/full/delta(118) 0 ms
+I[18:21:54.954] --> textDocument/clangd.fileStatus
+I[18:21:54.956] --> textDocument/clangd.fileStatus
+I[18:21:55.006] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:55.006] ASTWorker building file /home/user/workspace/hello.cpp version 33 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:55.009] --> textDocument/clangd.fileStatus
+I[18:21:55.009] --> textDocument/clangd.fileStatus
+I[18:21:55.011] --> textDocument/clangd.fileStatus
+I[18:21:55.031] --> textDocument/publishDiagnostics
+I[18:21:55.031] --> textDocument/clangd.fileStatus
+I[18:21:55.071] <-- textDocument/didChange
+I[18:21:55.072] --> textDocument/clangd.fileStatus
+I[18:21:55.122] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:55.123] ASTWorker building file /home/user/workspace/hello.cpp version 34 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:55.124] --> textDocument/clangd.fileStatus
+I[18:21:55.124] --> textDocument/clangd.fileStatus
+I[18:21:55.126] --> textDocument/clangd.fileStatus
+I[18:21:55.142] --> textDocument/publishDiagnostics
+I[18:21:55.142] --> textDocument/clangd.fileStatus
+I[18:21:55.260] <-- textDocument/semanticTokens/full/delta(119)
+I[18:21:55.260] --> reply:textDocument/semanticTokens/full/delta(119) 0 ms
+I[18:21:55.260] --> textDocument/clangd.fileStatus
+I[18:21:55.371] <-- textDocument/didChange
+I[18:21:55.372] --> textDocument/clangd.fileStatus
+I[18:21:55.422] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:55.422] ASTWorker building file /home/user/workspace/hello.cpp version 35 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:55.424] --> textDocument/clangd.fileStatus
+I[18:21:55.424] --> textDocument/clangd.fileStatus
+I[18:21:55.426] --> textDocument/clangd.fileStatus
+I[18:21:55.442] --> textDocument/publishDiagnostics
+I[18:21:55.442] --> textDocument/clangd.fileStatus
+I[18:21:55.545] <-- textDocument/didChange
+I[18:21:55.546] --> textDocument/clangd.fileStatus
+I[18:21:55.596] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:55.597] ASTWorker building file /home/user/workspace/hello.cpp version 36 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:55.598] --> textDocument/clangd.fileStatus
+I[18:21:55.598] --> textDocument/clangd.fileStatus
+I[18:21:55.599] --> textDocument/clangd.fileStatus
+I[18:21:55.614] --> textDocument/publishDiagnostics
+I[18:21:55.614] --> textDocument/clangd.fileStatus
+I[18:21:55.639] <-- textDocument/semanticTokens/full/delta(120)
+I[18:21:55.640] --> reply:textDocument/semanticTokens/full/delta(120) 0 ms
+I[18:21:55.640] --> textDocument/clangd.fileStatus
+I[18:21:55.878] <-- textDocument/codeAction(121)
+I[18:21:55.878] --> reply:textDocument/codeAction(121) 0 ms
+I[18:21:55.878] --> textDocument/clangd.fileStatus
+I[18:21:55.941] <-- textDocument/documentSymbol(122)
+I[18:21:55.941] --> reply:textDocument/documentSymbol(122) 0 ms
+I[18:21:55.941] --> textDocument/clangd.fileStatus
+I[18:21:56.398] <-- textDocument/documentHighlight(123)
+I[18:21:56.398] --> reply:textDocument/documentHighlight(123) 0 ms
+I[18:21:56.398] --> textDocument/clangd.fileStatus
+I[18:21:56.544] <-- textDocument/documentLink(124)
+I[18:21:56.544] --> reply:textDocument/documentLink(124) 0 ms
+I[18:21:56.544] --> textDocument/clangd.fileStatus
+I[18:21:56.648] <-- textDocument/codeAction(125)
+I[18:21:56.648] --> reply:textDocument/codeAction(125) 0 ms
+I[18:21:56.648] --> textDocument/clangd.fileStatus
+I[18:21:57.875] <-- textDocument/documentHighlight(126)
+I[18:21:57.875] --> reply:textDocument/documentHighlight(126) 0 ms
+I[18:21:57.875] --> textDocument/clangd.fileStatus
+I[18:21:58.130] <-- textDocument/codeAction(127)
+I[18:21:58.130] --> reply:textDocument/codeAction(127) 0 ms
+I[18:21:58.130] --> textDocument/clangd.fileStatus
+I[18:21:58.610] <-- textDocument/didChange
+I[18:21:58.611] --> textDocument/clangd.fileStatus
+I[18:21:58.661] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:58.661] ASTWorker building file /home/user/workspace/hello.cpp version 37 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:58.663] --> textDocument/clangd.fileStatus
+I[18:21:58.663] --> textDocument/clangd.fileStatus
+I[18:21:58.664] --> textDocument/clangd.fileStatus
+I[18:21:58.679] --> textDocument/publishDiagnostics
+I[18:21:58.680] --> textDocument/clangd.fileStatus
+I[18:21:58.814] <-- textDocument/didChange
+I[18:21:58.815] --> textDocument/clangd.fileStatus
+I[18:21:58.865] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:58.865] ASTWorker building file /home/user/workspace/hello.cpp version 38 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:58.867] --> textDocument/clangd.fileStatus
+I[18:21:58.867] --> textDocument/clangd.fileStatus
+I[18:21:58.869] --> textDocument/clangd.fileStatus
+I[18:21:58.883] --> textDocument/publishDiagnostics
+I[18:21:58.883] --> textDocument/clangd.fileStatus
+I[18:21:58.906] <-- textDocument/semanticTokens/full/delta(128)
+I[18:21:58.906] --> reply:textDocument/semanticTokens/full/delta(128) 0 ms
+I[18:21:58.906] --> textDocument/clangd.fileStatus
+I[18:21:59.148] <-- textDocument/codeAction(129)
+I[18:21:59.148] --> reply:textDocument/codeAction(129) 0 ms
+I[18:21:59.148] --> textDocument/clangd.fileStatus
+I[18:21:59.163] <-- textDocument/documentSymbol(130)
+I[18:21:59.163] --> reply:textDocument/documentSymbol(130) 0 ms
+I[18:21:59.163] --> textDocument/clangd.fileStatus
+I[18:21:59.221] <-- textDocument/didChange
+I[18:21:59.222] --> textDocument/clangd.fileStatus
+I[18:21:59.272] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:59.273] ASTWorker building file /home/user/workspace/hello.cpp version 39 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:59.274] --> textDocument/clangd.fileStatus
+I[18:21:59.275] --> textDocument/clangd.fileStatus
+I[18:21:59.276] --> textDocument/clangd.fileStatus
+I[18:21:59.290] --> textDocument/publishDiagnostics
+I[18:21:59.290] --> textDocument/clangd.fileStatus
+I[18:21:59.354] <-- textDocument/didChange
+I[18:21:59.355] --> textDocument/clangd.fileStatus
+I[18:21:59.405] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:59.406] ASTWorker building file /home/user/workspace/hello.cpp version 40 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:59.408] --> textDocument/clangd.fileStatus
+I[18:21:59.408] --> textDocument/clangd.fileStatus
+I[18:21:59.409] --> textDocument/clangd.fileStatus
+I[18:21:59.423] --> textDocument/publishDiagnostics
+I[18:21:59.423] --> textDocument/clangd.fileStatus
+I[18:21:59.518] <-- textDocument/semanticTokens/full/delta(131)
+I[18:21:59.518] --> reply:textDocument/semanticTokens/full/delta(131) 0 ms
+I[18:21:59.518] --> textDocument/clangd.fileStatus
+I[18:21:59.529] <-- textDocument/didChange
+I[18:21:59.530] --> textDocument/clangd.fileStatus
+I[18:21:59.580] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:59.580] ASTWorker building file /home/user/workspace/hello.cpp version 41 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:59.582] --> textDocument/clangd.fileStatus
+I[18:21:59.582] --> textDocument/clangd.fileStatus
+I[18:21:59.583] --> textDocument/clangd.fileStatus
+I[18:21:59.599] --> textDocument/publishDiagnostics
+I[18:21:59.599] --> textDocument/clangd.fileStatus
+I[18:21:59.712] <-- textDocument/didChange
+I[18:21:59.713] --> textDocument/clangd.fileStatus
+I[18:21:59.765] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:21:59.765] ASTWorker building file /home/user/workspace/hello.cpp version 42 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:21:59.767] --> textDocument/clangd.fileStatus
+I[18:21:59.767] --> textDocument/clangd.fileStatus
+I[18:21:59.768] --> textDocument/clangd.fileStatus
+I[18:21:59.783] --> textDocument/publishDiagnostics
+I[18:21:59.783] --> textDocument/clangd.fileStatus
+I[18:21:59.842] <-- textDocument/semanticTokens/full/delta(132)
+I[18:21:59.842] --> reply:textDocument/semanticTokens/full/delta(132) 0 ms
+I[18:21:59.842] --> textDocument/clangd.fileStatus
+I[18:22:00.059] <-- textDocument/codeAction(133)
+I[18:22:00.059] <-- textDocument/documentSymbol(134)
+I[18:22:00.059] --> reply:textDocument/codeAction(133) 0 ms
+I[18:22:00.059] --> reply:textDocument/documentSymbol(134) 0 ms
+I[18:22:00.059] --> textDocument/clangd.fileStatus
+I[18:22:00.376] <-- textDocument/documentHighlight(135)
+I[18:22:00.376] --> reply:textDocument/documentHighlight(135) 0 ms
+I[18:22:00.376] --> textDocument/clangd.fileStatus
+I[18:22:00.719] <-- textDocument/documentLink(136)
+I[18:22:00.719] --> reply:textDocument/documentLink(136) 0 ms
+I[18:22:00.719] --> textDocument/clangd.fileStatus
+I[18:22:00.933] <-- textDocument/codeAction(137)
+I[18:22:00.933] --> reply:textDocument/codeAction(137) 0 ms
+I[18:22:00.933] --> textDocument/clangd.fileStatus
+I[18:22:01.034] <-- textDocument/didChange
+I[18:22:01.035] --> textDocument/clangd.fileStatus
+I[18:22:01.085] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:01.085] ASTWorker building file /home/user/workspace/hello.cpp version 43 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:01.087] --> textDocument/clangd.fileStatus
+I[18:22:01.087] --> textDocument/clangd.fileStatus
+I[18:22:01.088] --> textDocument/clangd.fileStatus
+I[18:22:01.103] --> textDocument/publishDiagnostics
+I[18:22:01.103] --> textDocument/clangd.fileStatus
+I[18:22:01.331] <-- textDocument/semanticTokens/full/delta(138)
+I[18:22:01.331] --> reply:textDocument/semanticTokens/full/delta(138) 0 ms
+I[18:22:01.331] --> textDocument/clangd.fileStatus
+I[18:22:01.365] <-- textDocument/codeAction(139)
+I[18:22:01.365] --> reply:textDocument/codeAction(139) 0 ms
+I[18:22:01.365] --> textDocument/clangd.fileStatus
+I[18:22:01.380] <-- textDocument/documentSymbol(140)
+I[18:22:01.381] --> reply:textDocument/documentSymbol(140) 0 ms
+I[18:22:01.381] --> textDocument/clangd.fileStatus
+I[18:22:01.431] <-- textDocument/didChange
+I[18:22:01.432] --> textDocument/clangd.fileStatus
+I[18:22:01.482] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:01.482] ASTWorker building file /home/user/workspace/hello.cpp version 44 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:01.484] --> textDocument/clangd.fileStatus
+I[18:22:01.484] --> textDocument/clangd.fileStatus
+I[18:22:01.485] --> textDocument/clangd.fileStatus
+I[18:22:01.501] --> textDocument/publishDiagnostics
+I[18:22:01.501] --> textDocument/clangd.fileStatus
+I[18:22:01.711] <-- textDocument/semanticTokens/full/delta(141)
+I[18:22:01.711] --> reply:textDocument/semanticTokens/full/delta(141) 0 ms
+I[18:22:01.711] --> textDocument/clangd.fileStatus
+I[18:22:01.761] <-- textDocument/documentSymbol(142)
+I[18:22:01.761] <-- textDocument/codeAction(143)
+I[18:22:01.761] --> reply:textDocument/documentSymbol(142) 0 ms
+I[18:22:01.761] --> reply:textDocument/codeAction(143) 0 ms
+I[18:22:01.761] --> textDocument/clangd.fileStatus
+I[18:22:01.799] <-- textDocument/didChange
+I[18:22:01.800] --> textDocument/clangd.fileStatus
+I[18:22:01.850] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:01.851] ASTWorker building file /home/user/workspace/hello.cpp version 45 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:01.852] --> textDocument/clangd.fileStatus
+I[18:22:01.852] --> textDocument/clangd.fileStatus
+I[18:22:01.854] --> textDocument/clangd.fileStatus
+I[18:22:01.868] --> textDocument/publishDiagnostics
+I[18:22:01.869] --> textDocument/clangd.fileStatus
+I[18:22:01.965] <-- textDocument/didChange
+I[18:22:01.967] --> textDocument/clangd.fileStatus
+I[18:22:02.017] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:02.017] ASTWorker building file /home/user/workspace/hello.cpp version 46 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:02.019] --> textDocument/clangd.fileStatus
+I[18:22:02.019] --> textDocument/clangd.fileStatus
+I[18:22:02.020] --> textDocument/clangd.fileStatus
+I[18:22:02.034] --> textDocument/publishDiagnostics
+I[18:22:02.034] --> textDocument/clangd.fileStatus
+I[18:22:02.096] <-- textDocument/semanticTokens/full/delta(144)
+I[18:22:02.096] --> reply:textDocument/semanticTokens/full/delta(144) 0 ms
+I[18:22:02.096] --> textDocument/clangd.fileStatus
+I[18:22:02.151] <-- textDocument/didChange
+I[18:22:02.153] --> textDocument/clangd.fileStatus
+I[18:22:02.203] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:02.203] ASTWorker building file /home/user/workspace/hello.cpp version 47 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:02.206] --> textDocument/clangd.fileStatus
+I[18:22:02.206] --> textDocument/clangd.fileStatus
+I[18:22:02.208] --> textDocument/clangd.fileStatus
+I[18:22:02.227] --> textDocument/publishDiagnostics
+I[18:22:02.227] --> textDocument/clangd.fileStatus
+I[18:22:02.425] <-- textDocument/semanticTokens/full/delta(145)
+I[18:22:02.425] --> reply:textDocument/semanticTokens/full/delta(145) 0 ms
+I[18:22:02.425] --> textDocument/clangd.fileStatus
+I[18:22:02.488] <-- textDocument/documentSymbol(146)
+I[18:22:02.488] --> reply:textDocument/documentSymbol(146) 0 ms
+I[18:22:02.488] --> textDocument/clangd.fileStatus
+I[18:22:02.489] <-- textDocument/codeAction(147)
+I[18:22:02.489] --> reply:textDocument/codeAction(147) 0 ms
+I[18:22:02.489] --> textDocument/clangd.fileStatus
+I[18:22:02.666] <-- textDocument/documentHighlight(148)
+I[18:22:02.666] --> reply:textDocument/documentHighlight(148) 0 ms
+I[18:22:02.666] --> textDocument/clangd.fileStatus
+I[18:22:02.924] <-- textDocument/codeAction(149)
+I[18:22:02.924] --> reply:textDocument/codeAction(149) 0 ms
+I[18:22:02.924] --> textDocument/clangd.fileStatus
+I[18:22:03.127] <-- textDocument/documentLink(150)
+I[18:22:03.127] --> reply:textDocument/documentLink(150) 0 ms
+I[18:22:03.127] --> textDocument/clangd.fileStatus
+I[18:22:03.280] <-- textDocument/didChange
+I[18:22:03.281] --> textDocument/clangd.fileStatus
+I[18:22:03.331] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:03.331] ASTWorker building file /home/user/workspace/hello.cpp version 48 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:03.333] --> textDocument/clangd.fileStatus
+I[18:22:03.333] --> textDocument/clangd.fileStatus
+I[18:22:03.334] --> textDocument/clangd.fileStatus
+I[18:22:03.350] --> textDocument/publishDiagnostics
+I[18:22:03.350] --> textDocument/clangd.fileStatus
+I[18:22:03.481] <-- textDocument/didChange
+I[18:22:03.482] --> textDocument/clangd.fileStatus
+I[18:22:03.533] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:03.533] ASTWorker building file /home/user/workspace/hello.cpp version 49 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:03.534] --> textDocument/clangd.fileStatus
+I[18:22:03.534] --> textDocument/clangd.fileStatus
+I[18:22:03.535] --> textDocument/clangd.fileStatus
+I[18:22:03.551] --> textDocument/publishDiagnostics
+I[18:22:03.551] --> textDocument/clangd.fileStatus
+I[18:22:03.579] <-- textDocument/semanticTokens/full/delta(151)
+I[18:22:03.579] --> reply:textDocument/semanticTokens/full/delta(151) 0 ms
+I[18:22:03.579] --> textDocument/clangd.fileStatus
+I[18:22:03.639] <-- textDocument/didChange
+I[18:22:03.640] --> textDocument/clangd.fileStatus
+I[18:22:03.691] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:03.691] ASTWorker building file /home/user/workspace/hello.cpp version 50 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:03.693] --> textDocument/clangd.fileStatus
+I[18:22:03.693] --> textDocument/clangd.fileStatus
+I[18:22:03.694] --> textDocument/clangd.fileStatus
+I[18:22:03.710] --> textDocument/publishDiagnostics
+I[18:22:03.710] --> textDocument/clangd.fileStatus
+I[18:22:03.941] <-- textDocument/semanticTokens/full/delta(152)
+I[18:22:03.941] --> reply:textDocument/semanticTokens/full/delta(152) 0 ms
+I[18:22:03.941] --> textDocument/clangd.fileStatus
+I[18:22:03.969] <-- textDocument/codeAction(153)
+I[18:22:03.969] --> reply:textDocument/codeAction(153) 0 ms
+I[18:22:03.969] --> textDocument/clangd.fileStatus
+I[18:22:03.994] <-- textDocument/documentSymbol(154)
+I[18:22:03.995] --> reply:textDocument/documentSymbol(154) 0 ms
+I[18:22:03.995] --> textDocument/clangd.fileStatus
+I[18:22:04.645] <-- textDocument/didChange
+I[18:22:04.646] --> textDocument/clangd.fileStatus
+I[18:22:04.696] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:04.697] ASTWorker building file /home/user/workspace/hello.cpp version 51 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:04.699] --> textDocument/clangd.fileStatus
+I[18:22:04.699] --> textDocument/clangd.fileStatus
+I[18:22:04.700] --> textDocument/clangd.fileStatus
+I[18:22:04.718] --> textDocument/publishDiagnostics
+I[18:22:04.718] --> textDocument/clangd.fileStatus
+I[18:22:04.824] <-- textDocument/didChange
+I[18:22:04.826] --> textDocument/clangd.fileStatus
+I[18:22:04.880] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:04.881] ASTWorker building file /home/user/workspace/hello.cpp version 52 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:04.883] --> textDocument/clangd.fileStatus
+I[18:22:04.883] --> textDocument/clangd.fileStatus
+I[18:22:04.885] --> textDocument/clangd.fileStatus
+I[18:22:04.905] --> textDocument/publishDiagnostics
+I[18:22:04.905] --> textDocument/clangd.fileStatus
+I[18:22:04.961] <-- textDocument/semanticTokens/full/delta(155)
+I[18:22:04.961] --> reply:textDocument/semanticTokens/full/delta(155) 0 ms
+I[18:22:04.961] --> textDocument/clangd.fileStatus
+I[18:22:05.048] <-- textDocument/didChange
+I[18:22:05.049] --> textDocument/clangd.fileStatus
+I[18:22:05.099] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:05.100] ASTWorker building file /home/user/workspace/hello.cpp version 53 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:05.102] --> textDocument/clangd.fileStatus
+I[18:22:05.102] --> textDocument/clangd.fileStatus
+I[18:22:05.103] --> textDocument/clangd.fileStatus
+I[18:22:05.118] --> textDocument/publishDiagnostics
+I[18:22:05.118] --> textDocument/clangd.fileStatus
+I[18:22:05.257] <-- textDocument/didChange
+I[18:22:05.258] --> textDocument/clangd.fileStatus
+I[18:22:05.308] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:05.308] ASTWorker building file /home/user/workspace/hello.cpp version 54 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:05.310] --> textDocument/clangd.fileStatus
+I[18:22:05.310] --> textDocument/clangd.fileStatus
+I[18:22:05.311] --> textDocument/clangd.fileStatus
+I[18:22:05.326] --> textDocument/publishDiagnostics
+I[18:22:05.326] --> textDocument/clangd.fileStatus
+I[18:22:05.346] <-- textDocument/semanticTokens/full/delta(156)
+I[18:22:05.346] --> reply:textDocument/semanticTokens/full/delta(156) 0 ms
+I[18:22:05.346] --> textDocument/clangd.fileStatus
+I[18:22:05.586] <-- textDocument/documentHighlight(157)
+I[18:22:05.586] --> reply:textDocument/documentHighlight(157) 0 ms
+I[18:22:05.586] --> textDocument/clangd.fileStatus
+I[18:22:05.608] <-- textDocument/documentSymbol(158)
+I[18:22:05.608] --> reply:textDocument/documentSymbol(158) 0 ms
+I[18:22:05.608] --> textDocument/clangd.fileStatus
+I[18:22:06.021] <-- textDocument/documentHighlight(159)
+I[18:22:06.021] --> reply:textDocument/documentHighlight(159) 0 ms
+I[18:22:06.021] --> textDocument/clangd.fileStatus
+I[18:22:06.257] <-- textDocument/documentLink(160)
+I[18:22:06.257] --> reply:textDocument/documentLink(160) 0 ms
+I[18:22:06.257] --> textDocument/clangd.fileStatus
+I[18:22:06.403] <-- textDocument/codeAction(161)
+I[18:22:06.403] --> reply:textDocument/codeAction(161) 0 ms
+I[18:22:06.403] --> textDocument/clangd.fileStatus
+I[18:22:06.862] <-- textDocument/documentHighlight(162)
+I[18:22:06.862] --> reply:textDocument/documentHighlight(162) 0 ms
+I[18:22:06.862] --> textDocument/clangd.fileStatus
+I[18:22:07.015] <-- textDocument/documentHighlight(163)
+I[18:22:07.016] --> reply:textDocument/documentHighlight(163) 0 ms
+I[18:22:07.016] --> textDocument/clangd.fileStatus
+I[18:22:07.584] <-- textDocument/codeAction(164)
+I[18:22:07.584] --> reply:textDocument/codeAction(164) 0 ms
+I[18:22:07.584] --> textDocument/clangd.fileStatus
+I[18:22:07.712] <-- textDocument/didChange
+I[18:22:07.713] --> textDocument/clangd.fileStatus
+I[18:22:07.763] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:07.763] ASTWorker building file /home/user/workspace/hello.cpp version 55 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:07.765] --> textDocument/clangd.fileStatus
+I[18:22:07.765] --> textDocument/clangd.fileStatus
+I[18:22:07.766] --> textDocument/clangd.fileStatus
+I[18:22:07.781] --> textDocument/publishDiagnostics
+I[18:22:07.781] --> textDocument/clangd.fileStatus
+I[18:22:07.935] <-- textDocument/didChange
+I[18:22:07.936] --> textDocument/clangd.fileStatus
+I[18:22:07.987] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:07.987] ASTWorker building file /home/user/workspace/hello.cpp version 56 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:07.989] --> textDocument/clangd.fileStatus
+I[18:22:07.989] --> textDocument/clangd.fileStatus
+I[18:22:07.990] --> textDocument/clangd.fileStatus
+I[18:22:08.005] --> textDocument/publishDiagnostics
+I[18:22:08.005] --> textDocument/clangd.fileStatus
+I[18:22:08.010] <-- textDocument/semanticTokens/full/delta(165)
+I[18:22:08.011] --> reply:textDocument/semanticTokens/full/delta(165) 0 ms
+I[18:22:08.011] --> textDocument/clangd.fileStatus
+I[18:22:08.119] <-- textDocument/didChange
+I[18:22:08.120] --> textDocument/clangd.fileStatus
+I[18:22:08.170] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:08.171] ASTWorker building file /home/user/workspace/hello.cpp version 57 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:08.172] --> textDocument/clangd.fileStatus
+I[18:22:08.172] --> textDocument/clangd.fileStatus
+I[18:22:08.173] --> textDocument/clangd.fileStatus
+I[18:22:08.187] --> textDocument/publishDiagnostics
+I[18:22:08.188] --> textDocument/clangd.fileStatus
+I[18:22:08.421] <-- textDocument/semanticTokens/full/delta(166)
+I[18:22:08.421] --> reply:textDocument/semanticTokens/full/delta(166) 0 ms
+I[18:22:08.421] --> textDocument/clangd.fileStatus
+I[18:22:08.451] <-- textDocument/codeAction(167)
+I[18:22:08.452] --> reply:textDocument/codeAction(167) 0 ms
+I[18:22:08.452] --> textDocument/clangd.fileStatus
+I[18:22:08.466] <-- textDocument/documentSymbol(168)
+I[18:22:08.466] --> reply:textDocument/documentSymbol(168) 0 ms
+I[18:22:08.466] --> textDocument/clangd.fileStatus
+I[18:22:09.132] <-- textDocument/documentLink(169)
+I[18:22:09.132] --> reply:textDocument/documentLink(169) 0 ms
+I[18:22:09.132] --> textDocument/clangd.fileStatus
+I[18:22:20.505] <-- textDocument/hover(170)
+I[18:22:20.511] --> reply:textDocument/hover(170) 6 ms
+I[18:22:20.511] --> textDocument/clangd.fileStatus
+I[18:22:24.387] <-- textDocument/codeAction(171)
+I[18:22:24.387] --> reply:textDocument/codeAction(171) 0 ms
+I[18:22:24.387] --> textDocument/clangd.fileStatus
+I[18:22:24.533] <-- textDocument/hover(172)
+I[18:22:24.541] --> reply:textDocument/hover(172) 7 ms
+I[18:22:24.541] --> textDocument/clangd.fileStatus
+I[18:22:24.815] <-- textDocument/didChange
+I[18:22:24.816] --> textDocument/clangd.fileStatus
+I[18:22:24.866] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:24.867] ASTWorker building file /home/user/workspace/hello.cpp version 58 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:24.869] --> textDocument/clangd.fileStatus
+I[18:22:24.869] --> textDocument/clangd.fileStatus
+I[18:22:24.871] --> textDocument/clangd.fileStatus
+I[18:22:24.892] --> textDocument/publishDiagnostics
+I[18:22:24.892] --> textDocument/clangd.fileStatus
+I[18:22:25.114] <-- textDocument/semanticTokens/full/delta(173)
+I[18:22:25.114] --> reply:textDocument/semanticTokens/full/delta(173) 0 ms
+I[18:22:25.114] --> textDocument/clangd.fileStatus
+I[18:22:25.164] <-- textDocument/documentSymbol(174)
+I[18:22:25.164] --> reply:textDocument/documentSymbol(174) 0 ms
+I[18:22:25.164] --> textDocument/clangd.fileStatus
+I[18:22:25.813] <-- textDocument/documentLink(175)
+I[18:22:25.815] --> reply:textDocument/documentLink(175) 2 ms
+I[18:22:25.815] --> textDocument/clangd.fileStatus
+I[18:22:34.465] <-- textDocument/didChange
+I[18:22:34.466] --> textDocument/clangd.fileStatus
+I[18:22:34.518] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:34.518] ASTWorker building file /home/user/workspace/hello.cpp version 59 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:34.520] --> textDocument/clangd.fileStatus
+I[18:22:34.520] --> textDocument/clangd.fileStatus
+I[18:22:34.522] --> textDocument/clangd.fileStatus
+I[18:22:34.536] --> textDocument/publishDiagnostics
+I[18:22:34.536] --> textDocument/clangd.fileStatus
+I[18:22:34.761] <-- textDocument/semanticTokens/full/delta(176)
+I[18:22:34.761] --> reply:textDocument/semanticTokens/full/delta(176) 0 ms
+I[18:22:34.761] --> textDocument/clangd.fileStatus
+I[18:22:34.798] <-- textDocument/codeAction(177)
+I[18:22:34.798] --> reply:textDocument/codeAction(177) 0 ms
+I[18:22:34.799] --> textDocument/clangd.fileStatus
+I[18:22:34.851] <-- textDocument/documentSymbol(178)
+I[18:22:34.851] --> reply:textDocument/documentSymbol(178) 0 ms
+I[18:22:34.851] --> textDocument/clangd.fileStatus
+I[18:22:35.464] <-- textDocument/documentLink(179)
+I[18:22:35.464] --> reply:textDocument/documentLink(179) 0 ms
+I[18:22:35.464] --> textDocument/clangd.fileStatus
+I[18:22:39.245] <-- textDocument/codeAction(180)
+I[18:22:39.246] --> reply:textDocument/codeAction(180) 0 ms
+I[18:22:39.246] --> textDocument/clangd.fileStatus
+I[18:22:39.368] <-- textDocument/didChange
+I[18:22:39.370] --> textDocument/clangd.fileStatus
+I[18:22:39.420] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:39.420] ASTWorker building file /home/user/workspace/hello.cpp version 60 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:39.422] --> textDocument/clangd.fileStatus
+I[18:22:39.422] --> textDocument/clangd.fileStatus
+I[18:22:39.423] --> textDocument/clangd.fileStatus
+I[18:22:39.438] --> textDocument/publishDiagnostics
+I[18:22:39.438] --> textDocument/clangd.fileStatus
+I[18:22:39.681] <-- textDocument/semanticTokens/full/delta(181)
+I[18:22:39.683] --> reply:textDocument/semanticTokens/full/delta(181) 2 ms
+I[18:22:39.683] --> textDocument/clangd.fileStatus
+I[18:22:39.698] <-- textDocument/codeAction(182)
+I[18:22:39.699] --> reply:textDocument/codeAction(182) 0 ms
+I[18:22:39.699] --> textDocument/clangd.fileStatus
+I[18:22:39.715] <-- textDocument/documentSymbol(183)
+I[18:22:39.715] --> reply:textDocument/documentSymbol(183) 0 ms
+I[18:22:39.716] --> textDocument/clangd.fileStatus
+I[18:22:40.185] <-- textDocument/hover(184)
+I[18:22:40.189] --> reply:textDocument/hover(184) 3 ms
+I[18:22:40.189] --> textDocument/clangd.fileStatus
+I[18:22:40.367] <-- textDocument/documentLink(185)
+I[18:22:40.367] --> reply:textDocument/documentLink(185) 0 ms
+I[18:22:40.367] --> textDocument/clangd.fileStatus
+I[18:22:44.826] <-- textDocument/didChange
+I[18:22:44.827] --> textDocument/clangd.fileStatus
+I[18:22:44.879] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:22:44.880] ASTWorker building file /home/user/workspace/hello.cpp version 61 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:22:44.881] --> textDocument/clangd.fileStatus
+I[18:22:44.881] --> textDocument/clangd.fileStatus
+I[18:22:44.882] --> textDocument/clangd.fileStatus
+I[18:22:44.897] --> textDocument/publishDiagnostics
+I[18:22:44.897] --> textDocument/clangd.fileStatus
+I[18:22:45.122] <-- textDocument/semanticTokens/full/delta(186)
+I[18:22:45.122] --> reply:textDocument/semanticTokens/full/delta(186) 0 ms
+I[18:22:45.122] --> textDocument/clangd.fileStatus
+I[18:22:45.171] <-- textDocument/codeAction(187)
+I[18:22:45.171] --> reply:textDocument/codeAction(187) 0 ms
+I[18:22:45.171] --> textDocument/clangd.fileStatus
+I[18:22:45.172] <-- textDocument/documentSymbol(188)
+I[18:22:45.173] --> reply:textDocument/documentSymbol(188) 0 ms
+I[18:22:45.173] --> textDocument/clangd.fileStatus
+I[18:22:45.824] <-- textDocument/documentLink(189)
+I[18:22:45.824] --> reply:textDocument/documentLink(189) 0 ms
+I[18:22:45.824] --> textDocument/clangd.fileStatus
+I[18:23:20.294] <-- textDocument/didChange
+I[18:23:20.295] --> textDocument/clangd.fileStatus
+I[18:23:20.347] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:23:20.348] ASTWorker building file /home/user/workspace/hello.cpp version 62 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:23:20.349] --> textDocument/clangd.fileStatus
+I[18:23:20.349] --> textDocument/clangd.fileStatus
+I[18:23:20.350] --> textDocument/clangd.fileStatus
+I[18:23:20.366] --> textDocument/publishDiagnostics
+I[18:23:20.366] --> textDocument/clangd.fileStatus
+I[18:23:20.591] <-- textDocument/semanticTokens/full/delta(190)
+I[18:23:20.591] --> reply:textDocument/semanticTokens/full/delta(190) 0 ms
+I[18:23:20.591] --> textDocument/clangd.fileStatus
+I[18:23:20.628] <-- textDocument/codeAction(191)
+I[18:23:20.628] --> reply:textDocument/codeAction(191) 0 ms
+I[18:23:20.628] --> textDocument/clangd.fileStatus
+I[18:23:20.681] <-- textDocument/documentSymbol(192)
+I[18:23:20.681] --> reply:textDocument/documentSymbol(192) 0 ms
+I[18:23:20.681] --> textDocument/clangd.fileStatus
+I[18:23:21.235] <-- textDocument/hover(193)
+I[18:23:21.239] --> reply:textDocument/hover(193) 3 ms
+I[18:23:21.239] --> textDocument/clangd.fileStatus
+I[18:23:21.292] <-- textDocument/documentLink(194)
+I[18:23:21.293] --> reply:textDocument/documentLink(194) 0 ms
+I[18:23:21.293] --> textDocument/clangd.fileStatus
+I[18:23:21.749] <-- textDocument/hover(195)
+I[18:23:21.752] --> reply:textDocument/hover(195) 3 ms
+I[18:23:21.752] --> textDocument/clangd.fileStatus
+I[18:23:22.595] <-- textDocument/hover(196)
+I[18:23:22.599] --> reply:textDocument/hover(196) 3 ms
+I[18:23:22.599] --> textDocument/clangd.fileStatus
+I[18:23:23.193] <-- textDocument/codeAction(197)
+I[18:23:23.193] --> reply:textDocument/codeAction(197) 0 ms
+I[18:23:23.193] --> textDocument/clangd.fileStatus
+I[18:23:39.146] <-- textDocument/codeAction(198)
+I[18:23:39.148] --> reply:textDocument/codeAction(198) 2 ms
+I[18:23:39.148] --> textDocument/clangd.fileStatus
+I[18:23:39.494] <-- textDocument/didChange
+I[18:23:39.495] --> textDocument/clangd.fileStatus
+I[18:23:39.545] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:23:39.545] ASTWorker building file /home/user/workspace/hello.cpp version 63 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:23:39.548] --> textDocument/clangd.fileStatus
+I[18:23:39.548] --> textDocument/clangd.fileStatus
+I[18:23:39.550] --> textDocument/clangd.fileStatus
+I[18:23:39.570] --> textDocument/publishDiagnostics
+I[18:23:39.570] --> textDocument/clangd.fileStatus
+I[18:23:39.790] <-- textDocument/semanticTokens/full/delta(199)
+I[18:23:39.790] --> reply:textDocument/semanticTokens/full/delta(199) 0 ms
+I[18:23:39.790] --> textDocument/clangd.fileStatus
+I[18:23:39.840] <-- textDocument/documentSymbol(200)
+I[18:23:39.840] --> reply:textDocument/documentSymbol(200) 0 ms
+I[18:23:39.840] --> textDocument/clangd.fileStatus
+I[18:23:40.497] <-- textDocument/documentLink(201)
+I[18:23:40.497] --> reply:textDocument/documentLink(201) 0 ms
+I[18:23:40.497] --> textDocument/clangd.fileStatus
+I[18:23:40.579] <-- textDocument/codeAction(202)
+I[18:23:40.579] --> reply:textDocument/codeAction(202) 0 ms
+I[18:23:40.579] --> textDocument/clangd.fileStatus
+I[18:23:49.394] <-- textDocument/didChange
+I[18:23:49.395] --> textDocument/clangd.fileStatus
+I[18:23:49.450] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:23:49.451] ASTWorker building file /home/user/workspace/hello.cpp version 64 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:23:49.453] --> textDocument/clangd.fileStatus
+I[18:23:49.453] --> textDocument/clangd.fileStatus
+I[18:23:49.456] --> textDocument/clangd.fileStatus
+I[18:23:49.476] --> textDocument/publishDiagnostics
+I[18:23:49.476] --> textDocument/clangd.fileStatus
+I[18:23:49.695] <-- textDocument/semanticTokens/full/delta(203)
+I[18:23:49.695] --> reply:textDocument/semanticTokens/full/delta(203) 0 ms
+I[18:23:49.695] --> textDocument/clangd.fileStatus
+I[18:23:49.746] <-- textDocument/documentSymbol(204)
+I[18:23:49.746] --> reply:textDocument/documentSymbol(204) 0 ms
+I[18:23:49.746] --> textDocument/clangd.fileStatus
+I[18:23:50.399] <-- textDocument/documentLink(205)
+I[18:23:50.399] --> reply:textDocument/documentLink(205) 0 ms
+I[18:23:50.399] --> textDocument/clangd.fileStatus
+I[18:24:01.091] <-- textDocument/codeAction(206)
+I[18:24:01.093] --> reply:textDocument/codeAction(206) 1 ms
+I[18:24:01.093] --> textDocument/clangd.fileStatus
+I[18:24:02.251] <-- textDocument/didChange
+I[18:24:02.253] --> textDocument/clangd.fileStatus
+I[18:24:02.303] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:02.303] ASTWorker building file /home/user/workspace/hello.cpp version 65 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:02.305] --> textDocument/clangd.fileStatus
+I[18:24:02.305] --> textDocument/clangd.fileStatus
+I[18:24:02.306] --> textDocument/clangd.fileStatus
+I[18:24:02.321] --> textDocument/publishDiagnostics
+I[18:24:02.321] --> textDocument/clangd.fileStatus
+I[18:24:02.560] <-- textDocument/semanticTokens/full/delta(207)
+I[18:24:02.560] --> reply:textDocument/semanticTokens/full/delta(207) 0 ms
+I[18:24:02.560] --> textDocument/clangd.fileStatus
+I[18:24:02.601] <-- textDocument/documentSymbol(208)
+I[18:24:02.601] --> reply:textDocument/documentSymbol(208) 0 ms
+I[18:24:02.601] --> textDocument/clangd.fileStatus
+I[18:24:03.251] <-- textDocument/documentLink(209)
+I[18:24:03.251] --> reply:textDocument/documentLink(209) 0 ms
+I[18:24:03.251] --> textDocument/clangd.fileStatus
+I[18:24:28.076] <-- textDocument/didSave
+I[18:24:28.078] --> textDocument/clangd.fileStatus
+I[18:24:28.130] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:28.130] ASTWorker building file /home/user/workspace/hello.cpp version 65 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:28.132] --> textDocument/clangd.fileStatus
+I[18:24:28.132] --> textDocument/clangd.fileStatus
+I[18:24:28.133] --> textDocument/clangd.fileStatus
+I[18:24:28.133] --> textDocument/clangd.fileStatus
+I[18:24:43.344] <-- textDocument/hover(210)
+I[18:24:43.349] --> reply:textDocument/hover(210) 4 ms
+I[18:24:43.349] --> textDocument/clangd.fileStatus
+I[18:24:43.512] <-- textDocument/codeAction(211)
+I[18:24:43.512] --> reply:textDocument/codeAction(211) 0 ms
+I[18:24:43.512] --> textDocument/clangd.fileStatus
+I[18:24:43.592] <-- textDocument/documentHighlight(212)
+I[18:24:43.592] --> reply:textDocument/documentHighlight(212) 0 ms
+I[18:24:43.592] --> textDocument/clangd.fileStatus
+I[18:24:43.856] <-- textDocument/codeAction(213)
+I[18:24:43.856] --> reply:textDocument/codeAction(213) 0 ms
+I[18:24:43.856] --> textDocument/clangd.fileStatus
+I[18:24:48.762] <-- textDocument/hover(214)
+I[18:24:48.773] --> reply:textDocument/hover(214) 11 ms
+I[18:24:48.773] --> textDocument/clangd.fileStatus
+I[18:24:49.075] <-- textDocument/hover(215)
+I[18:24:49.079] --> reply:textDocument/hover(215) 4 ms
+I[18:24:49.079] --> textDocument/clangd.fileStatus
+I[18:24:49.435] <-- textDocument/didChange
+I[18:24:49.436] --> textDocument/clangd.fileStatus
+I[18:24:49.486] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:49.487] ASTWorker building file /home/user/workspace/hello.cpp version 66 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:49.490] --> textDocument/clangd.fileStatus
+I[18:24:49.490] --> textDocument/clangd.fileStatus
+I[18:24:49.493] --> textDocument/clangd.fileStatus
+I[18:24:49.512] --> textDocument/publishDiagnostics
+I[18:24:49.513] --> textDocument/clangd.fileStatus
+I[18:24:49.732] <-- textDocument/semanticTokens/full/delta(216)
+I[18:24:49.732] --> reply:textDocument/semanticTokens/full/delta(216) 0 ms
+I[18:24:49.732] --> textDocument/clangd.fileStatus
+I[18:24:49.775] <-- textDocument/codeAction(217)
+I[18:24:49.775] --> reply:textDocument/codeAction(217) 0 ms
+I[18:24:49.775] --> textDocument/clangd.fileStatus
+I[18:24:49.781] <-- textDocument/documentSymbol(218)
+I[18:24:49.781] --> reply:textDocument/documentSymbol(218) 0 ms
+I[18:24:49.781] --> textDocument/clangd.fileStatus
+I[18:24:49.831] <-- textDocument/didChange
+I[18:24:49.832] --> textDocument/clangd.fileStatus
+I[18:24:49.882] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:49.883] ASTWorker building file /home/user/workspace/hello.cpp version 67 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:49.884] --> textDocument/clangd.fileStatus
+I[18:24:49.885] --> textDocument/clangd.fileStatus
+I[18:24:49.885] --> textDocument/clangd.fileStatus
+I[18:24:49.900] --> textDocument/publishDiagnostics
+I[18:24:49.900] --> textDocument/clangd.fileStatus
+I[18:24:50.010] <-- textDocument/didChange
+I[18:24:50.011] --> textDocument/clangd.fileStatus
+I[18:24:50.062] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:50.062] ASTWorker building file /home/user/workspace/hello.cpp version 68 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:50.063] --> textDocument/clangd.fileStatus
+I[18:24:50.063] --> textDocument/clangd.fileStatus
+I[18:24:50.065] --> textDocument/clangd.fileStatus
+I[18:24:50.080] --> textDocument/publishDiagnostics
+I[18:24:50.080] --> textDocument/clangd.fileStatus
+I[18:24:50.131] <-- textDocument/semanticTokens/full/delta(219)
+I[18:24:50.131] --> reply:textDocument/semanticTokens/full/delta(219) 0 ms
+I[18:24:50.131] --> textDocument/clangd.fileStatus
+I[18:24:50.354] <-- textDocument/codeAction(220)
+I[18:24:50.355] --> reply:textDocument/codeAction(220) 0 ms
+I[18:24:50.355] --> textDocument/clangd.fileStatus
+I[18:24:50.359] <-- textDocument/documentSymbol(221)
+I[18:24:50.359] --> reply:textDocument/documentSymbol(221) 0 ms
+I[18:24:50.359] --> textDocument/clangd.fileStatus
+I[18:24:51.023] <-- textDocument/documentLink(222)
+I[18:24:51.024] --> reply:textDocument/documentLink(222) 0 ms
+I[18:24:51.024] --> textDocument/clangd.fileStatus
+I[18:24:51.944] <-- textDocument/didChange
+I[18:24:51.946] <-- textDocument/completion(223)
+I[18:24:51.946] --> reply:textDocument/completion(223) 0 ms
+I[18:24:51.946] --> textDocument/clangd.fileStatus
+I[18:24:51.996] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:51.996] ASTWorker building file /home/user/workspace/hello.cpp version 69 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:51.998] --> textDocument/clangd.fileStatus
+I[18:24:51.998] --> textDocument/clangd.fileStatus
+I[18:24:51.999] --> textDocument/clangd.fileStatus
+I[18:24:52.013] --> textDocument/publishDiagnostics
+I[18:24:52.013] --> textDocument/clangd.fileStatus
+I[18:24:52.195] <-- textDocument/didChange
+I[18:24:52.197] --> textDocument/clangd.fileStatus
+I[18:24:52.197] <-- textDocument/completion(224)
+I[18:24:52.197] --> reply:textDocument/completion(224) 0 ms
+I[18:24:52.247] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:52.247] ASTWorker building file /home/user/workspace/hello.cpp version 70 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:52.250] --> textDocument/clangd.fileStatus
+I[18:24:52.250] --> textDocument/clangd.fileStatus
+I[18:24:52.252] <-- textDocument/semanticTokens/full/delta(225)
+I[18:24:52.252] --> textDocument/clangd.fileStatus
+I[18:24:52.270] --> reply:textDocument/semanticTokens/full/delta(225) 18 ms
+I[18:24:52.270] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:24:52.270] --> textDocument/publishDiagnostics
+I[18:24:52.270] --> textDocument/clangd.fileStatus
+I[18:24:52.533] <-- textDocument/codeAction(226)
+I[18:24:52.533] --> reply:textDocument/codeAction(226) 0 ms
+I[18:24:52.533] --> textDocument/clangd.fileStatus
+I[18:24:52.539] <-- textDocument/documentSymbol(227)
+I[18:24:52.539] --> reply:textDocument/documentSymbol(227) 0 ms
+I[18:24:52.539] --> textDocument/clangd.fileStatus
+I[18:24:53.192] <-- textDocument/documentLink(228)
+I[18:24:53.192] --> reply:textDocument/documentLink(228) 0 ms
+I[18:24:53.192] --> textDocument/clangd.fileStatus
+I[18:24:54.610] <-- textDocument/didChange
+I[18:24:54.610] --> textDocument/clangd.fileStatus
+I[18:24:54.663] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:54.663] ASTWorker building file /home/user/workspace/hello.cpp version 71 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:54.665] --> textDocument/clangd.fileStatus
+I[18:24:54.665] --> textDocument/clangd.fileStatus
+I[18:24:54.666] --> textDocument/clangd.fileStatus
+I[18:24:54.680] --> textDocument/publishDiagnostics
+I[18:24:54.680] --> textDocument/clangd.fileStatus
+I[18:24:54.752] <-- textDocument/didChange
+I[18:24:54.753] --> textDocument/clangd.fileStatus
+I[18:24:54.803] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:24:54.804] ASTWorker building file /home/user/workspace/hello.cpp version 72 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:24:54.805] --> textDocument/clangd.fileStatus
+I[18:24:54.805] --> textDocument/clangd.fileStatus
+I[18:24:54.807] --> textDocument/clangd.fileStatus
+I[18:24:54.823] --> textDocument/publishDiagnostics
+I[18:24:54.823] --> textDocument/clangd.fileStatus
+I[18:24:54.920] <-- textDocument/semanticTokens/full/delta(229)
+I[18:24:54.920] --> reply:textDocument/semanticTokens/full/delta(229) 0 ms
+I[18:24:54.920] --> textDocument/clangd.fileStatus
+I[18:24:55.088] <-- textDocument/codeAction(230)
+I[18:24:55.088] --> reply:textDocument/codeAction(230) 0 ms
+I[18:24:55.088] --> textDocument/clangd.fileStatus
+I[18:24:55.142] <-- textDocument/documentSymbol(231)
+I[18:24:55.142] --> reply:textDocument/documentSymbol(231) 0 ms
+I[18:24:55.142] --> textDocument/clangd.fileStatus
+I[18:24:55.752] <-- textDocument/documentLink(232)
+I[18:24:55.752] --> reply:textDocument/documentLink(232) 0 ms
+I[18:24:55.752] --> textDocument/clangd.fileStatus
+I[18:24:56.544] <-- textDocument/hover(233)
+I[18:24:56.548] --> reply:textDocument/hover(233) 3 ms
+I[18:24:56.548] --> textDocument/clangd.fileStatus
+I[18:24:56.716] <-- textDocument/codeAction(234)
+I[18:24:56.717] --> reply:textDocument/codeAction(234) 0 ms
+I[18:24:56.717] --> textDocument/clangd.fileStatus
+I[18:24:57.694] <-- textDocument/documentHighlight(235)
+I[18:24:57.694] --> reply:textDocument/documentHighlight(235) 0 ms
+I[18:24:57.694] --> textDocument/clangd.fileStatus
+I[18:24:57.943] <-- textDocument/codeAction(236)
+I[18:24:57.943] --> reply:textDocument/codeAction(236) 0 ms
+I[18:24:57.943] --> textDocument/clangd.fileStatus
+I[18:24:58.307] <-- textDocument/hover(237)
+I[18:24:58.311] --> reply:textDocument/hover(237) 4 ms
+I[18:24:58.311] --> textDocument/clangd.fileStatus
+I[18:24:58.515] <-- textDocument/hover(238)
+I[18:24:58.519] --> reply:textDocument/hover(238) 3 ms
+I[18:24:58.519] --> textDocument/clangd.fileStatus
+I[18:24:58.672] <-- textDocument/codeAction(239)
+I[18:24:58.672] <-- $/cancelRequest
+I[18:24:58.672] --> reply:textDocument/codeAction(239) 0 ms, error: Task was cancelled.
+I[18:24:58.673] --> textDocument/clangd.fileStatus
+[Error - 6:24:58 PM] Request textDocument/codeAction failed.
+[object Object]
+I[18:24:59.032] <-- textDocument/codeAction(240)
+I[18:24:59.032] --> reply:textDocument/codeAction(240) 0 ms
+I[18:24:59.032] --> textDocument/clangd.fileStatus
+I[18:24:59.095] <-- textDocument/hover(241)
+I[18:24:59.099] --> reply:textDocument/hover(241) 3 ms
+I[18:24:59.099] --> textDocument/clangd.fileStatus
+I[18:24:59.405] <-- textDocument/hover(242)
+I[18:24:59.409] --> reply:textDocument/hover(242) 3 ms
+I[18:24:59.409] --> textDocument/clangd.fileStatus
+I[18:25:00.827] <-- textDocument/hover(243)
+I[18:25:00.831] --> reply:textDocument/hover(243) 4 ms
+I[18:25:00.832] --> textDocument/clangd.fileStatus
+I[18:25:01.254] <-- textDocument/codeAction(244)
+I[18:25:01.254] --> reply:textDocument/codeAction(244) 0 ms
+I[18:25:01.254] --> textDocument/clangd.fileStatus
+I[18:25:01.435] <-- textDocument/hover(245)
+I[18:25:01.438] --> reply:textDocument/hover(245) 3 ms
+I[18:25:01.438] --> textDocument/clangd.fileStatus
+I[18:25:01.639] <-- textDocument/hover(246)
+I[18:25:01.642] --> reply:textDocument/hover(246) 3 ms
+I[18:25:01.642] --> textDocument/clangd.fileStatus
+I[18:25:01.729] <-- textDocument/didChange
+I[18:25:01.730] <-- textDocument/completion(247)
+I[18:25:01.730] --> textDocument/clangd.fileStatus
+I[18:25:01.730] --> reply:textDocument/completion(247) 0 ms
+I[18:25:01.780] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:25:01.780] ASTWorker building file /home/user/workspace/hello.cpp version 73 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:25:01.782] --> textDocument/clangd.fileStatus
+I[18:25:01.782] --> textDocument/clangd.fileStatus
+I[18:25:01.783] --> textDocument/clangd.fileStatus
+I[18:25:01.798] --> textDocument/publishDiagnostics
+I[18:25:01.798] --> textDocument/clangd.fileStatus
+I[18:25:01.957] <-- textDocument/didChange
+I[18:25:01.958] <-- textDocument/completion(248)
+I[18:25:01.958] --> textDocument/clangd.fileStatus
+I[18:25:01.975] Code complete: sema context Symbol, query scopes [std::] (AnyScope=false), expected type <none>
+I[18:25:01.975] Code complete: 50 results from Sema, 87 from Index, 2 matched, 0 from identifiers, 100 returned (incomplete).
+I[18:25:01.976] --> reply:textDocument/completion(248) 18 ms
+I[18:25:02.008] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:25:02.008] ASTWorker building file /home/user/workspace/hello.cpp version 74 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:25:02.010] --> textDocument/clangd.fileStatus
+I[18:25:02.010] --> textDocument/clangd.fileStatus
+I[18:25:02.011] --> textDocument/clangd.fileStatus
+I[18:25:02.026] --> textDocument/publishDiagnostics
+I[18:25:02.026] --> textDocument/clangd.fileStatus
+I[18:25:02.027] <-- textDocument/semanticTokens/full/delta(249)
+I[18:25:02.027] --> reply:textDocument/semanticTokens/full/delta(249) 0 ms
+I[18:25:02.027] --> textDocument/clangd.fileStatus
+I[18:25:02.286] <-- textDocument/codeAction(250)
+I[18:25:02.286] --> reply:textDocument/codeAction(250) 0 ms
+I[18:25:02.286] --> textDocument/clangd.fileStatus
+I[18:25:02.304] <-- textDocument/documentSymbol(251)
+I[18:25:02.304] --> reply:textDocument/documentSymbol(251) 0 ms
+I[18:25:02.304] --> textDocument/clangd.fileStatus
+I[18:25:02.961] <-- textDocument/documentLink(252)
+I[18:25:02.961] --> reply:textDocument/documentLink(252) 0 ms
+I[18:25:02.961] --> textDocument/clangd.fileStatus
+I[18:25:04.483] <-- textDocument/hover(253)
+I[18:25:04.486] --> reply:textDocument/hover(253) 2 ms
+I[18:25:04.486] --> textDocument/clangd.fileStatus
+I[18:25:04.642] <-- textDocument/codeAction(254)
+I[18:25:04.642] --> reply:textDocument/codeAction(254) 0 ms
+I[18:25:04.642] --> textDocument/clangd.fileStatus
+I[18:25:06.737] <-- textDocument/hover(255)
+I[18:25:06.742] --> reply:textDocument/hover(255) 4 ms
+I[18:25:06.742] --> textDocument/clangd.fileStatus
+I[18:25:20.693] <-- textDocument/didSave
+I[18:25:20.695] --> textDocument/clangd.fileStatus
+I[18:25:20.747] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:25:20.747] ASTWorker building file /home/user/workspace/hello.cpp version 74 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:25:20.749] --> textDocument/clangd.fileStatus
+I[18:25:20.749] --> textDocument/clangd.fileStatus
+I[18:25:20.750] --> textDocument/clangd.fileStatus
+I[18:25:20.750] --> textDocument/clangd.fileStatus
+I[18:25:28.464] <-- textDocument/codeAction(256)
+I[18:25:28.467] --> reply:textDocument/codeAction(256) 2 ms
+I[18:25:28.467] --> textDocument/clangd.fileStatus
+I[18:25:35.455] <-- textDocument/didChange
+I[18:25:35.457] --> textDocument/clangd.fileStatus
+I[18:25:35.512] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:25:35.513] ASTWorker building file /home/user/workspace/hello.cpp version 75 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:25:35.515] --> textDocument/clangd.fileStatus
+I[18:25:35.515] --> textDocument/clangd.fileStatus
+I[18:25:35.518] --> textDocument/clangd.fileStatus
+I[18:25:35.537] --> textDocument/publishDiagnostics
+I[18:25:35.537] --> textDocument/clangd.fileStatus
+I[18:25:35.754] <-- textDocument/semanticTokens/full/delta(257)
+I[18:25:35.754] --> reply:textDocument/semanticTokens/full/delta(257) 0 ms
+I[18:25:35.754] --> textDocument/clangd.fileStatus
+I[18:25:35.811] <-- textDocument/codeAction(258)
+I[18:25:35.811] <-- textDocument/documentSymbol(259)
+I[18:25:35.811] --> reply:textDocument/codeAction(258) 0 ms
+I[18:25:35.811] --> reply:textDocument/documentSymbol(259) 0 ms
+I[18:25:35.811] --> textDocument/clangd.fileStatus
+I[18:25:36.462] <-- textDocument/documentLink(260)
+I[18:25:36.462] --> reply:textDocument/documentLink(260) 0 ms
+I[18:25:36.462] --> textDocument/clangd.fileStatus
+I[18:25:38.384] <-- textDocument/didSave
+I[18:25:38.386] --> textDocument/clangd.fileStatus
+I[18:25:38.436] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:25:38.436] ASTWorker building file /home/user/workspace/hello.cpp version 75 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:25:38.438] --> textDocument/clangd.fileStatus
+I[18:25:38.438] --> textDocument/clangd.fileStatus
+I[18:25:38.439] --> textDocument/clangd.fileStatus
+I[18:25:38.439] --> textDocument/clangd.fileStatus
+I[18:26:46.047] <-- textDocument/codeAction(261)
+I[18:26:46.049] --> reply:textDocument/codeAction(261) 2 ms
+I[18:26:46.049] --> textDocument/clangd.fileStatus
+I[18:26:59.569] <-- textDocument/codeAction(262)
+I[18:26:59.571] --> reply:textDocument/codeAction(262) 2 ms
+I[18:26:59.571] --> textDocument/clangd.fileStatus
+I[18:27:04.939] <-- textDocument/codeAction(263)
+I[18:27:04.941] --> reply:textDocument/codeAction(263) 2 ms
+I[18:27:04.941] --> textDocument/clangd.fileStatus
+I[18:27:05.447] <-- textDocument/codeAction(264)
+I[18:27:05.448] --> reply:textDocument/codeAction(264) 0 ms
+I[18:27:05.448] --> textDocument/clangd.fileStatus
+I[18:27:05.865] <-- textDocument/codeAction(265)
+I[18:27:05.865] --> reply:textDocument/codeAction(265) 0 ms
+I[18:27:05.865] --> textDocument/clangd.fileStatus
+I[18:27:28.755] <-- textDocument/codeAction(266)
+I[18:27:28.758] --> reply:textDocument/codeAction(266) 2 ms
+I[18:27:28.758] --> textDocument/clangd.fileStatus
+I[18:27:31.250] <-- textDocument/didChange
+I[18:27:31.252] --> textDocument/clangd.fileStatus
+I[18:27:31.302] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:31.302] ASTWorker building file /home/user/workspace/hello.cpp version 76 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:31.304] --> textDocument/clangd.fileStatus
+I[18:27:31.304] --> textDocument/clangd.fileStatus
+I[18:27:31.305] --> textDocument/clangd.fileStatus
+I[18:27:31.318] --> textDocument/publishDiagnostics
+I[18:27:31.318] --> textDocument/clangd.fileStatus
+I[18:27:31.551] <-- textDocument/semanticTokens/full/delta(267)
+I[18:27:31.551] --> reply:textDocument/semanticTokens/full/delta(267) 0 ms
+I[18:27:31.551] --> textDocument/clangd.fileStatus
+I[18:27:31.599] <-- textDocument/documentSymbol(268)
+I[18:27:31.599] --> reply:textDocument/documentSymbol(268) 0 ms
+I[18:27:31.599] --> textDocument/clangd.fileStatus
+I[18:27:32.253] <-- textDocument/documentLink(269)
+I[18:27:32.253] --> reply:textDocument/documentLink(269) 0 ms
+I[18:27:32.253] --> textDocument/clangd.fileStatus
+I[18:27:32.311] <-- textDocument/didChange
+I[18:27:32.312] --> textDocument/clangd.fileStatus
+I[18:27:32.362] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:32.362] ASTWorker building file /home/user/workspace/hello.cpp version 77 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:32.364] --> textDocument/clangd.fileStatus
+I[18:27:32.364] --> textDocument/clangd.fileStatus
+I[18:27:32.365] --> textDocument/clangd.fileStatus
+I[18:27:32.380] --> textDocument/publishDiagnostics
+I[18:27:32.380] --> textDocument/clangd.fileStatus
+I[18:27:32.611] <-- textDocument/semanticTokens/full/delta(270)
+I[18:27:32.611] --> reply:textDocument/semanticTokens/full/delta(270) 0 ms
+I[18:27:32.611] --> textDocument/clangd.fileStatus
+I[18:27:32.658] <-- textDocument/documentSymbol(271)
+I[18:27:32.658] --> reply:textDocument/documentSymbol(271) 0 ms
+I[18:27:32.658] --> textDocument/clangd.fileStatus
+I[18:27:33.011] <-- textDocument/codeAction(272)
+I[18:27:33.011] --> reply:textDocument/codeAction(272) 0 ms
+I[18:27:33.011] --> textDocument/clangd.fileStatus
+I[18:27:33.061] <-- textDocument/didChange
+I[18:27:33.062] --> textDocument/clangd.fileStatus
+I[18:27:33.112] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:33.112] ASTWorker building file /home/user/workspace/hello.cpp version 78 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:33.114] --> textDocument/clangd.fileStatus
+I[18:27:33.114] --> textDocument/clangd.fileStatus
+I[18:27:33.115] --> textDocument/clangd.fileStatus
+I[18:27:33.128] --> textDocument/publishDiagnostics
+I[18:27:33.128] --> textDocument/clangd.fileStatus
+I[18:27:33.361] <-- textDocument/semanticTokens/full/delta(273)
+I[18:27:33.361] --> reply:textDocument/semanticTokens/full/delta(273) 0 ms
+I[18:27:33.361] --> textDocument/clangd.fileStatus
+I[18:27:33.398] <-- textDocument/documentSymbol(274)
+I[18:27:33.398] <-- textDocument/didChange
+I[18:27:33.398] --> reply:textDocument/documentSymbol(274) 0 ms
+I[18:27:33.398] --> textDocument/clangd.fileStatus
+I[18:27:33.399] --> textDocument/clangd.fileStatus
+I[18:27:33.449] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:33.450] ASTWorker building file /home/user/workspace/hello.cpp version 79 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:33.452] --> textDocument/clangd.fileStatus
+I[18:27:33.452] --> textDocument/clangd.fileStatus
+I[18:27:33.453] --> textDocument/clangd.fileStatus
+I[18:27:33.466] --> textDocument/publishDiagnostics
+I[18:27:33.466] --> textDocument/clangd.fileStatus
+I[18:27:33.644] <-- textDocument/codeAction(275)
+I[18:27:33.645] --> reply:textDocument/codeAction(275) 0 ms
+I[18:27:33.645] --> textDocument/clangd.fileStatus
+I[18:27:33.703] <-- textDocument/semanticTokens/full/delta(276)
+I[18:27:33.703] --> reply:textDocument/semanticTokens/full/delta(276) 0 ms
+I[18:27:33.703] --> textDocument/clangd.fileStatus
+I[18:27:33.746] <-- textDocument/documentSymbol(277)
+I[18:27:33.746] --> reply:textDocument/documentSymbol(277) 0 ms
+I[18:27:33.746] --> textDocument/clangd.fileStatus
+I[18:27:34.394] <-- textDocument/documentLink(278)
+I[18:27:34.395] --> reply:textDocument/documentLink(278) 1 ms
+I[18:27:34.395] --> textDocument/clangd.fileStatus
+I[18:27:39.341] <-- textDocument/didSave
+I[18:27:39.343] --> textDocument/clangd.fileStatus
+I[18:27:39.393] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:39.393] ASTWorker building file /home/user/workspace/hello.cpp version 79 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:39.395] --> textDocument/clangd.fileStatus
+I[18:27:39.395] --> textDocument/clangd.fileStatus
+I[18:27:39.395] --> textDocument/clangd.fileStatus
+I[18:27:39.397] --> textDocument/clangd.fileStatus
+I[18:27:40.796] <-- textDocument/codeAction(279)
+I[18:27:40.796] --> reply:textDocument/codeAction(279) 0 ms
+I[18:27:40.796] --> textDocument/clangd.fileStatus
+I[18:27:55.412] <-- textDocument/didChange
+I[18:27:55.413] --> textDocument/clangd.fileStatus
+I[18:27:55.466] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:27:55.467] ASTWorker building file /home/user/workspace/hello.cpp version 80 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:27:55.468] --> textDocument/clangd.fileStatus
+I[18:27:55.468] --> textDocument/clangd.fileStatus
+I[18:27:55.469] --> textDocument/clangd.fileStatus
+I[18:27:55.485] --> textDocument/publishDiagnostics
+I[18:27:55.485] --> textDocument/clangd.fileStatus
+I[18:27:55.700] <-- textDocument/semanticTokens/full/delta(280)
+I[18:27:55.700] --> reply:textDocument/semanticTokens/full/delta(280) 0 ms
+I[18:27:55.700] --> textDocument/clangd.fileStatus
+I[18:27:55.752] <-- textDocument/documentSymbol(281)
+I[18:27:55.752] --> reply:textDocument/documentSymbol(281) 0 ms
+I[18:27:55.752] --> textDocument/clangd.fileStatus
+I[18:27:56.401] <-- textDocument/documentLink(282)
+I[18:27:56.401] --> reply:textDocument/documentLink(282) 0 ms
+I[18:27:56.401] --> textDocument/clangd.fileStatus
+I[18:28:03.247] <-- textDocument/didChange
+I[18:28:03.248] --> textDocument/clangd.fileStatus
+I[18:28:03.303] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:28:03.303] ASTWorker building file /home/user/workspace/hello.cpp version 81 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:28:03.306] --> textDocument/clangd.fileStatus
+I[18:28:03.306] --> textDocument/clangd.fileStatus
+I[18:28:03.308] --> textDocument/clangd.fileStatus
+I[18:28:03.327] --> textDocument/publishDiagnostics
+I[18:28:03.327] --> textDocument/clangd.fileStatus
+I[18:28:03.542] <-- textDocument/semanticTokens/full/delta(283)
+I[18:28:03.542] --> reply:textDocument/semanticTokens/full/delta(283) 0 ms
+I[18:28:03.542] --> textDocument/clangd.fileStatus
+I[18:28:03.557] <-- textDocument/didChange
+I[18:28:03.559] --> textDocument/clangd.fileStatus
+I[18:28:03.609] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:28:03.609] ASTWorker building file /home/user/workspace/hello.cpp version 82 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:28:03.612] --> textDocument/clangd.fileStatus
+I[18:28:03.612] --> textDocument/clangd.fileStatus
+I[18:28:03.615] --> textDocument/clangd.fileStatus
+I[18:28:03.634] --> textDocument/publishDiagnostics
+I[18:28:03.634] --> textDocument/clangd.fileStatus
+I[18:28:03.851] <-- textDocument/semanticTokens/full/delta(284)
+I[18:28:03.851] --> reply:textDocument/semanticTokens/full/delta(284) 0 ms
+I[18:28:03.851] --> textDocument/clangd.fileStatus
+I[18:28:03.903] <-- textDocument/documentSymbol(285)
+I[18:28:03.903] <-- textDocument/didChange
+I[18:28:03.903] --> reply:textDocument/documentSymbol(285) 0 ms
+I[18:28:03.903] --> textDocument/clangd.fileStatus
+I[18:28:03.904] --> textDocument/clangd.fileStatus
+I[18:28:03.954] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:28:03.955] ASTWorker building file /home/user/workspace/hello.cpp version 83 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:28:03.956] --> textDocument/clangd.fileStatus
+I[18:28:03.956] --> textDocument/clangd.fileStatus
+I[18:28:03.957] --> textDocument/clangd.fileStatus
+I[18:28:03.971] --> textDocument/publishDiagnostics
+I[18:28:03.971] --> textDocument/clangd.fileStatus
+I[18:28:04.220] <-- textDocument/didChange
+I[18:28:04.222] --> textDocument/clangd.fileStatus
+I[18:28:04.222] <-- textDocument/semanticTokens/full/delta(286)
+I[18:28:04.222] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:28:04.222] ASTWorker building file /home/user/workspace/hello.cpp version 84 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:28:04.224] --> textDocument/clangd.fileStatus
+I[18:28:04.241] --> reply:textDocument/semanticTokens/full/delta(286) 19 ms
+I[18:28:04.241] Skipping rebuild of the AST for /home/user/workspace/hello.cpp, inputs are the same.
+I[18:28:04.242] --> textDocument/publishDiagnostics
+I[18:28:04.242] --> textDocument/clangd.fileStatus
+I[18:28:04.566] <-- textDocument/didChange
+I[18:28:04.568] --> textDocument/clangd.fileStatus
+I[18:28:04.618] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:28:04.618] ASTWorker building file /home/user/workspace/hello.cpp version 85 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:28:04.621] --> textDocument/clangd.fileStatus
+I[18:28:04.621] --> textDocument/clangd.fileStatus
+I[18:28:04.623] --> textDocument/clangd.fileStatus
+I[18:28:04.642] --> textDocument/publishDiagnostics
+I[18:28:04.642] --> textDocument/clangd.fileStatus
+I[18:28:04.871] <-- textDocument/semanticTokens/full/delta(287)
+I[18:28:04.871] --> reply:textDocument/semanticTokens/full/delta(287) 0 ms
+I[18:28:04.871] --> textDocument/clangd.fileStatus
+I[18:28:04.902] <-- textDocument/codeAction(288)
+I[18:28:04.902] --> reply:textDocument/codeAction(288) 0 ms
+I[18:28:04.902] --> textDocument/clangd.fileStatus
+I[18:28:04.910] <-- textDocument/documentSymbol(289)
+I[18:28:04.910] --> reply:textDocument/documentSymbol(289) 0 ms
+I[18:28:04.910] --> textDocument/clangd.fileStatus
+I[18:28:05.555] <-- textDocument/documentLink(290)
+I[18:28:05.555] --> reply:textDocument/documentLink(290) 0 ms
+I[18:28:05.555] --> textDocument/clangd.fileStatus
+I[18:28:06.656] <-- textDocument/codeAction(291)
+I[18:28:06.656] --> reply:textDocument/codeAction(291) 0 ms
+I[18:28:06.656] --> textDocument/clangd.fileStatus
+I[18:29:34.073] <-- textDocument/didSave
+I[18:29:34.074] --> textDocument/clangd.fileStatus
+I[18:29:34.127] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[18:29:34.127] ASTWorker building file /home/user/workspace/hello.cpp version 85 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[18:29:34.129] --> textDocument/clangd.fileStatus
+I[18:29:34.129] --> textDocument/clangd.fileStatus
+I[18:29:34.131] --> textDocument/clangd.fileStatus
+I[18:29:34.132] --> textDocument/clangd.fileStatus

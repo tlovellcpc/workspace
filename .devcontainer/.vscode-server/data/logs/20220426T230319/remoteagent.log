@@ -1,0 +1,12 @@
+[2022-04-26 23:03:19.759] [remoteagent] [info] Extension host agent started.
+[2022-04-26 23:03:19.785] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-04-26 23:03:20.023] [remoteagent] [info] [127.0.0.1][47539789][ManagementConnection] New connection established.
+[2022-04-26 23:03:20.371] [remoteagent] [info] [127.0.0.1][83754aae][ExtensionHostConnection] New connection established.
+[2022-04-26 23:03:20.470] [remoteagent] [info] [127.0.0.1][83754aae][ExtensionHostConnection] <233> Launched Extension Host Process.
+[2022-04-26 23:03:20.712] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/user/workspace)
+[2022-04-26 23:03:20.713] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+[2022-04-26 23:03:21.066] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/user/workspace)
+[2022-04-26 23:03:21.066] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+[2022-04-26 23:03:21.249] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /home/user/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.15
+[2022-04-26 23:03:22.011] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/user/workspace/.devcontainer/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.15' failed: No such file or directory (EUNKNOWN) (path: /home/user/workspace)
+[2022-04-26 23:03:22.011] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/user/workspace/.devcontainer/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.15' failed: No such file or directory

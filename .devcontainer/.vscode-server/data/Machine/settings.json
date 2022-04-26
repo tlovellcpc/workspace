@@ -1,0 +1,7 @@
+{
+	"clangd.path": "/usr/sbin/clangd",
+	"files.exclude": {
+		"**/.devcontainer": true
+	},
+	"telemetry.enableTelemetry": false
+}

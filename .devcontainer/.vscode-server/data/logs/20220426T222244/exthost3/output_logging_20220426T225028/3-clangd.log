@@ -1,0 +1,82 @@
+I[22:51:41.460] clangd version 11.0.0
+I[22:51:41.460] PID: 5097
+I[22:51:41.460] Working directory: /home/user/workspace
+I[22:51:41.460] argv[0]: /usr/sbin/clangd
+I[22:51:41.460] Starting LSP over stdin/stdout
+I[22:51:41.462] <-- initialize(0)
+I[22:51:41.463] --> reply:initialize(0) 1 ms
+I[22:51:41.469] <-- initialized
+I[22:51:41.469] <-- textDocument/didOpen
+I[22:51:41.472] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[22:51:41.472] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:51:41.474] --> textDocument/clangd.fileStatus
+I[22:51:41.476] <-- textDocument/documentSymbol(1)
+I[22:51:41.476] <-- textDocument/codeAction(2)
+I[22:51:41.478] <-- textDocument/documentLink(3)
+I[22:51:41.672] --> textDocument/publishDiagnostics
+I[22:51:41.672] --> reply:textDocument/documentSymbol(1) 196 ms
+I[22:51:41.673] --> reply:textDocument/codeAction(2) 196 ms
+I[22:51:41.673] --> reply:textDocument/documentLink(3) 194 ms
+I[22:51:41.673] --> textDocument/clangd.fileStatus
+I[22:51:42.174] <-- textDocument/semanticTokens/full(4)
+I[22:51:42.174] --> reply:textDocument/semanticTokens/full(4) 0 ms
+I[22:51:42.174] --> textDocument/clangd.fileStatus
+I[22:51:59.349] <-- textDocument/hover(5)
+I[22:51:59.353] --> reply:textDocument/hover(5) 4 ms
+I[22:51:59.353] --> textDocument/clangd.fileStatus
+I[22:52:43.337] <-- $/setTrace
+I[22:52:43.337] unhandled notification $/setTrace
+I[22:53:52.533] <-- textDocument/codeAction(6)
+I[22:53:52.534] --> reply:textDocument/codeAction(6) 1 ms
+I[22:53:52.534] --> textDocument/clangd.fileStatus
+I[22:53:52.535] <-- textDocument/documentLink(7)
+I[22:53:52.536] --> reply:textDocument/documentLink(7) 0 ms
+I[22:53:52.536] --> textDocument/clangd.fileStatus
+I[22:53:52.766] <-- textDocument/codeAction(8)
+I[22:53:52.766] --> reply:textDocument/codeAction(8) 0 ms
+I[22:53:52.766] --> textDocument/clangd.fileStatus
+I[22:53:59.389] <-- textDocument/didOpen
+I[22:53:59.392] <-- textDocument/codeAction(9)
+I[22:53:59.392] <-- textDocument/documentSymbol(10)
+I[22:53:59.392] <-- textDocument/semanticTokens/full(11)
+I[22:53:59.392] <-- textDocument/documentLink(12)
+I[22:53:59.395] Failed to find compilation database for /home/user/workspace/hello.cpp
+I[22:53:59.395] ASTWorker building file /home/user/workspace/hello.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/hello.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[22:53:59.398] --> textDocument/clangd.fileStatus
+I[22:53:59.596] --> textDocument/publishDiagnostics
+I[22:53:59.596] --> reply:textDocument/codeAction(9) 203 ms
+I[22:53:59.596] --> reply:textDocument/documentSymbol(10) 203 ms
+I[22:53:59.596] --> reply:textDocument/semanticTokens/full(11) 203 ms
+I[22:53:59.596] --> reply:textDocument/documentLink(12) 204 ms
+I[22:53:59.596] --> textDocument/clangd.fileStatus
+I[22:54:18.124] <-- textDocument/didClose
+I[22:54:18.124] --> textDocument/publishDiagnostics
+I[22:54:38.131] <-- textDocument/codeAction(13)
+I[22:54:38.133] <-- textDocument/documentLink(14)
+I[22:54:38.133] --> reply:textDocument/codeAction(13) 2 ms
+I[22:54:38.133] --> reply:textDocument/documentLink(14) 0 ms
+I[22:54:38.133] --> textDocument/clangd.fileStatus
+I[22:54:38.345] <-- textDocument/codeAction(15)
+I[22:54:38.345] --> reply:textDocument/codeAction(15) 0 ms
+I[22:54:38.345] --> textDocument/clangd.fileStatus
+I[22:54:39.616] <-- textDocument/hover(16)
+I[22:54:39.619] --> reply:textDocument/hover(16) 3 ms
+I[22:54:39.619] --> textDocument/clangd.fileStatus
+I[22:54:43.019] <-- textDocument/hover(17)
+I[22:54:43.022] --> reply:textDocument/hover(17) 3 ms
+I[22:54:43.022] --> textDocument/clangd.fileStatus
+I[22:54:47.765] <-- textDocument/codeAction(18)
+I[22:54:47.768] --> reply:textDocument/codeAction(18) 2 ms
+I[22:54:47.768] --> textDocument/clangd.fileStatus
+I[22:54:47.773] <-- textDocument/documentLink(19)
+I[22:54:47.773] --> reply:textDocument/documentLink(19) 0 ms
+I[22:54:47.773] --> textDocument/clangd.fileStatus
+I[22:54:47.988] <-- textDocument/codeAction(20)
+I[22:54:47.988] --> reply:textDocument/codeAction(20) 0 ms
+I[22:54:47.988] --> textDocument/clangd.fileStatus
+I[22:54:54.972] <-- $/setTrace
+I[22:54:54.972] unhandled notification $/setTrace

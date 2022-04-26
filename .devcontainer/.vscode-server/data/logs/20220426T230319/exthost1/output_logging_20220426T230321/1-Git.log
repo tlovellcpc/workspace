@@ -1,0 +1,11 @@
+[2022-04-26T23:03:21.925Z] Validating found git in: git
+[2022-04-26T23:03:21.954Z] Using git 2.30.0 from git
+[2022-04-26T23:03:43.760Z] > git init [151ms]
+[2022-04-26T23:03:43.787Z] > git rev-parse --git-dir [9ms]
+[2022-04-26T23:03:43.791Z] Open repository: /home/user/workspace
+[2022-04-26T23:03:44.133Z] > git ls-files --stage -- /home/user/workspace/.vscode/launch.json [16ms]
+[2022-04-26T23:03:44.172Z] > git symbolic-ref --short HEAD [20ms]
+[2022-04-26T23:03:44.197Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [22ms]
+[2022-04-26T23:03:44.221Z] > git remote --verbose [19ms]
+[2022-04-26T23:03:44.223Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+[2022-04-26T23:03:44.246Z] > git config --get commit.template [8ms]

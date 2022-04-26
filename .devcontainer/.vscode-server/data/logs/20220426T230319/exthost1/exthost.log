@@ -1,0 +1,14 @@
+[2022-04-26 23:03:21.670] [exthost] [info] Extension host with pid 233 started
+[2022-04-26 23:03:21.701] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Lock acquired.
+[2022-04-26 23:03:21.724] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 23:03:21.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 23:03:21.773] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 23:03:21.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-26 23:03:21.800] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-26 23:03:21.803] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-26 23:03:21.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-26 23:03:21.906] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-26 23:03:21.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 23:03:22.000] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 23:03:22.003] [exthost] [info] Eager extensions activated
+[2022-04-26 23:03:44.230] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 499

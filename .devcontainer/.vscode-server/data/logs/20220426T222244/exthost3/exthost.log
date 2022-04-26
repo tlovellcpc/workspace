@@ -1,0 +1,18 @@
+[2022-04-26 22:50:28.102] [exthost] [info] Extension host with pid 4622 started
+[2022-04-26 22:50:28.116] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Lock acquired.
+[2022-04-26 22:50:28.184] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 22:50:28.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 22:50:28.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 22:50:28.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-26 22:50:28.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-26 22:50:28.259] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-26 22:50:28.298] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-26 22:50:28.333] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-26 22:50:28.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 22:50:28.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 22:50:28.417] [exthost] [info] Eager extensions activated
+[2022-04-26 22:50:58.477] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2022-04-26 22:51:41.060] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-04-26 22:56:37.177] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-04-26 22:56:37.199] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-04-26 22:56:37.209] [exthost] [info] Extension host with pid 4622 exiting with code 0
