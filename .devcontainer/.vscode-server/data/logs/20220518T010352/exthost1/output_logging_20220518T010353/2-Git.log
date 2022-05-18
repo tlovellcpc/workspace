@@ -1,0 +1,5 @@
+[2022-05-18T01:03:54.084Z] Validating found git in: git
+[2022-05-18T01:03:54.103Z] Using git 2.30.0 from git
+[2022-05-18T01:03:54.124Z] > git rev-parse --show-toplevel [15ms]
+[2022-05-18T01:03:54.152Z] > git rev-parse --git-dir --git-common-dir [23ms]
+[2022-05-18T01:03:54.156Z] Open repository: /home/user/workspace

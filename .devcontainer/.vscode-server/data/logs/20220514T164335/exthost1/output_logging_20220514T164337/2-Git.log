@@ -1,0 +1,16 @@
+[2022-05-14T16:43:37.849Z] Validating found git in: git
+[2022-05-14T16:43:37.886Z] Using git 2.30.0 from git
+[2022-05-14T16:43:37.975Z] > git rev-parse --git-dir [21ms]
+[2022-05-14T16:43:37.980Z] Open repository: /home/user/workspace
+[2022-05-14T16:43:38.327Z] > git ls-files --stage -- /home/user/workspace/casino.cpp [14ms]
+[2022-05-14T16:43:38.364Z] > git cat-file -s 63e88db200027af5b6c8a4192044e4eee193d5b0 [34ms]
+[2022-05-14T16:43:39.788Z] > git symbolic-ref --short HEAD [26ms]
+[2022-05-14T16:43:39.882Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [90ms]
+[2022-05-14T16:43:39.905Z] > git remote --verbose [17ms]
+[2022-05-14T16:43:39.940Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [54ms]
+[2022-05-14T16:43:39.964Z] > git config --get commit.template [16ms]
+[2022-05-14T16:50:36.031Z] > git symbolic-ref --short HEAD [21ms]
+[2022-05-14T16:50:36.097Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [62ms]
+[2022-05-14T16:50:36.115Z] > git remote --verbose [13ms]
+[2022-05-14T16:50:36.136Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+[2022-05-14T16:50:36.155Z] > git config --get commit.template [13ms]

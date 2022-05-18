@@ -1,0 +1,37 @@
+I[23:05:12.109] clangd version 11.0.0
+I[23:05:12.109] PID: 1010
+I[23:05:12.109] Working directory: /home/user/workspace
+I[23:05:12.109] argv[0]: /usr/sbin/clangd
+I[23:05:12.109] Starting LSP over stdin/stdout
+I[23:05:12.110] <-- initialize(0)
+I[23:05:12.111] --> reply:initialize(0) 0 ms
+I[23:05:12.130] <-- initialized
+I[23:05:12.130] <-- textDocument/didOpen
+I[23:05:12.135] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[23:05:12.135] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[23:05:12.137] --> textDocument/clangd.fileStatus
+I[23:05:12.148] <-- textDocument/documentSymbol(1)
+I[23:05:12.148] <-- textDocument/codeAction(2)
+I[23:05:12.148] <-- textDocument/documentLink(3)
+I[23:05:12.161] <-- $/cancelRequest
+I[23:05:12.161] <-- $/cancelRequest
+I[23:05:12.161] <-- textDocument/documentSymbol(4)
+I[23:05:12.161] <-- textDocument/documentLink(5)
+I[23:05:12.359] --> textDocument/publishDiagnostics
+I[23:05:12.359] --> reply:textDocument/documentSymbol(1) 210 ms, error: Task was cancelled.
+I[23:05:12.359] --> reply:textDocument/codeAction(2) 210 ms
+I[23:05:12.359] --> reply:textDocument/documentLink(3) 210 ms, error: Task was cancelled.
+I[23:05:12.359] --> reply:textDocument/documentSymbol(4) 197 ms
+I[23:05:12.359] --> reply:textDocument/documentLink(5) 197 ms
+I[23:05:12.359] --> textDocument/clangd.fileStatus
+[Error - 11:05:12 PM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 11:05:12 PM] Request textDocument/documentLink failed.
+[object Object]
+I[23:05:12.835] <-- textDocument/semanticTokens/full(6)
+I[23:05:12.835] --> reply:textDocument/semanticTokens/full(6) 0 ms
+I[23:05:12.836] --> textDocument/clangd.fileStatus
+I[23:05:26.202] <-- $/setTrace
+I[23:05:26.202] unhandled notification $/setTrace

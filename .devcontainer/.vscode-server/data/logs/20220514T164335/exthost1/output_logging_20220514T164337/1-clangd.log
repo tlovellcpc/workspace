@@ -1,0 +1,49 @@
+I[16:43:38.017] clangd version 11.0.0
+I[16:43:38.017] PID: 263
+I[16:43:38.018] Working directory: /home/user/workspace
+I[16:43:38.018] argv[0]: /usr/sbin/clangd
+I[16:43:38.018] Starting LSP over stdin/stdout
+I[16:43:38.028] <-- initialize(0)
+I[16:43:38.032] --> reply:initialize(0) 4 ms
+I[16:43:38.040] <-- initialized
+I[16:43:38.040] <-- textDocument/didOpen
+I[16:43:38.046] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[16:43:38.046] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[16:43:38.054] <-- textDocument/documentSymbol(1)
+I[16:43:38.054] <-- textDocument/codeAction(2)
+I[16:43:38.057] <-- textDocument/documentLink(3)
+I[16:43:38.074] --> textDocument/clangd.fileStatus
+I[16:43:38.708] --> textDocument/publishDiagnostics
+I[16:43:38.708] --> reply:textDocument/documentSymbol(1) 653 ms
+I[16:43:38.708] --> reply:textDocument/codeAction(2) 653 ms
+I[16:43:38.708] --> reply:textDocument/documentLink(3) 650 ms
+I[16:43:38.708] --> textDocument/clangd.fileStatus
+I[16:43:38.749] <-- textDocument/semanticTokens/full(4)
+I[16:43:38.750] --> reply:textDocument/semanticTokens/full(4) 0 ms
+I[16:43:38.750] --> textDocument/clangd.fileStatus
+I[16:50:19.497] <-- textDocument/hover(5)
+I[16:50:19.506] --> reply:textDocument/hover(5) 8 ms
+I[16:50:19.507] --> textDocument/clangd.fileStatus
+I[16:50:36.400] <-- textDocument/hover(6)
+I[16:50:36.405] --> reply:textDocument/hover(6) 4 ms
+I[16:50:36.405] --> textDocument/clangd.fileStatus
+I[16:51:49.303] <-- textDocument/codeAction(7)
+I[16:51:49.306] --> reply:textDocument/codeAction(7) 3 ms
+I[16:51:49.306] --> textDocument/clangd.fileStatus
+I[16:51:49.738] <-- textDocument/codeAction(8)
+I[16:51:49.738] --> reply:textDocument/codeAction(8) 0 ms
+I[16:51:49.738] --> textDocument/clangd.fileStatus
+I[16:51:50.790] <-- textDocument/codeAction(9)
+I[16:51:50.791] --> reply:textDocument/codeAction(9) 0 ms
+I[16:51:50.791] --> textDocument/clangd.fileStatus
+I[16:51:53.338] <-- textDocument/codeAction(10)
+I[16:51:53.339] --> reply:textDocument/codeAction(10) 0 ms
+I[16:51:53.339] --> textDocument/clangd.fileStatus
+I[16:51:55.793] <-- textDocument/documentHighlight(11)
+I[16:51:55.794] --> reply:textDocument/documentHighlight(11) 1 ms
+I[16:51:55.794] --> textDocument/clangd.fileStatus
+I[16:51:56.041] <-- textDocument/codeAction(12)
+I[16:51:56.041] --> reply:textDocument/codeAction(12) 0 ms
+I[16:51:56.042] --> textDocument/clangd.fileStatus

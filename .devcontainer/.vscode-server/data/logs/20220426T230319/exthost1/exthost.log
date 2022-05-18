@@ -12,3 +12,8 @@
 [2022-04-26 23:03:22.000] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 [2022-04-26 23:03:22.003] [exthost] [info] Eager extensions activated
 [2022-04-26 23:03:44.230] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 499
+[2022-04-26 23:03:57.089] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 499
+[2022-04-26 23:04:26.003] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-04-26 23:05:04.343] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-04-26 23:05:04.344] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-04-26 23:05:04.363] [exthost] [info] Extension host with pid 233 exiting with code 0

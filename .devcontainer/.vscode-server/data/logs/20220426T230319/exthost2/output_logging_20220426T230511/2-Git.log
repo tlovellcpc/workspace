@@ -1,0 +1,12 @@
+[2022-04-26T23:05:12.097Z] Validating found git in: git
+[2022-04-26T23:05:12.124Z] Using git 2.30.0 from git
+[2022-04-26T23:05:12.187Z] > git rev-parse --git-dir [21ms]
+[2022-04-26T23:05:12.191Z] Open repository: /home/user/workspace
+[2022-04-26T23:05:12.545Z] > git ls-files --stage -- /home/user/workspace/casino.cpp [16ms]
+[2022-04-26T23:05:12.588Z] > git cat-file -s 63e88db200027af5b6c8a4192044e4eee193d5b0 [34ms]
+[2022-04-26T23:05:13.695Z] > git symbolic-ref --short HEAD [21ms]
+[2022-04-26T23:05:13.758Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [60ms]
+[2022-04-26T23:05:13.779Z] > git remote --verbose [14ms]
+[2022-04-26T23:05:13.799Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [37ms]
+[2022-04-26T23:05:13.816Z] > git config --get commit.template [11ms]
+[2022-04-26T23:05:31.834Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/user/workspace/casino.cpp [40ms]

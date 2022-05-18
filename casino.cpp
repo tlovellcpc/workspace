@@ -35,17 +35,17 @@ int main()
 // Get player's numbers
         do
         {
-            cout << "Guess any betting number between 1 & 10 :";
+            cout << "Guess any betting number between 1 & 100 :";
             cin >> guess;
-            if(guess <= 0 || guess > 10)
-                cout << "\nNumber should be between 1 to 10\n"
+            if(guess <= 0 || guess > 100)
+                cout << "\nNumber should be between 1 to 100\n"
                     <<"Re-enter number:\n ";
-        }while(guess <= 0 || guess > 10);
-        dice = rand()%10 + 1;
+        }while(guess <= 0 || guess > 100);
+        dice = rand()%100 + 1;
         if(dice == guess)
         {
-            cout << "\n\nYou are in luck!! You have won Rs." << bettingAmount * 10;
-            balance = balance + bettingAmount * 10;
+            cout << "\n\nYou are in luck!! You have won Rs." << bettingAmount * 35;
+            balance = balance + bettingAmount * 35;
         }
         else
         {
@@ -70,7 +70,7 @@ void rules()
 {
     system("cls");
     cout << "\t\t======CASINO NUMBER GUESSING RULES!======\n";
-    cout << "\t1. Choose a number between 1 to 10\n";
-    cout << "\t2. Winner gets 10 times of the money bet\n";
+    cout << "\t1. Choose a number between 1 to 100\n";
+    cout << "\t2. Winner gets 35 times of the money bet\n";
     cout << "\t3. Wrong bet, and you lose the amount you bet\n\n";
 }

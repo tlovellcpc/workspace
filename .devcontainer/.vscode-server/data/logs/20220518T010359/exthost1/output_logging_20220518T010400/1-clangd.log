@@ -1,0 +1,30 @@
+I[01:04:01.411] clangd version 11.0.0
+I[01:04:01.411] PID: 284
+I[01:04:01.411] Working directory: /home/user/workspace
+I[01:04:01.411] argv[0]: /usr/sbin/clangd
+I[01:04:01.411] Starting LSP over stdin/stdout
+I[01:04:01.412] <-- initialize(0)
+I[01:04:01.413] --> reply:initialize(0) 0 ms
+I[01:04:01.463] <-- initialized
+I[01:04:01.463] <-- textDocument/didOpen
+I[01:04:01.469] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:04:01.469] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:04:01.472] --> textDocument/clangd.fileStatus
+I[01:04:01.475] <-- textDocument/documentSymbol(1)
+I[01:04:01.475] <-- textDocument/codeAction(2)
+I[01:04:01.475] <-- textDocument/documentLink(3)
+I[01:04:01.784] --> textDocument/publishDiagnostics
+I[01:04:01.785] --> reply:textDocument/documentSymbol(1) 309 ms
+I[01:04:01.787] --> reply:textDocument/codeAction(2) 311 ms
+I[01:04:01.788] --> reply:textDocument/documentLink(3) 312 ms
+I[01:04:01.788] --> textDocument/clangd.fileStatus
+I[01:04:02.154] <-- textDocument/semanticTokens/full(4)
+I[01:04:02.155] --> reply:textDocument/semanticTokens/full(4) 1 ms
+I[01:04:02.155] --> textDocument/clangd.fileStatus
+I[01:04:15.904] <-- $/setTrace
+I[01:04:15.904] unhandled notification $/setTrace
+I[01:04:48.389] <-- textDocument/hover(5)
+I[01:04:48.400] --> reply:textDocument/hover(5) 11 ms
+I[01:04:48.401] --> textDocument/clangd.fileStatus

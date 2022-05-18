@@ -1,0 +1,25 @@
+I[23:04:26.354] clangd version 11.0.0
+I[23:04:26.354] PID: 610
+I[23:04:26.355] Working directory: /home/user/workspace
+I[23:04:26.355] argv[0]: /usr/sbin/clangd
+I[23:04:26.355] Starting LSP over stdin/stdout
+I[23:04:26.355] <-- initialize(0)
+I[23:04:26.356] --> reply:initialize(0) 0 ms
+I[23:04:26.363] <-- initialized
+I[23:04:26.363] <-- textDocument/didOpen
+I[23:04:26.367] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[23:04:26.367] ASTWorker building file /home/user/workspace/casino.cpp version 1 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[23:04:26.370] --> textDocument/clangd.fileStatus
+I[23:04:26.376] <-- textDocument/documentSymbol(1)
+I[23:04:26.376] <-- textDocument/codeAction(2)
+I[23:04:26.377] <-- textDocument/documentLink(3)
+I[23:04:26.578] --> textDocument/publishDiagnostics
+I[23:04:26.578] --> reply:textDocument/documentSymbol(1) 202 ms
+I[23:04:26.578] --> reply:textDocument/codeAction(2) 202 ms
+I[23:04:26.578] --> reply:textDocument/documentLink(3) 201 ms
+I[23:04:26.578] --> textDocument/clangd.fileStatus
+I[23:04:27.069] <-- textDocument/semanticTokens/full(4)
+I[23:04:27.070] --> reply:textDocument/semanticTokens/full(4) 0 ms
+I[23:04:27.070] --> textDocument/clangd.fileStatus

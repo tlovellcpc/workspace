@@ -1,0 +1,15 @@
+[2022-05-14 16:43:37.303] [exthost] [info] Extension host with pid 236 started
+[2022-05-14 16:43:37.317] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Lock acquired.
+[2022-05-14 16:43:37.351] [exthost] [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-05-14 16:43:37.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-14 16:43:37.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-14 16:43:37.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-14 16:43:37.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-14 16:43:37.822] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-14 16:43:37.921] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-14 16:43:37.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-14 16:43:37.939] [exthost] [info] Eager extensions activated
+[2022-05-14 16:50:33.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2022-05-14 16:51:58.392] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-05-14 16:52:03.475] [exthost] [info] Lock '/home/user/.vscode-server/data/User/workspaceStorage/b25df20644c5435e566465af9211350b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-14 16:52:03.485] [exthost] [info] Extension host with pid 236 exiting with code 0

@@ -1,0 +1,21 @@
+[2022-05-14 16:43:35.693] [remoteagent] [info] Extension host agent started.
+[2022-05-14 16:43:35.704] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-05-14 16:43:36.001] [remoteagent] [info] [127.0.0.1][888d3f4e][ManagementConnection] New connection established.
+[2022-05-14 16:43:36.880] [remoteagent] [info] [127.0.0.1][135ead2f][ExtensionHostConnection] New connection established.
+[2022-05-14 16:43:36.884] [remoteagent] [info] [127.0.0.1][135ead2f][ExtensionHostConnection] <236> Launched Extension Host Process.
+[2022-05-14 16:43:38.471] [remoteagent] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-14 16:43:38.471] [remoteagent] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+[2022-05-14 16:43:38.949] [remoteagent] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-14 16:43:38.953] [remoteagent] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2022-05-14 16:43:39.230] [remoteagent] [info] Downloaded extension: ms-vscode.js-debug-companion /home/user/.vscode-server/extensionsCache/ms-vscode.js-debug-companion-1.0.18
+[2022-05-14 16:43:39.307] [remoteagent] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/user/.vscode-server/extensionsCache/llvm-vs-code-extensions.vscode-clangd-0.1.17
+[2022-05-14 16:43:39.332] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.54337def-5faa-4870-a273-7515f8c4a0fe: ms-vscode.js-debug-companion
+[2022-05-14 16:43:39.352] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-14 16:43:39.359] [remoteagent] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-14 16:43:39.364] [remoteagent] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-14 16:43:39.453] [remoteagent] [info] Extracted extension to /home/user/.vscode-server/extensions/.cf4322aa-20bb-43ab-8680-76a37cd14bc9: llvm-vs-code-extensions.vscode-clangd
+[2022-05-14 16:43:39.470] [remoteagent] [info] Renamed to /home/user/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.17
+[2022-05-14 16:43:39.476] [remoteagent] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
+[2022-05-14 16:43:39.483] [remoteagent] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2022-05-14 16:51:58.395] [remoteagent] [info] [127.0.0.1][888d3f4e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-14 16:52:03.528] [remoteagent] [info] [127.0.0.1][135ead2f][ExtensionHostConnection] <236> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,19 @@
+[2022-05-18T00:34:12.699Z] Validating found git in: git
+[2022-05-18T00:34:12.720Z] Using git 2.30.0 from git
+[2022-05-18T00:34:12.733Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-18T00:34:12.733Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-18T00:34:12.757Z] > git rev-parse --show-toplevel [13ms]
+[2022-05-18T00:34:12.757Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-18T00:34:12.791Z] > git rev-parse --show-toplevel [20ms]
+[2022-05-18T00:34:12.791Z] fatal: not a git repository (or any parent up to mount point /home/user)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-05-18T00:34:12.860Z] > git rev-parse --show-toplevel [60ms]
+[2022-05-18T00:34:12.908Z] > git rev-parse --git-dir --git-common-dir [42ms]
+[2022-05-18T00:34:12.913Z] Open repository: /home/user/workspace
+[2022-05-18T00:34:13.454Z] > git check-ignore -v -z --stdin [20ms]
+[2022-05-18T00:34:14.823Z] > git status -z -uall [1905ms]
+[2022-05-18T00:34:14.848Z] > git symbolic-ref --short HEAD [22ms]
+[2022-05-18T00:34:14.916Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+[2022-05-18T00:34:14.937Z] > git remote --verbose [14ms]
+[2022-05-18T00:34:14.958Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+[2022-05-18T00:34:14.982Z] > git config --get commit.template [11ms]

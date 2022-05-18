@@ -1,0 +1,9 @@
+[2022-05-18 00:34:11.361] [remoteagent] [info] Extension host agent started.
+[2022-05-18 00:34:11.492] [remoteagent] [debug] ComputeTargetPlatform: linux-x64
+[2022-05-18 00:34:11.495] [remoteagent] [debug] Overwriting system extension /vscode/vscode-server/bin/linux-x64/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/extensions/ms-vscode.js-debug-companion with /home/user/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18.
+[2022-05-18 00:34:11.543] [remoteagent] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /home/user/.vscode-server/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-05-18 00:34:11.731] [remoteagent] [info] [127.0.0.1][eff3bd9c][ManagementConnection] New connection established.
+[2022-05-18 00:34:12.344] [remoteagent] [info] [127.0.0.1][80d76a4f][ExtensionHostConnection] New connection established.
+[2022-05-18 00:34:12.355] [remoteagent] [info] [127.0.0.1][80d76a4f][ExtensionHostConnection] <260> Launched Extension Host Process.
+[2022-05-18 00:34:28.411] [remoteagent] [info] [127.0.0.1][eff3bd9c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-18 00:34:28.433] [remoteagent] [info] [127.0.0.1][80d76a4f][ExtensionHostConnection] <260> Extension Host Process exited with code: 0, signal: null.
