@@ -28,3 +28,821 @@ I[01:04:15.904] unhandled notification $/setTrace
 I[01:04:48.389] <-- textDocument/hover(5)
 I[01:04:48.400] --> reply:textDocument/hover(5) 11 ms
 I[01:04:48.401] --> textDocument/clangd.fileStatus
+I[01:05:49.277] <-- textDocument/documentHighlight(6)
+I[01:05:49.285] --> reply:textDocument/documentHighlight(6) 8 ms
+I[01:05:49.285] --> textDocument/clangd.fileStatus
+I[01:05:49.521] <-- textDocument/codeAction(7)
+I[01:05:49.521] --> reply:textDocument/codeAction(7) 0 ms
+I[01:05:49.521] --> textDocument/clangd.fileStatus
+I[01:06:27.299] <-- textDocument/hover(8)
+I[01:06:27.316] --> reply:textDocument/hover(8) 16 ms
+I[01:06:27.316] --> textDocument/clangd.fileStatus
+I[01:08:11.196] <-- textDocument/hover(9)
+I[01:08:11.201] --> reply:textDocument/hover(9) 4 ms
+I[01:08:11.201] --> textDocument/clangd.fileStatus
+I[01:11:30.850] <-- textDocument/hover(10)
+I[01:11:30.854] --> reply:textDocument/hover(10) 4 ms
+I[01:11:30.854] --> textDocument/clangd.fileStatus
+I[01:11:31.755] <-- textDocument/hover(11)
+I[01:11:31.758] --> reply:textDocument/hover(11) 3 ms
+I[01:11:31.758] --> textDocument/clangd.fileStatus
+I[01:11:32.263] <-- textDocument/hover(12)
+I[01:11:32.267] --> reply:textDocument/hover(12) 3 ms
+I[01:11:32.267] --> textDocument/clangd.fileStatus
+I[01:11:34.969] <-- textDocument/hover(13)
+I[01:11:34.977] --> reply:textDocument/hover(13) 8 ms
+I[01:11:34.978] --> textDocument/clangd.fileStatus
+I[01:11:38.430] <-- textDocument/hover(14)
+I[01:11:38.434] --> reply:textDocument/hover(14) 4 ms
+I[01:11:38.434] --> textDocument/clangd.fileStatus
+I[01:11:38.842] <-- textDocument/hover(15)
+I[01:11:38.842] <-- $/cancelRequest
+I[01:11:38.842] --> reply:textDocument/hover(15) 0 ms, error: Task was cancelled.
+[Error - 1:11:38 AM] Request textDocument/hover failed.
+[object Object]
+I[01:11:38.847] --> textDocument/clangd.fileStatus
+I[01:11:38.995] <-- textDocument/hover(16)
+I[01:11:38.998] --> reply:textDocument/hover(16) 3 ms
+I[01:11:38.998] --> textDocument/clangd.fileStatus
+I[01:11:39.209] <-- textDocument/hover(17)
+I[01:11:39.213] --> reply:textDocument/hover(17) 3 ms
+I[01:11:39.213] --> textDocument/clangd.fileStatus
+I[01:12:02.704] <-- textDocument/hover(18)
+I[01:12:02.709] --> reply:textDocument/hover(18) 4 ms
+I[01:12:02.709] --> textDocument/clangd.fileStatus
+I[01:12:04.073] <-- textDocument/codeAction(19)
+I[01:12:04.079] --> reply:textDocument/codeAction(19) 5 ms
+I[01:12:04.079] --> textDocument/clangd.fileStatus
+I[01:12:04.627] <-- textDocument/codeAction(20)
+I[01:12:04.627] --> reply:textDocument/codeAction(20) 0 ms
+I[01:12:04.627] --> textDocument/clangd.fileStatus
+I[01:12:05.583] <-- textDocument/codeAction(21)
+I[01:12:05.584] --> reply:textDocument/codeAction(21) 0 ms
+I[01:12:05.584] --> textDocument/clangd.fileStatus
+I[01:12:06.794] <-- textDocument/codeAction(22)
+I[01:12:06.794] --> reply:textDocument/codeAction(22) 0 ms
+I[01:12:06.794] --> textDocument/clangd.fileStatus
+I[01:13:22.453] <-- textDocument/hover(23)
+I[01:13:22.458] --> reply:textDocument/hover(23) 4 ms
+I[01:13:22.458] --> textDocument/clangd.fileStatus
+I[01:13:26.852] <-- textDocument/hover(24)
+I[01:13:26.855] --> reply:textDocument/hover(24) 3 ms
+I[01:13:26.855] --> textDocument/clangd.fileStatus
+I[01:13:27.285] <-- textDocument/hover(25)
+I[01:13:27.288] --> reply:textDocument/hover(25) 2 ms
+I[01:13:27.288] --> textDocument/clangd.fileStatus
+I[01:13:33.341] <-- textDocument/codeAction(26)
+I[01:13:33.343] --> reply:textDocument/codeAction(26) 1 ms
+I[01:13:33.343] --> textDocument/clangd.fileStatus
+I[01:13:35.281] <-- textDocument/hover(27)
+I[01:13:35.285] --> reply:textDocument/hover(27) 3 ms
+I[01:13:35.285] --> textDocument/clangd.fileStatus
+I[01:13:49.713] <-- textDocument/hover(28)
+I[01:13:49.717] --> reply:textDocument/hover(28) 4 ms
+I[01:13:49.717] --> textDocument/clangd.fileStatus
+I[01:13:52.162] <-- textDocument/codeAction(29)
+I[01:13:52.162] --> reply:textDocument/codeAction(29) 0 ms
+I[01:13:52.162] --> textDocument/clangd.fileStatus
+I[01:13:53.843] <-- textDocument/codeAction(30)
+I[01:13:53.843] --> reply:textDocument/codeAction(30) 0 ms
+I[01:13:53.843] --> textDocument/clangd.fileStatus
+I[01:13:55.117] <-- textDocument/codeAction(31)
+I[01:13:55.119] --> reply:textDocument/codeAction(31) 2 ms
+I[01:13:55.119] --> textDocument/clangd.fileStatus
+I[01:14:54.353] <-- textDocument/hover(32)
+I[01:14:54.358] --> reply:textDocument/hover(32) 4 ms
+I[01:14:54.358] --> textDocument/clangd.fileStatus
+I[01:16:47.941] <-- textDocument/hover(33)
+I[01:16:47.946] --> reply:textDocument/hover(33) 4 ms
+I[01:16:47.946] --> textDocument/clangd.fileStatus
+I[01:18:15.026] <-- textDocument/hover(34)
+I[01:18:15.030] --> reply:textDocument/hover(34) 4 ms
+I[01:18:15.030] --> textDocument/clangd.fileStatus
+I[01:18:43.424] <-- textDocument/hover(35)
+I[01:18:43.428] --> reply:textDocument/hover(35) 4 ms
+I[01:18:43.428] --> textDocument/clangd.fileStatus
+I[01:18:43.751] <-- textDocument/hover(36)
+I[01:18:43.754] --> reply:textDocument/hover(36) 3 ms
+I[01:18:43.754] --> textDocument/clangd.fileStatus
+I[01:18:44.259] <-- textDocument/hover(37)
+I[01:18:44.262] --> reply:textDocument/hover(37) 2 ms
+I[01:18:44.262] --> textDocument/clangd.fileStatus
+I[01:18:46.172] <-- textDocument/hover(38)
+I[01:18:46.175] --> reply:textDocument/hover(38) 3 ms
+I[01:18:46.175] --> textDocument/clangd.fileStatus
+I[01:19:25.404] <-- textDocument/hover(39)
+I[01:19:25.408] --> reply:textDocument/hover(39) 4 ms
+I[01:19:25.408] --> textDocument/clangd.fileStatus
+I[01:19:25.737] <-- textDocument/hover(40)
+I[01:19:25.740] --> reply:textDocument/hover(40) 2 ms
+I[01:19:25.740] --> textDocument/clangd.fileStatus
+I[01:19:26.889] <-- textDocument/hover(41)
+I[01:19:26.892] --> reply:textDocument/hover(41) 2 ms
+I[01:19:26.892] --> textDocument/clangd.fileStatus
+I[01:22:22.230] <-- textDocument/hover(42)
+I[01:22:22.234] --> reply:textDocument/hover(42) 4 ms
+I[01:22:22.234] --> textDocument/clangd.fileStatus
+I[01:22:42.173] <-- textDocument/hover(43)
+I[01:22:42.178] --> reply:textDocument/hover(43) 4 ms
+I[01:22:42.178] --> textDocument/clangd.fileStatus
+I[01:22:57.868] <-- textDocument/hover(44)
+I[01:22:57.873] --> reply:textDocument/hover(44) 4 ms
+I[01:22:57.873] --> textDocument/clangd.fileStatus
+I[01:22:59.366] <-- textDocument/hover(45)
+I[01:22:59.369] --> reply:textDocument/hover(45) 3 ms
+I[01:22:59.369] --> textDocument/clangd.fileStatus
+I[01:23:21.293] <-- textDocument/hover(46)
+I[01:23:21.298] --> reply:textDocument/hover(46) 4 ms
+I[01:23:21.298] --> textDocument/clangd.fileStatus
+I[01:23:22.226] <-- textDocument/hover(47)
+I[01:23:22.229] --> reply:textDocument/hover(47) 3 ms
+I[01:23:22.229] --> textDocument/clangd.fileStatus
+I[01:23:22.576] <-- textDocument/documentHighlight(48)
+I[01:23:22.576] --> reply:textDocument/documentHighlight(48) 0 ms
+I[01:23:22.576] --> textDocument/clangd.fileStatus
+I[01:23:22.807] <-- textDocument/codeAction(49)
+I[01:23:22.808] --> reply:textDocument/codeAction(49) 0 ms
+I[01:23:22.808] --> textDocument/clangd.fileStatus
+I[01:23:24.560] <-- textDocument/hover(50)
+I[01:23:24.563] --> reply:textDocument/hover(50) 3 ms
+I[01:23:24.563] --> textDocument/clangd.fileStatus
+I[01:23:24.849] <-- textDocument/documentHighlight(51)
+I[01:23:24.849] --> reply:textDocument/documentHighlight(51) 0 ms
+I[01:23:24.849] --> textDocument/clangd.fileStatus
+I[01:23:25.097] <-- textDocument/codeAction(52)
+I[01:23:25.097] --> reply:textDocument/codeAction(52) 0 ms
+I[01:23:25.097] --> textDocument/clangd.fileStatus
+I[01:23:25.311] <-- textDocument/hover(53)
+I[01:23:25.314] --> reply:textDocument/hover(53) 3 ms
+I[01:23:25.314] --> textDocument/clangd.fileStatus
+I[01:23:27.505] <-- textDocument/hover(54)
+I[01:23:27.510] --> reply:textDocument/hover(54) 4 ms
+I[01:23:27.510] --> textDocument/clangd.fileStatus
+I[01:23:27.810] <-- textDocument/hover(55)
+I[01:23:27.813] --> reply:textDocument/hover(55) 2 ms
+I[01:23:27.813] --> textDocument/clangd.fileStatus
+I[01:23:28.060] <-- textDocument/didChange
+I[01:23:28.061] --> textDocument/clangd.fileStatus
+I[01:23:28.120] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:28.126] ASTWorker building file /home/user/workspace/casino.cpp version 2 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:28.128] --> textDocument/clangd.fileStatus
+I[01:23:28.128] --> textDocument/clangd.fileStatus
+I[01:23:28.130] --> textDocument/clangd.fileStatus
+I[01:23:28.149] --> textDocument/publishDiagnostics
+I[01:23:28.149] --> textDocument/clangd.fileStatus
+I[01:23:28.304] <-- textDocument/codeAction(56)
+I[01:23:28.304] --> reply:textDocument/codeAction(56) 0 ms
+I[01:23:28.304] --> textDocument/clangd.fileStatus
+I[01:23:28.351] <-- textDocument/semanticTokens/full/delta(57)
+I[01:23:28.351] --> reply:textDocument/semanticTokens/full/delta(57) 0 ms
+I[01:23:28.351] --> textDocument/clangd.fileStatus
+I[01:23:28.411] <-- textDocument/documentSymbol(58)
+I[01:23:28.411] --> reply:textDocument/documentSymbol(58) 0 ms
+I[01:23:28.411] --> textDocument/clangd.fileStatus
+I[01:23:29.055] <-- textDocument/documentLink(59)
+I[01:23:29.055] --> reply:textDocument/documentLink(59) 0 ms
+I[01:23:29.055] --> textDocument/clangd.fileStatus
+I[01:23:35.898] <-- textDocument/documentHighlight(60)
+I[01:23:35.900] --> reply:textDocument/documentHighlight(60) 1 ms
+I[01:23:35.900] --> textDocument/clangd.fileStatus
+I[01:23:36.160] <-- textDocument/codeAction(61)
+I[01:23:36.161] --> reply:textDocument/codeAction(61) 0 ms
+I[01:23:36.161] --> textDocument/clangd.fileStatus
+I[01:23:37.083] <-- textDocument/codeAction(62)
+I[01:23:37.083] --> reply:textDocument/codeAction(62) 0 ms
+I[01:23:37.083] --> textDocument/clangd.fileStatus
+I[01:23:41.936] <-- textDocument/didChange
+I[01:23:41.937] --> textDocument/clangd.fileStatus
+I[01:23:41.937] <-- textDocument/completion(63)
+I[01:23:41.937] --> reply:textDocument/completion(63) 0 ms
+I[01:23:41.999] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:41.999] ASTWorker building file /home/user/workspace/casino.cpp version 3 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:42.001] --> textDocument/clangd.fileStatus
+I[01:23:42.002] --> textDocument/clangd.fileStatus
+I[01:23:42.003] --> textDocument/clangd.fileStatus
+I[01:23:42.017] --> textDocument/publishDiagnostics
+I[01:23:42.017] --> textDocument/clangd.fileStatus
+I[01:23:42.080] <-- textDocument/didChange
+I[01:23:42.080] --> textDocument/clangd.fileStatus
+I[01:23:42.080] <-- textDocument/completion(64)
+I[01:23:42.081] --> reply:textDocument/completion(64) 0 ms
+I[01:23:42.131] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:42.131] ASTWorker building file /home/user/workspace/casino.cpp version 4 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:42.133] --> textDocument/clangd.fileStatus
+I[01:23:42.133] --> textDocument/clangd.fileStatus
+I[01:23:42.134] --> textDocument/clangd.fileStatus
+I[01:23:42.149] --> textDocument/publishDiagnostics
+I[01:23:42.149] --> textDocument/clangd.fileStatus
+I[01:23:42.243] <-- textDocument/semanticTokens/full/delta(65)
+I[01:23:42.243] --> reply:textDocument/semanticTokens/full/delta(65) 0 ms
+I[01:23:42.243] --> textDocument/clangd.fileStatus
+I[01:23:42.334] <-- textDocument/codeAction(66)
+I[01:23:42.334] --> reply:textDocument/codeAction(66) 0 ms
+I[01:23:42.334] --> textDocument/clangd.fileStatus
+I[01:23:42.426] <-- textDocument/documentSymbol(67)
+I[01:23:42.426] --> reply:textDocument/documentSymbol(67) 0 ms
+I[01:23:42.426] --> textDocument/clangd.fileStatus
+I[01:23:43.077] <-- textDocument/documentLink(68)
+I[01:23:43.078] --> reply:textDocument/documentLink(68) 0 ms
+I[01:23:43.078] --> textDocument/clangd.fileStatus
+I[01:23:45.033] <-- textDocument/didChange
+I[01:23:45.034] --> textDocument/clangd.fileStatus
+I[01:23:45.084] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.084] ASTWorker building file /home/user/workspace/casino.cpp version 5 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.086] --> textDocument/clangd.fileStatus
+I[01:23:45.086] --> textDocument/clangd.fileStatus
+I[01:23:45.087] --> textDocument/clangd.fileStatus
+I[01:23:45.102] --> textDocument/publishDiagnostics
+I[01:23:45.102] --> textDocument/clangd.fileStatus
+I[01:23:45.260] <-- textDocument/didChange
+I[01:23:45.261] --> textDocument/clangd.fileStatus
+I[01:23:45.311] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.312] ASTWorker building file /home/user/workspace/casino.cpp version 6 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.313] --> textDocument/clangd.fileStatus
+I[01:23:45.313] --> textDocument/clangd.fileStatus
+I[01:23:45.314] --> textDocument/clangd.fileStatus
+I[01:23:45.328] <-- textDocument/semanticTokens/full/delta(69)
+I[01:23:45.330] --> textDocument/publishDiagnostics
+I[01:23:45.330] --> reply:textDocument/semanticTokens/full/delta(69) 2 ms
+I[01:23:45.330] --> textDocument/clangd.fileStatus
+I[01:23:45.391] <-- textDocument/didChange
+I[01:23:45.392] --> textDocument/clangd.fileStatus
+I[01:23:45.442] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.443] ASTWorker building file /home/user/workspace/casino.cpp version 7 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.445] --> textDocument/clangd.fileStatus
+I[01:23:45.445] --> textDocument/clangd.fileStatus
+I[01:23:45.446] --> textDocument/clangd.fileStatus
+I[01:23:45.461] --> textDocument/publishDiagnostics
+I[01:23:45.461] --> textDocument/clangd.fileStatus
+I[01:23:45.527] <-- textDocument/didChange
+I[01:23:45.528] --> textDocument/clangd.fileStatus
+I[01:23:45.579] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.579] ASTWorker building file /home/user/workspace/casino.cpp version 8 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.581] --> textDocument/clangd.fileStatus
+I[01:23:45.581] --> textDocument/clangd.fileStatus
+I[01:23:45.582] --> textDocument/clangd.fileStatus
+I[01:23:45.598] --> textDocument/publishDiagnostics
+I[01:23:45.598] --> textDocument/clangd.fileStatus
+I[01:23:45.648] <-- textDocument/didChange
+I[01:23:45.649] --> textDocument/clangd.fileStatus
+I[01:23:45.686] <-- textDocument/semanticTokens/full/delta(70)
+I[01:23:45.686] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.687] ASTWorker building file /home/user/workspace/casino.cpp version 9 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.688] --> textDocument/clangd.fileStatus
+I[01:23:45.706] --> reply:textDocument/semanticTokens/full/delta(70) 19 ms
+I[01:23:45.706] Skipping rebuild of the AST for /home/user/workspace/casino.cpp, inputs are the same.
+I[01:23:45.707] --> textDocument/publishDiagnostics
+I[01:23:45.707] --> textDocument/clangd.fileStatus
+I[01:23:45.762] <-- textDocument/didChange
+I[01:23:45.763] --> textDocument/clangd.fileStatus
+I[01:23:45.813] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:45.813] ASTWorker building file /home/user/workspace/casino.cpp version 10 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:45.815] --> textDocument/clangd.fileStatus
+I[01:23:45.815] --> textDocument/clangd.fileStatus
+I[01:23:45.816] --> textDocument/clangd.fileStatus
+I[01:23:45.831] --> textDocument/publishDiagnostics
+I[01:23:45.831] --> textDocument/clangd.fileStatus
+I[01:23:45.974] <-- textDocument/codeAction(71)
+I[01:23:45.974] --> reply:textDocument/codeAction(71) 0 ms
+I[01:23:45.974] --> textDocument/clangd.fileStatus
+I[01:23:46.023] <-- textDocument/semanticTokens/full/delta(72)
+I[01:23:46.023] --> reply:textDocument/semanticTokens/full/delta(72) 0 ms
+I[01:23:46.023] --> textDocument/clangd.fileStatus
+I[01:23:46.074] <-- textDocument/documentSymbol(73)
+I[01:23:46.074] --> reply:textDocument/documentSymbol(73) 0 ms
+I[01:23:46.074] --> textDocument/clangd.fileStatus
+I[01:23:46.092] <-- textDocument/didChange
+I[01:23:46.093] --> textDocument/clangd.fileStatus
+I[01:23:46.143] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:46.143] ASTWorker building file /home/user/workspace/casino.cpp version 11 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:46.145] --> textDocument/clangd.fileStatus
+I[01:23:46.145] --> textDocument/clangd.fileStatus
+I[01:23:46.146] --> textDocument/clangd.fileStatus
+I[01:23:46.161] --> textDocument/publishDiagnostics
+I[01:23:46.161] --> textDocument/clangd.fileStatus
+I[01:23:46.355] <-- textDocument/didChange
+I[01:23:46.356] --> textDocument/clangd.fileStatus
+I[01:23:46.406] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:46.406] ASTWorker building file /home/user/workspace/casino.cpp version 12 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:46.408] --> textDocument/clangd.fileStatus
+I[01:23:46.408] --> textDocument/clangd.fileStatus
+I[01:23:46.409] --> textDocument/clangd.fileStatus
+I[01:23:46.412] <-- textDocument/semanticTokens/full/delta(74)
+I[01:23:46.425] --> textDocument/publishDiagnostics
+I[01:23:46.425] --> reply:textDocument/semanticTokens/full/delta(74) 13 ms
+I[01:23:46.425] --> textDocument/clangd.fileStatus
+I[01:23:46.500] <-- textDocument/didChange
+I[01:23:46.500] --> textDocument/clangd.fileStatus
+I[01:23:46.551] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:46.551] ASTWorker building file /home/user/workspace/casino.cpp version 13 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:46.553] --> textDocument/clangd.fileStatus
+I[01:23:46.553] --> textDocument/clangd.fileStatus
+I[01:23:46.554] --> textDocument/clangd.fileStatus
+I[01:23:46.569] --> textDocument/publishDiagnostics
+I[01:23:46.570] --> textDocument/clangd.fileStatus
+I[01:23:46.623] <-- textDocument/didChange
+I[01:23:46.623] --> textDocument/clangd.fileStatus
+I[01:23:46.674] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:46.674] ASTWorker building file /home/user/workspace/casino.cpp version 14 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:46.675] --> textDocument/clangd.fileStatus
+I[01:23:46.675] --> textDocument/clangd.fileStatus
+I[01:23:46.676] --> textDocument/clangd.fileStatus
+I[01:23:46.692] --> textDocument/publishDiagnostics
+I[01:23:46.692] --> textDocument/clangd.fileStatus
+I[01:23:46.808] <-- textDocument/semanticTokens/full/delta(75)
+I[01:23:46.809] --> reply:textDocument/semanticTokens/full/delta(75) 0 ms
+I[01:23:46.809] --> textDocument/clangd.fileStatus
+I[01:23:46.871] <-- textDocument/codeAction(76)
+I[01:23:46.871] --> reply:textDocument/codeAction(76) 0 ms
+I[01:23:46.871] --> textDocument/clangd.fileStatus
+I[01:23:46.978] <-- textDocument/documentSymbol(77)
+I[01:23:46.979] --> reply:textDocument/documentSymbol(77) 0 ms
+I[01:23:46.979] --> textDocument/clangd.fileStatus
+I[01:23:47.624] <-- textDocument/documentLink(78)
+I[01:23:47.625] --> reply:textDocument/documentLink(78) 1 ms
+I[01:23:47.625] --> textDocument/clangd.fileStatus
+I[01:23:47.837] <-- textDocument/didChange
+I[01:23:47.839] --> textDocument/clangd.fileStatus
+I[01:23:47.839] <-- textDocument/completion(79)
+I[01:23:47.839] --> reply:textDocument/completion(79) 0 ms
+I[01:23:47.889] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:47.889] ASTWorker building file /home/user/workspace/casino.cpp version 15 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:47.891] --> textDocument/clangd.fileStatus
+I[01:23:47.891] --> textDocument/clangd.fileStatus
+I[01:23:47.892] --> textDocument/clangd.fileStatus
+I[01:23:47.908] --> textDocument/publishDiagnostics
+I[01:23:47.908] --> textDocument/clangd.fileStatus
+I[01:23:48.026] <-- textDocument/didChange
+I[01:23:48.027] --> textDocument/clangd.fileStatus
+I[01:23:48.027] <-- textDocument/completion(80)
+I[01:23:48.027] --> reply:textDocument/completion(80) 0 ms
+I[01:23:48.077] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:48.078] ASTWorker building file /home/user/workspace/casino.cpp version 16 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:48.080] --> textDocument/clangd.fileStatus
+I[01:23:48.080] --> textDocument/clangd.fileStatus
+I[01:23:48.081] --> textDocument/clangd.fileStatus
+I[01:23:48.097] --> textDocument/publishDiagnostics
+I[01:23:48.097] --> textDocument/clangd.fileStatus
+I[01:23:48.135] <-- textDocument/semanticTokens/full/delta(81)
+I[01:23:48.135] --> reply:textDocument/semanticTokens/full/delta(81) 0 ms
+I[01:23:48.135] --> textDocument/clangd.fileStatus
+I[01:23:48.281] <-- textDocument/codeAction(82)
+I[01:23:48.282] --> reply:textDocument/codeAction(82) 0 ms
+I[01:23:48.282] --> textDocument/clangd.fileStatus
+I[01:23:48.373] <-- textDocument/documentSymbol(83)
+I[01:23:48.373] --> reply:textDocument/documentSymbol(83) 0 ms
+I[01:23:48.373] --> textDocument/clangd.fileStatus
+I[01:23:49.038] <-- textDocument/documentLink(84)
+I[01:23:49.038] --> reply:textDocument/documentLink(84) 0 ms
+I[01:23:49.038] --> textDocument/clangd.fileStatus
+I[01:23:50.134] <-- textDocument/documentHighlight(85)
+I[01:23:50.134] --> reply:textDocument/documentHighlight(85) 0 ms
+I[01:23:50.135] --> textDocument/clangd.fileStatus
+I[01:23:50.397] <-- textDocument/codeAction(86)
+I[01:23:50.397] --> reply:textDocument/codeAction(86) 0 ms
+I[01:23:50.397] --> textDocument/clangd.fileStatus
+I[01:23:50.664] <-- textDocument/didChange
+I[01:23:50.665] --> textDocument/clangd.fileStatus
+I[01:23:50.715] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:50.716] ASTWorker building file /home/user/workspace/casino.cpp version 17 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:50.717] --> textDocument/clangd.fileStatus
+I[01:23:50.717] --> textDocument/clangd.fileStatus
+I[01:23:50.718] --> textDocument/clangd.fileStatus
+I[01:23:50.734] --> textDocument/publishDiagnostics
+I[01:23:50.734] --> textDocument/clangd.fileStatus
+I[01:23:50.861] <-- textDocument/documentHighlight(87)
+I[01:23:50.861] --> reply:textDocument/documentHighlight(87) 0 ms
+I[01:23:50.861] --> textDocument/clangd.fileStatus
+I[01:23:50.968] <-- textDocument/semanticTokens/full/delta(88)
+I[01:23:50.968] --> reply:textDocument/semanticTokens/full/delta(88) 0 ms
+I[01:23:50.968] --> textDocument/clangd.fileStatus
+I[01:23:51.032] <-- textDocument/documentSymbol(89)
+I[01:23:51.032] --> reply:textDocument/documentSymbol(89) 0 ms
+I[01:23:51.032] --> textDocument/clangd.fileStatus
+I[01:23:51.663] <-- textDocument/documentLink(90)
+I[01:23:51.663] --> reply:textDocument/documentLink(90) 0 ms
+I[01:23:51.663] --> textDocument/clangd.fileStatus
+I[01:23:52.683] <-- textDocument/codeAction(91)
+I[01:23:52.685] --> reply:textDocument/codeAction(91) 2 ms
+I[01:23:52.685] --> textDocument/clangd.fileStatus
+I[01:23:52.692] <-- textDocument/didChange
+I[01:23:52.693] --> textDocument/clangd.fileStatus
+I[01:23:52.743] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:23:52.744] ASTWorker building file /home/user/workspace/casino.cpp version 18 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:23:52.745] --> textDocument/clangd.fileStatus
+I[01:23:52.745] --> textDocument/clangd.fileStatus
+I[01:23:52.746] --> textDocument/clangd.fileStatus
+I[01:23:52.761] --> textDocument/publishDiagnostics
+I[01:23:52.761] --> textDocument/clangd.fileStatus
+I[01:23:52.945] <-- textDocument/codeAction(92)
+I[01:23:52.945] --> reply:textDocument/codeAction(92) 0 ms
+I[01:23:52.945] --> textDocument/clangd.fileStatus
+I[01:23:52.988] <-- textDocument/semanticTokens/full/delta(93)
+I[01:23:52.988] --> reply:textDocument/semanticTokens/full/delta(93) 0 ms
+I[01:23:52.988] --> textDocument/clangd.fileStatus
+I[01:23:53.042] <-- textDocument/documentSymbol(94)
+I[01:23:53.042] --> reply:textDocument/documentSymbol(94) 0 ms
+I[01:23:53.042] --> textDocument/clangd.fileStatus
+I[01:23:53.702] <-- textDocument/documentLink(95)
+I[01:23:53.702] --> reply:textDocument/documentLink(95) 0 ms
+I[01:23:53.702] --> textDocument/clangd.fileStatus
+I[01:24:03.742] <-- textDocument/codeAction(96)
+I[01:24:03.744] --> reply:textDocument/codeAction(96) 2 ms
+I[01:24:03.744] --> textDocument/clangd.fileStatus
+I[01:24:05.213] <-- textDocument/didChange
+I[01:24:05.215] --> textDocument/clangd.fileStatus
+I[01:24:05.265] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:24:05.265] ASTWorker building file /home/user/workspace/casino.cpp version 19 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:24:05.267] --> textDocument/clangd.fileStatus
+I[01:24:05.267] --> textDocument/clangd.fileStatus
+I[01:24:05.268] --> textDocument/clangd.fileStatus
+I[01:24:05.283] --> textDocument/publishDiagnostics
+I[01:24:05.283] --> textDocument/clangd.fileStatus
+I[01:24:05.461] <-- textDocument/codeAction(97)
+I[01:24:05.461] --> reply:textDocument/codeAction(97) 0 ms
+I[01:24:05.461] --> textDocument/clangd.fileStatus
+I[01:24:05.521] <-- textDocument/semanticTokens/full/delta(98)
+I[01:24:05.521] --> reply:textDocument/semanticTokens/full/delta(98) 0 ms
+I[01:24:05.521] --> textDocument/clangd.fileStatus
+I[01:24:05.572] <-- textDocument/documentSymbol(99)
+I[01:24:05.572] --> reply:textDocument/documentSymbol(99) 0 ms
+I[01:24:05.572] --> textDocument/clangd.fileStatus
+I[01:24:06.025] <-- textDocument/codeAction(100)
+I[01:24:06.025] --> reply:textDocument/codeAction(100) 0 ms
+I[01:24:06.025] --> textDocument/clangd.fileStatus
+I[01:24:06.215] <-- textDocument/documentLink(101)
+I[01:24:06.215] --> reply:textDocument/documentLink(101) 0 ms
+I[01:24:06.215] --> textDocument/clangd.fileStatus
+I[01:24:07.276] <-- textDocument/hover(102)
+I[01:24:07.279] --> reply:textDocument/hover(102) 2 ms
+I[01:24:07.279] --> textDocument/clangd.fileStatus
+I[01:24:07.652] <-- textDocument/hover(103)
+I[01:24:07.655] --> reply:textDocument/hover(103) 2 ms
+I[01:24:07.655] --> textDocument/clangd.fileStatus
+I[01:24:09.496] <-- textDocument/hover(104)
+I[01:24:09.500] --> reply:textDocument/hover(104) 4 ms
+I[01:24:09.500] --> textDocument/clangd.fileStatus
+I[01:24:09.910] <-- textDocument/hover(105)
+I[01:24:09.913] --> reply:textDocument/hover(105) 3 ms
+I[01:24:09.913] --> textDocument/clangd.fileStatus
+I[01:24:10.815] <-- textDocument/hover(106)
+I[01:24:10.818] --> reply:textDocument/hover(106) 3 ms
+I[01:24:10.818] --> textDocument/clangd.fileStatus
+I[01:24:11.818] <-- textDocument/hover(107)
+I[01:24:11.821] --> reply:textDocument/hover(107) 2 ms
+I[01:24:11.821] --> textDocument/clangd.fileStatus
+I[01:24:12.122] <-- textDocument/hover(108)
+I[01:24:12.125] --> reply:textDocument/hover(108) 2 ms
+I[01:24:12.125] --> textDocument/clangd.fileStatus
+I[01:24:13.601] <-- textDocument/hover(109)
+I[01:24:13.603] --> reply:textDocument/hover(109) 2 ms
+I[01:24:13.603] --> textDocument/clangd.fileStatus
+I[01:24:14.202] <-- textDocument/hover(110)
+I[01:24:14.205] --> reply:textDocument/hover(110) 2 ms
+I[01:24:14.205] --> textDocument/clangd.fileStatus
+I[01:24:15.250] <-- textDocument/hover(111)
+I[01:24:15.254] --> reply:textDocument/hover(111) 4 ms
+I[01:24:15.254] --> textDocument/clangd.fileStatus
+I[01:24:15.654] <-- textDocument/hover(112)
+I[01:24:15.657] --> reply:textDocument/hover(112) 3 ms
+I[01:24:15.657] --> textDocument/clangd.fileStatus
+I[01:24:18.506] <-- textDocument/hover(113)
+I[01:24:18.509] --> reply:textDocument/hover(113) 3 ms
+I[01:24:18.509] --> textDocument/clangd.fileStatus
+I[01:24:19.872] <-- textDocument/hover(114)
+I[01:24:19.875] --> reply:textDocument/hover(114) 3 ms
+I[01:24:19.875] --> textDocument/clangd.fileStatus
+I[01:24:20.185] <-- textDocument/hover(115)
+I[01:24:20.188] --> reply:textDocument/hover(115) 2 ms
+I[01:24:20.188] --> textDocument/clangd.fileStatus
+I[01:24:20.368] <-- textDocument/hover(116)
+I[01:24:20.372] --> reply:textDocument/hover(116) 4 ms
+I[01:24:20.372] --> textDocument/clangd.fileStatus
+I[01:24:20.547] <-- textDocument/documentHighlight(117)
+I[01:24:20.547] --> reply:textDocument/documentHighlight(117) 0 ms
+I[01:24:20.547] --> textDocument/clangd.fileStatus
+I[01:24:20.795] <-- textDocument/codeAction(118)
+I[01:24:20.795] --> reply:textDocument/codeAction(118) 0 ms
+I[01:24:20.795] --> textDocument/clangd.fileStatus
+I[01:24:27.416] <-- textDocument/codeAction(119)
+I[01:24:27.418] --> reply:textDocument/codeAction(119) 2 ms
+I[01:24:27.418] --> textDocument/clangd.fileStatus
+I[01:24:29.609] <-- textDocument/didChange
+I[01:24:29.610] --> textDocument/clangd.fileStatus
+I[01:24:29.610] <-- textDocument/completion(120)
+I[01:24:29.610] --> reply:textDocument/completion(120) 0 ms
+I[01:24:29.660] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:24:29.660] ASTWorker building file /home/user/workspace/casino.cpp version 20 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:24:29.662] --> textDocument/clangd.fileStatus
+I[01:24:29.662] --> textDocument/clangd.fileStatus
+I[01:24:29.663] --> textDocument/clangd.fileStatus
+I[01:24:29.683] --> textDocument/publishDiagnostics
+I[01:24:29.683] --> textDocument/clangd.fileStatus
+I[01:24:29.912] <-- textDocument/semanticTokens/full/delta(121)
+I[01:24:29.912] --> reply:textDocument/semanticTokens/full/delta(121) 0 ms
+I[01:24:29.912] --> textDocument/clangd.fileStatus
+I[01:24:29.944] <-- textDocument/codeAction(122)
+I[01:24:29.944] --> reply:textDocument/codeAction(122) 0 ms
+I[01:24:29.944] --> textDocument/clangd.fileStatus
+I[01:24:29.954] <-- textDocument/documentSymbol(123)
+I[01:24:29.954] --> reply:textDocument/documentSymbol(123) 0 ms
+I[01:24:29.954] --> textDocument/clangd.fileStatus
+I[01:24:30.195] <-- textDocument/didChange
+I[01:24:30.196] --> textDocument/clangd.fileStatus
+I[01:24:30.246] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:24:30.246] ASTWorker building file /home/user/workspace/casino.cpp version 21 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:24:30.248] --> textDocument/clangd.fileStatus
+I[01:24:30.248] --> textDocument/clangd.fileStatus
+I[01:24:30.249] --> textDocument/clangd.fileStatus
+I[01:24:30.263] --> textDocument/publishDiagnostics
+I[01:24:30.263] --> textDocument/clangd.fileStatus
+I[01:24:30.492] <-- textDocument/semanticTokens/full/delta(124)
+I[01:24:30.492] --> reply:textDocument/semanticTokens/full/delta(124) 0 ms
+I[01:24:30.492] --> textDocument/clangd.fileStatus
+I[01:24:30.534] <-- textDocument/codeAction(125)
+I[01:24:30.534] --> reply:textDocument/codeAction(125) 0 ms
+I[01:24:30.534] --> textDocument/clangd.fileStatus
+I[01:24:30.539] <-- textDocument/documentSymbol(126)
+I[01:24:30.540] --> reply:textDocument/documentSymbol(126) 0 ms
+I[01:24:30.540] --> textDocument/clangd.fileStatus
+I[01:24:31.197] <-- textDocument/documentLink(127)
+I[01:24:31.197] --> reply:textDocument/documentLink(127) 0 ms
+I[01:24:31.198] --> textDocument/clangd.fileStatus
+I[01:24:31.614] <-- textDocument/codeAction(128)
+I[01:24:31.615] --> reply:textDocument/codeAction(128) 0 ms
+I[01:24:31.615] --> textDocument/clangd.fileStatus
+I[01:24:31.894] <-- textDocument/documentHighlight(129)
+I[01:24:31.894] --> reply:textDocument/documentHighlight(129) 0 ms
+I[01:24:31.894] --> textDocument/clangd.fileStatus
+I[01:24:32.705] <-- textDocument/documentHighlight(130)
+I[01:24:32.707] --> reply:textDocument/documentHighlight(130) 1 ms
+I[01:24:32.707] --> textDocument/clangd.fileStatus
+I[01:24:32.956] <-- textDocument/codeAction(131)
+I[01:24:32.962] --> reply:textDocument/codeAction(131) 5 ms
+I[01:24:32.962] --> textDocument/clangd.fileStatus
+I[01:24:34.685] <-- textDocument/didChange
+I[01:24:34.686] --> textDocument/clangd.fileStatus
+I[01:24:34.686] <-- textDocument/completion(132)
+I[01:24:34.686] --> reply:textDocument/completion(132) 0 ms
+I[01:24:34.736] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:24:34.736] ASTWorker building file /home/user/workspace/casino.cpp version 22 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:24:34.738] --> textDocument/clangd.fileStatus
+I[01:24:34.738] --> textDocument/clangd.fileStatus
+I[01:24:34.739] --> textDocument/clangd.fileStatus
+I[01:24:34.754] --> textDocument/publishDiagnostics
+I[01:24:34.754] --> textDocument/clangd.fileStatus
+I[01:24:34.992] <-- textDocument/semanticTokens/full/delta(133)
+I[01:24:34.992] --> reply:textDocument/semanticTokens/full/delta(133) 0 ms
+I[01:24:34.992] --> textDocument/clangd.fileStatus
+I[01:24:35.021] <-- textDocument/codeAction(134)
+I[01:24:35.021] --> reply:textDocument/codeAction(134) 0 ms
+I[01:24:35.021] --> textDocument/clangd.fileStatus
+I[01:24:35.031] <-- textDocument/documentSymbol(135)
+I[01:24:35.031] --> reply:textDocument/documentSymbol(135) 0 ms
+I[01:24:35.031] --> textDocument/clangd.fileStatus
+I[01:24:35.693] <-- textDocument/documentLink(136)
+I[01:24:35.693] --> reply:textDocument/documentLink(136) 0 ms
+I[01:24:35.693] --> textDocument/clangd.fileStatus
+I[01:24:40.539] <-- textDocument/hover(137)
+I[01:24:40.543] --> reply:textDocument/hover(137) 4 ms
+I[01:24:40.543] --> textDocument/clangd.fileStatus
+I[01:24:41.209] <-- textDocument/hover(138)
+I[01:24:41.212] --> reply:textDocument/hover(138) 3 ms
+I[01:24:41.212] --> textDocument/clangd.fileStatus
+I[01:24:41.651] <-- textDocument/hover(139)
+I[01:24:41.654] --> reply:textDocument/hover(139) 3 ms
+I[01:24:41.654] --> textDocument/clangd.fileStatus
+I[01:24:44.510] <-- textDocument/didSave
+I[01:24:44.512] --> textDocument/clangd.fileStatus
+I[01:24:44.562] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:24:44.562] ASTWorker building file /home/user/workspace/casino.cpp version 22 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:24:44.564] --> textDocument/clangd.fileStatus
+I[01:24:44.564] --> textDocument/clangd.fileStatus
+I[01:24:44.565] --> textDocument/clangd.fileStatus
+I[01:24:44.565] --> textDocument/clangd.fileStatus
+I[01:24:45.305] <-- textDocument/hover(140)
+I[01:24:45.308] --> reply:textDocument/hover(140) 3 ms
+I[01:24:45.308] --> textDocument/clangd.fileStatus
+I[01:24:47.233] <-- textDocument/codeAction(141)
+I[01:24:47.235] --> reply:textDocument/codeAction(141) 1 ms
+I[01:24:47.235] --> textDocument/clangd.fileStatus
+I[01:24:47.726] <-- textDocument/codeAction(142)
+I[01:24:47.726] --> reply:textDocument/codeAction(142) 0 ms
+I[01:24:47.726] --> textDocument/clangd.fileStatus
+I[01:24:48.666] <-- textDocument/codeAction(143)
+I[01:24:48.666] --> reply:textDocument/codeAction(143) 0 ms
+I[01:24:48.666] --> textDocument/clangd.fileStatus
+I[01:24:49.715] <-- textDocument/codeAction(144)
+I[01:24:49.715] --> reply:textDocument/codeAction(144) 0 ms
+I[01:24:49.715] --> textDocument/clangd.fileStatus
+I[01:26:05.317] <-- textDocument/hover(145)
+I[01:26:05.322] --> reply:textDocument/hover(145) 4 ms
+I[01:26:05.322] --> textDocument/clangd.fileStatus
+I[01:26:06.095] <-- textDocument/codeAction(146)
+I[01:26:06.095] --> reply:textDocument/codeAction(146) 0 ms
+I[01:26:06.095] --> textDocument/clangd.fileStatus
+I[01:26:06.526] <-- textDocument/codeAction(147)
+I[01:26:06.526] --> reply:textDocument/codeAction(147) 0 ms
+I[01:26:06.526] --> textDocument/clangd.fileStatus
+I[01:26:07.523] <-- textDocument/didChange
+I[01:26:07.524] --> textDocument/clangd.fileStatus
+I[01:26:07.574] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:26:07.575] ASTWorker building file /home/user/workspace/casino.cpp version 23 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:26:07.576] --> textDocument/clangd.fileStatus
+I[01:26:07.576] --> textDocument/clangd.fileStatus
+I[01:26:07.578] --> textDocument/clangd.fileStatus
+I[01:26:07.593] --> textDocument/publishDiagnostics
+I[01:26:07.593] --> textDocument/clangd.fileStatus
+I[01:26:07.822] <-- textDocument/semanticTokens/full/delta(148)
+I[01:26:07.822] --> reply:textDocument/semanticTokens/full/delta(148) 0 ms
+I[01:26:07.822] --> textDocument/clangd.fileStatus
+I[01:26:07.866] <-- textDocument/codeAction(149)
+I[01:26:07.866] <-- textDocument/documentSymbol(150)
+I[01:26:07.866] --> reply:textDocument/codeAction(149) 0 ms
+I[01:26:07.866] --> reply:textDocument/documentSymbol(150) 0 ms
+I[01:26:07.866] --> textDocument/clangd.fileStatus
+I[01:26:08.519] <-- textDocument/documentLink(151)
+I[01:26:08.520] --> reply:textDocument/documentLink(151) 0 ms
+I[01:26:08.520] --> textDocument/clangd.fileStatus
+I[01:26:08.837] <-- textDocument/didChange
+I[01:26:08.838] --> textDocument/clangd.fileStatus
+I[01:26:08.888] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:26:08.888] ASTWorker building file /home/user/workspace/casino.cpp version 24 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:26:08.890] --> textDocument/clangd.fileStatus
+I[01:26:08.890] --> textDocument/clangd.fileStatus
+I[01:26:08.891] --> textDocument/clangd.fileStatus
+I[01:26:08.906] --> textDocument/publishDiagnostics
+I[01:26:08.906] --> textDocument/clangd.fileStatus
+I[01:26:09.143] <-- textDocument/semanticTokens/full/delta(152)
+I[01:26:09.143] --> reply:textDocument/semanticTokens/full/delta(152) 0 ms
+I[01:26:09.143] --> textDocument/clangd.fileStatus
+I[01:26:09.183] <-- textDocument/documentSymbol(153)
+I[01:26:09.183] --> reply:textDocument/documentSymbol(153) 0 ms
+I[01:26:09.183] --> textDocument/clangd.fileStatus
+I[01:26:09.839] <-- textDocument/documentLink(154)
+I[01:26:09.839] --> reply:textDocument/documentLink(154) 0 ms
+I[01:26:09.839] --> textDocument/clangd.fileStatus
+I[01:26:15.074] <-- textDocument/codeAction(155)
+I[01:26:15.076] --> reply:textDocument/codeAction(155) 1 ms
+I[01:26:15.076] --> textDocument/clangd.fileStatus
+I[01:26:15.928] <-- textDocument/didChange
+I[01:26:15.929] --> textDocument/clangd.fileStatus
+I[01:26:15.929] <-- textDocument/completion(156)
+I[01:26:15.947] Code complete: Ignoring sema code complete callback with Recovery context.
+I[01:26:15.947] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[01:26:15.948] --> reply:textDocument/completion(156) 18 ms
+I[01:26:15.979] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:26:15.979] ASTWorker building file /home/user/workspace/casino.cpp version 25 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:26:15.981] --> textDocument/clangd.fileStatus
+I[01:26:15.981] --> textDocument/clangd.fileStatus
+I[01:26:15.982] --> textDocument/clangd.fileStatus
+I[01:26:15.996] --> textDocument/publishDiagnostics
+I[01:26:15.996] --> textDocument/clangd.fileStatus
+I[01:26:16.223] <-- textDocument/semanticTokens/full/delta(157)
+I[01:26:16.223] --> reply:textDocument/semanticTokens/full/delta(157) 0 ms
+I[01:26:16.223] --> textDocument/clangd.fileStatus
+I[01:26:16.282] <-- textDocument/codeAction(158)
+I[01:26:16.282] <-- textDocument/documentSymbol(159)
+I[01:26:16.282] --> reply:textDocument/codeAction(158) 0 ms
+I[01:26:16.282] --> reply:textDocument/documentSymbol(159) 0 ms
+I[01:26:16.282] --> textDocument/clangd.fileStatus
+I[01:26:16.928] <-- textDocument/documentLink(160)
+I[01:26:16.928] --> reply:textDocument/documentLink(160) 0 ms
+I[01:26:16.928] --> textDocument/clangd.fileStatus
+I[01:26:17.326] <-- textDocument/didChange
+I[01:26:17.327] --> textDocument/clangd.fileStatus
+I[01:26:17.377] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:26:17.377] ASTWorker building file /home/user/workspace/casino.cpp version 26 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:26:17.379] --> textDocument/clangd.fileStatus
+I[01:26:17.379] --> textDocument/clangd.fileStatus
+I[01:26:17.380] --> textDocument/clangd.fileStatus
+I[01:26:17.395] --> textDocument/publishDiagnostics
+I[01:26:17.395] --> textDocument/clangd.fileStatus
+I[01:26:17.636] <-- textDocument/semanticTokens/full/delta(161)
+I[01:26:17.636] --> reply:textDocument/semanticTokens/full/delta(161) 0 ms
+I[01:26:17.636] --> textDocument/clangd.fileStatus
+I[01:26:17.663] <-- textDocument/codeAction(162)
+I[01:26:17.663] --> reply:textDocument/codeAction(162) 0 ms
+I[01:26:17.663] --> textDocument/clangd.fileStatus
+I[01:26:17.712] <-- textDocument/documentSymbol(163)
+I[01:26:17.712] --> reply:textDocument/documentSymbol(163) 0 ms
+I[01:26:17.712] --> textDocument/clangd.fileStatus
+I[01:26:18.333] <-- textDocument/documentLink(164)
+I[01:26:18.333] --> reply:textDocument/documentLink(164) 0 ms
+I[01:26:18.333] --> textDocument/clangd.fileStatus
+I[01:26:26.198] <-- textDocument/hover(165)
+I[01:26:26.202] --> reply:textDocument/hover(165) 4 ms
+I[01:26:26.203] --> textDocument/clangd.fileStatus
+I[01:26:31.239] <-- textDocument/codeAction(166)
+I[01:26:31.241] --> reply:textDocument/codeAction(166) 1 ms
+I[01:26:31.241] --> textDocument/clangd.fileStatus
+I[01:27:17.268] <-- textDocument/didChange
+I[01:27:17.269] --> textDocument/clangd.fileStatus
+I[01:27:17.321] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:27:17.321] ASTWorker building file /home/user/workspace/casino.cpp version 27 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:27:17.323] --> textDocument/clangd.fileStatus
+I[01:27:17.323] --> textDocument/clangd.fileStatus
+I[01:27:17.324] --> textDocument/clangd.fileStatus
+I[01:27:17.343] --> textDocument/publishDiagnostics
+I[01:27:17.343] --> textDocument/clangd.fileStatus
+I[01:27:17.387] <-- textDocument/signatureHelp(167)
+I[01:27:17.407] --> reply:textDocument/signatureHelp(167) 20 ms
+I[01:27:17.563] <-- textDocument/semanticTokens/full/delta(168)
+I[01:27:17.563] --> reply:textDocument/semanticTokens/full/delta(168) 0 ms
+I[01:27:17.563] --> textDocument/clangd.fileStatus
+I[01:27:17.605] <-- textDocument/codeAction(169)
+I[01:27:17.605] --> reply:textDocument/codeAction(169) 0 ms
+I[01:27:17.605] --> textDocument/clangd.fileStatus
+I[01:27:17.613] <-- textDocument/documentSymbol(170)
+I[01:27:17.613] --> reply:textDocument/documentSymbol(170) 0 ms
+I[01:27:17.613] --> textDocument/clangd.fileStatus
+I[01:27:18.279] <-- textDocument/documentLink(171)
+I[01:27:18.279] --> reply:textDocument/documentLink(171) 0 ms
+I[01:27:18.279] --> textDocument/clangd.fileStatus
+I[01:27:18.355] <-- textDocument/didChange
+I[01:27:18.356] --> textDocument/clangd.fileStatus
+I[01:27:18.406] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:27:18.407] ASTWorker building file /home/user/workspace/casino.cpp version 28 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:27:18.408] --> textDocument/clangd.fileStatus
+I[01:27:18.408] --> textDocument/clangd.fileStatus
+I[01:27:18.410] --> textDocument/clangd.fileStatus
+I[01:27:18.424] --> textDocument/publishDiagnostics
+I[01:27:18.424] --> textDocument/clangd.fileStatus
+I[01:27:18.664] <-- textDocument/semanticTokens/full/delta(172)
+I[01:27:18.664] --> reply:textDocument/semanticTokens/full/delta(172) 0 ms
+I[01:27:18.664] --> textDocument/clangd.fileStatus
+I[01:27:18.702] <-- textDocument/documentSymbol(173)
+I[01:27:18.703] --> reply:textDocument/documentSymbol(173) 0 ms
+I[01:27:18.703] --> textDocument/clangd.fileStatus
+I[01:27:19.360] <-- textDocument/documentLink(174)
+I[01:27:19.360] --> reply:textDocument/documentLink(174) 0 ms
+I[01:27:19.360] --> textDocument/clangd.fileStatus
+I[01:28:40.959] <-- textDocument/hover(175)
+I[01:28:40.963] --> reply:textDocument/hover(175) 4 ms
+I[01:28:40.963] --> textDocument/clangd.fileStatus
+I[01:28:46.466] <-- textDocument/didSave
+I[01:28:46.467] --> textDocument/clangd.fileStatus
+I[01:28:46.519] Failed to find compilation database for /home/user/workspace/casino.cpp
+I[01:28:46.519] ASTWorker building file /home/user/workspace/casino.cpp version 28 with command clangd fallback
+[/home/user/workspace]
+/usr/bin/clang /home/user/workspace/casino.cpp -fsyntax-only -resource-dir=/usr/lib/clang/11.0.0
+I[01:28:46.520] --> textDocument/clangd.fileStatus
+I[01:28:46.520] --> textDocument/clangd.fileStatus
+I[01:28:46.522] --> textDocument/clangd.fileStatus
+I[01:28:46.522] --> textDocument/clangd.fileStatus

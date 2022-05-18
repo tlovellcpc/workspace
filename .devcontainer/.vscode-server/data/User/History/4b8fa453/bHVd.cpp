@@ -63,7 +63,7 @@ int main()
         cin >> choice;
     }while(choice =='Y'|| choice=='y');
     cout << "\n\n\n";
-    cout << "\n\nThanks for playing the game " << playerName<<  "Your balance is $ " << balance << "\n\n";
+    cout << "\n\nThanks for playing the game " << playerName<<. "Your balance is $ " << balance << "\n\n";
     return 0;
 }
 void rules()

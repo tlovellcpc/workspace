@@ -9,3 +9,5 @@
 [2022-05-18 01:04:01.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
 [2022-05-18 01:04:01.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 [2022-05-18 01:04:01.429] [exthost] [info] Eager extensions activated
+[2022-05-18 01:11:38.852] [exthost] [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+[2022-05-18 01:11:38.853] [exthost] [error] {"_isCancelled":true,"_emitter":null}
